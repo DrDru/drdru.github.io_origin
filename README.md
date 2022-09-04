@@ -1,10 +1,21 @@
 # DrDru.github.io
 
-This website is my attempt to make everyone able to read some Japanese from day 1 (well day 1 after you finished learning your Kanas).
+I publish two projects on this site.
 
-As you can see I spend more time focusing on the design of the project than on the quality of the code.
+[ DrDru's Main Experiment ]( https://drdru.github.io/intro )  : that's my initial project. It is an attempt to teach Japanese in Japanese by creating enjoyable comprehensible input that allow you to start reading from day 1 ( a la Lingua Latina Per Se Illustrata ).
 
-HTML and CSS code can always be cleaned later.
+[ The Tile World Chronicles ]( https://drdru.github.io/twc ) : a set of stories in a Final Fantasy inspired universe in N4+ Japanese
 
+This project was started in 2019 if I remember well. I think of it as a 10 year long project. 
 
-The site is here  https://drdru.github.io/
+Since a picture is aworth a thousand words : 
+
+DrDru's Main Experiment
+
+![Alt text]( ./main.png)
+
+The Tile World Chronicles
+
+![Alt text]( ./twc.png)
+
+To go to the homepage  https://drdru.github.io/
