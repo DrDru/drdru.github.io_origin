@@ -12,10 +12,10 @@ Since a picture is aworth a thousand words :
 
 DrDru's Main Experiment
 
-![Alt text]( ./main.png)
+![Alt text]( ./images/main.png)
 
 The Tile World Chronicles
 
-![Alt text]( ./twc.png)
+![Alt text]( ./images/twc.png)
 
 To go to the homepage  https://drdru.github.io/
