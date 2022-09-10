@@ -25,7 +25,7 @@ a {
 
 .main_background {
 
-	background-color: #64897d;
+	background-color: #81a8c4;
 
 }
 
@@ -105,7 +105,7 @@ padding-left	: 10px;
 
 <div class="long_text_div "> 
 <p>
-<span class="icon_twittemoji60">👦🏼</span>
+<span class="icon_twittemoji60">🧔🏻‍♂️</span>
 <br>
 こんにちは、私はサムです。Oxford大学で日本語を勉強しています。
 
@@ -113,21 +113,83 @@ padding-left	: 10px;
 
 <br>
 <br>
-Tae kimのA Guide to Japanese Grammarを知っていますか？
-いい本です。0ポンドです。
+文法の本を知っていますか？
+<br>
+Tae kimのA Guide to Japanese Grammarはいい本です。0ポンドです。
+<br>
+ダウンロードするにはこのURLに行きます
 <br>
 http://www.guidetojapanese.org/grammar_guide.pdf
 <br>
 <br>
-
-
+どんな単語を知っていますか？
+<br>
 これらは動詞です。
 
-これらはカウンターです。 
+これらはカウンターです。
+
+これらの単語は名詞である。
+
+
+これらは助詞です。
+
+<br>
+<p>
+
+
+
+
+⌈名詞・は・名詞・を・動詞」の文章を作ろう
+    </p>
+      
+    キャラクターを選ぶ
+    <br>
+    <input type="radio" name="Character" value="Male" checked="checked"> with name兵士
+    <br>
+    <input type="radio" name="Character" value="Female"> 王
+    <br>
+    <input type="radio" name="Character" value="Others"> Elmira女王
+    <br>
+    <input type="radio" name="Character" value="Others">  パン 
+      
+    <br>
+     <br> 
+    動物を選ぶ
+    <br>
+    <input type="radio" name="Gender" value="Male" checked="checked">熊
+    <br>
+    <input type="radio" name="Gender" value="Female"> おんどり
+    <br>
+    <input type="radio" name="Gender" value="Others"> やぎ
+    <br>
+    <input type="radio" name="Gender" value="Others"> こうもり
+      
+    <br>
+    <br>
+
+     動詞を選ぶ
+     <br>
+    <input type="radio" name="Verb" value="Vegetarian" checked="checked"> 戦う
+    <br>
+    <input type="radio" name="Verb" value="Non-Vegetarian">守る       
+    <br>
+    <input type="radio" name="Verb" value="Non-Vegetarian"> 食べる     
+    <br>
+      
+    <button type="button" onclick="displayRadioValue()">
+        Submit
+    </button>
+      
+    <br>
+      
+    <div id="result"></div>
+ 
 
  名詞 
 
  固有名詞
+
+けいようし 形容詞
 
 
 かつよう 活用
@@ -140,16 +202,45 @@ mas
 tai 
 volitional
 
+
+
+日本語で日本語の文法を勉強している
 </p>
+
+
+
 </div>
 
 
 
 <div class="mid_size last_div centered_bold">
 <p>
-  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./5_13_kana.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
+  <span class="ruby_under"><a href="../."><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./5_13_use.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
 
 </div>
+
+
+<script>
+        function displayRadioValue() {
+            document.getElementById("result").innerHTML = "";
+            var ele = document.getElementsByTagName('input');
+
+            let word_array = [];
+              
+            for(i = 0; i < ele.length; i++) {
+                  
+                if(ele[i].type="radio") {
+                  
+                    if(ele[i].checked)
+                        
+                             
+                             word_array.push(ele[i].value);
+                }
+            }
+            document.getElementById("result").innerHTML += word_array[0] + 'は' + word_array[1] + 'を' + word_array[2]
+        }
+    </script>
+
 
  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
 <script>
