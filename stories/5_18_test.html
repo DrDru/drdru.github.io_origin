@@ -24,10 +24,9 @@ a {
 
 .main_background {
 
-	background-color: rgb(149, 216, 230); <!--#ffc000; rgb(41, 55, 73);-->
+	background-color:white
 
-}border: 2px solid rgb(188, 194, 207);
-background-color: rgb(231, 234, 240);
+}
 
 
 .main_colour {
@@ -39,7 +38,7 @@ background-color: rgb(231, 234, 240);
 .long_text_div {
 
 	width: 450px;
-	font-size: 150%;
+	font-size: 120%;
 	padding: 0px;
 	margin: auto;
 
@@ -47,24 +46,258 @@ overflow-wrap: break-word;
 
 }
 
+
+
+
+/*
+
+{
+  border: 1px dotted black;
+}
+
+p.question {
+  font-family: Arial, sans-serif;
+	  font-size:20px;
+  color: #2E2E2E;
+  margin-bottom:0px;
+}
+
+h2.quizHeader {
+  font-family: Arial, sans-serif;
+  font-weight:normal;
+  font-size:25px;
+  line-height: 27px;
+  margin: 24px 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+h2.quizScore{
+  font-family: Arial, sans-serif;
+  font-size:25px;
+}
+
+div.quizAnswers{
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  color: #424242;
+  padding: 4px 0 4px 0;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+}
+
+input.answer[type="radio"] {
+  margin-bottom: 10px;
+}
+
+input.quizSubmit[type="submit"] {
+  -webkit-background-clip: border-box;
+  -webkit-background-origin: padding-box;
+  -webkit-background-size: auto;
+  -webkit-transition-delay: 0s, 0s;
+  -webkit-transition-duration: 0.2s, 0.2s;
+  -webkit-transition-property: color, background-color;
+  -webkit-transition-timing-function: ease, ease;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+  color: #ffffff;
+  background-color: #c30b0a;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-transform:uppercase;
+  height:35px;
+  width:85px;
+  border: 1px solid #5E5E5E;
+  border-radius:5px;
+  
+ }
+
+input.quizSubmit[type="submit"]:hover {
+  color: #ffffff;
+  background: #680f11;
+  text-decoration: none;
+}
+
+table {
+  background-color: #F2F2F2;
+	  border:1px solid #BDBDBD;
+  border-radius:5px;
+  padding:10px;
+  padding-left:25px;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
+}
+
+th {
+  
+}
+
+tr {
+  
+}
+
+td {
+
+}
+
+.submitter {
+	  width:85px;
+}
+
+.hide {
+	  display:none;
+}
+*/
+
+/*SFS light red = #c30b0a;
+SFS dark red = #9f2026; */
+
+
 </style>
 
 </head>
 
 
-<body  class="centered_bold main_color main_background">
+<body  class=" main_color main_background">
 
-
+<!--https://codepen.io/harrysadlermusic/pen/qBdMvN-->
 <div class="long_text_div"> 
 <p>
-SRS like Anki or wanikani
+Nihongo no testo
+10 question quizz : 
+
+Tango no questions
+
+What's the furgigana for this kanji ? KotaeWoNomu : 
+What's the meaning of ?
+Which one is a verb ?
+Which one is a noun ?
+What is the meaning of this emoji ?
+What language is that ?
+
+Answert the questions and click validate to know your screo
+
+	
+	日本語テスト
+	<br>
+	 たんご 単語
+	 <br>
+	  ぶんぽう 文法
+
+<br>
+	  8つのクイズです
+	  <br>
+	  	<div>
+	  		<p class="question">1. Quiz question #1</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">correct answer 1</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>wrong answer</label>
+    		</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question">2. Quiz question #2</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">correct answer 2</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>wrong answer</label>
+	    	</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question">3. Quiz question #3</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">correct answer 3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>wrong answer</label>
+	    	</ul>
+		</div>
+
+	  	<div>
+	  		<p class="question">4. Quiz question #4</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">correct answer 4</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>wrong answer</label>
+    		</ul>
+	  	</div>
+
+
+	  	  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+<br>
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+    <Br>
+
+
+  
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+
+
+<br>
+<br>
+
 </p>
 </div>
 
 
 
 
-<div class="big last_div">
+<div class="mid_size last_div centered_bold">
 <p>
   <span class="ruby_under"><a href="../index.html"><ruby>&#127968;<rt> ホーム </rt></ruby></a></span> *** <ruby>終<rt>お</rt></ruby>わり *** <a href="./5_19_lingodeer.html"><ruby> &#10140;<rt><ruby>次<rt>つぎ</rt></ruby></rt></ruby></a></p>
 
@@ -75,5 +308,89 @@ SRS like Anki or wanikani
 <script>
   twemoji.parse(document.body);
 </script>
+
+
+
+
+
+
+<script>
+	
+// scripts here:
+
+	function submitQuiz() {
+		console.log('submitted');
+
+	// get each answer score
+		function answerScore (qName) {
+			var radiosNo = document.getElementsByName(qName);
+
+			for (var i = 0, length = radiosNo.length; i < length; i++) {
+   				if (radiosNo[i].checked) {
+			// do something with radiosNo
+					var answerValue = Number(radiosNo[i].value);
+				}
+			}
+			// change NaNs to zero
+			if (isNaN(answerValue)) {
+				answerValue = 0;
+			}
+			return answerValue;
+		}
+
+	// calc score with answerScore function
+		var calcScore = (answerScore('q1') + answerScore('q2') + answerScore('q3') + answerScore('q4'));
+		console.log("CalcScore: " + calcScore); // it works!
+
+	// function to return correct answer string
+		function correctAnswer (correctStringNo, qNumber, question) {
+			console.log("qNumber: " + qNumber);  // logs 1,2,3,4 after called below
+			return ("The correct answer for question #" + qNumber + question + ": &nbsp;<strong>" +
+				(document.getElementById(correctStringNo).innerHTML) + "</strong>");
+			}
+
+	// print correct answers only if wrong (calls correctAnswer function)
+		if (answerScore('q1') === 0) {
+			document.getElementById('correctAnswer1').innerHTML = correctAnswer('correctString1', 1, 'aaaa');
+		}
+		if (answerScore('q2') === 0) {
+			document.getElementById('correctAnswer2').innerHTML = correctAnswer('correctString2', 2, 'aaaa');
+		}
+		if (answerScore('q3') === 0) {
+			document.getElementById('correctAnswer3').innerHTML = correctAnswer('correctString3', 3, 'aaaa');
+		}
+		if (answerScore('q4') === 0) {
+			document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString4', 4, 'aaaa');
+		}
+
+	// calculate "possible score" integer
+		var questionCountArray = document.getElementsByClassName('question');
+
+		var questionCounter = 0;
+		for (var i = 0, length = questionCountArray.length; i < length; i++) {
+			questionCounter++;
+		}
+
+	// show score as "score/possible score"
+		var showScore = "Your Score: " + calcScore +"/" + questionCounter;
+	// if 4/4, "perfect score!"
+		if (calcScore === questionCounter) {
+			showScore = showScore + "&nbsp; <strong>Perfect Score!</strong>"
+		};
+		document.getElementById('userScore').innerHTML = showScore;
+	}
+
+$(document).ready(function() {
+
+	$('#submitButton').click(function() {
+		$(this).addClass('hide');
+	});
+
+});
+
+
+</script>
+
+
 
 </body>
