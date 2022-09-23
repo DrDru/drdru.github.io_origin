@@ -158,6 +158,36 @@ Hold it, don't really understand
 で、どうするんだ？どうやって中に入るの？
 
 
+const rexpaint = require('rexpaintjs-fork');
+
+
+
+
+const fs = require("fs");
+
+let buffer = fs.readFileSync("C:\\Users\\Thomas\\Desktop\\aaa.xp");
+
+data = await rexpaint(buffer);
+
+async function myFunction() {
+  let data = await rexpaint(buffer);
+  // You can now use `data` here!
+}
+
+
+let buffer = fs.readFileSync("C:\\Users\\Thomas\\Desktop\\aaa.xp");
+rexpaint(buffer, (err, data) => {
+  if (err) {
+    throw new Error(err);
+  }
+  // You can now use `data` here!
+});
+
+
+
+
+
+
 彼女だ
 
 よくやった。
