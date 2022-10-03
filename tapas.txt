@@ -41,70 +41,81 @@ or
 
 橋の上で捕まえるチャンスは一度きり。 We only have one chance to catch them on the bridge.
 
+5
 あそこに登れるんだ We could climb over there.
 
+6
 Hold it, don't really understand
 
-武器を持ってるなら、ゆっくり地面に置いてくれ。
-武器を持ってるなら地面に置け
+武器を持ってるなら、ゆっくり地面に置いてくれ。 If you have any weapons put them on the ground slowly
+(武器を持ってるなら地面に置け)
 
+武器は持ってないが... We're not armed but... 
 
-武器はあるが...
+命が大切なら、撃たない。 If you value your life, you won't shoot.
+命が大切なら、撃つな If you value your life, don't shoot.
 
+信じて Believe me 
 
-命を大切にするならば、撃つことはない。
+黙れ！黙らせるぞ. Shut upi. I'll shut you up.
 
-黙れ！黙らせるぞ
+7
+待って、私に話させて。 Wait. LEt me talk to them .
 
-待って、私に話させて。
+バカなの？ Are you stupid ?
 
-バカなの？
+黙れって言われた！ I told yuo to shut up
 
-黙れって言われた！
+武器があるのが見えないのか？ Can't yuo see we have weapons 
+馬鹿野郎、俺たちは武器を持っているんだぞ！？Can't yuo see we have weapons Idiot
 
-武器があるのが見えないのか？
-馬鹿野郎、俺たちは武器を持っているんだぞ！？
+選択肢があるよ。 You have have choice 
 
-選択肢がある。
-
-いったい何
+いったい何 What the heck !
 
 私たちが間に合わせるか、あなたが生きるか...。
-私たちが間に合えばあなたは生きられるし、遅れればあなたは死ぬのです。
+私たちが間に合えばあなたたちは生きられるし、遅れればあなたは死ぬのんだ。
+Either we make it in time and you live or we're late and you die.
 
-空威張りだ！
-
-黙れ！撃つぞ！
-
-
-何が起きているのか？
+空威張りだ！ You're bluffing
+嘘だろう？ You're lying
 
 
-助けて
+黙れ！撃つぞ！Shut up. I'll shoot
 
-いったい何が？
+8
+
+Whoah ?
+
+何が起きているのか？ What's happening ? 
+
+助けて Help
+
+いったい何が？ What the ? 
+何 ？ What ?
+
+やめて Stop it 
+
+待ってくれ！ Hold on 
 
 
-やめて
+滑っている She's slipping
 
-待ってくれ！
+くそ Shit
 
+おねがい 
 
-滑っている
-
-合うtta
-
-くそ
+そうしないと決めたでしょ We agreed you would not
 
 10
 
-くそ！どうして？
+くそ！どうして？ How did you!
 
 
-やめてください、お願いします。
+やめてください、お願いします。PLease stop. Please (humble)
 
-銃は空だ
-
+銃は空だ Our guns are empty
+空威張りだ
 弾丸、食べ物、そんなことはなかった。
 
 そんなことはなかった。
