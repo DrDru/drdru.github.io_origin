@@ -116,21 +116,38 @@ Whoah ?
 
 銃は空だ Our guns are empty
 空威張りだ
+
+
 弾丸、食べ物、そんなことはなかった。
 
-そんなことはなかった。
+友人をよく見ていれば、よくわかったはずだ。 If I just took a good look at your friend I would have known better.
+今ならわかる。 We understand now
+まだ歩ける可能性があるのだから。It's a chance we're still able to walk
+
+行ってもいい？ Can we go ? 
+
+行って Go
+
+あの巨大な男は That giant man...
+はい、そうでした。 Yes he was
+黙って走って Shut up and run
+その中の一人に会うと... Meeting one of them 
+だめだ  No goodd
 
 
 11
 もちろん、そうです。あなたは知っていた
-
-
 
 弾がないのは分かっていたはずだ。
 
 何？まあ、そうでしょうけど。
 
 しかし、彼らは間違いなくそれを面白いとは思わなかった。
+
+
+
+12
+hmpf > ?
 
 
 
@@ -147,39 +164,32 @@ Whoah ?
 何か思い当たることはありますか？
 
 15
-よかったね。
+よかったね。 Good for you
 
-何してるの？
+ああ Umm
 
-いいとは思わない。
+何してるの？ Waht are you doing ?
 
-もうやめてくれ。
+いいとは思わない。 I don't think it's a good idea.
+
+もうやめてくれ。 Don't do that again
 
 
 
 17
-成功したんだ。
+成功したんだ。 WE made it / We've succeeded
 
+で、どうするんだ？どうやって中に入るの？ So what's the plan ? How do we get inside?
 
-で、どうするんだ？どうやって中に入るの？
+彼女だ. It's her
 
+よくやった。 Good job
 
+彼女は背の高い男と一緒にいるはずだ She must be with a tall man.
+彼を殺して                 Kill him.
+でも、撃たないように気をつけてね。 Pay attention not to shoot her.
 
-
-
-
-
-
-
-彼女だ
-
-よくやった。
-
-彼女は背の高い男と一緒にいるべきだ
-
-でも、撃たないように気をつけてね。
-
-彼女はただの人間だ。
+彼女は人間だけだ。 She is only a human. 
 
 
 18
