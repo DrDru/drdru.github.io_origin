@@ -42,57 +42,7 @@ Booking.com interface
 
 Ask wanikani for Python script
 
-
-#ef92e7
-
-🐴 Horse Face
-
-🦄 Unicorn
-
-🐑 Ewe
-
-🐐 Goat
-
-🐔 Chicken
-
-🦆 Duck
-
-🐤 Baby Chick
-
-🐔 Chicken
-🐓 Rooster
-
-🦜 Parrot
-
-🦕 Sauropod
-
-🐙 Octopus
-
-🐌 Snail
-
-🐞 Lady Beetle
-🦗 Cricket
-
-🕷️ Spider
-
-
-はなたば 花束 Bouquet
-
-🍂 Fallen Leaf
-
-
-Earth 
-
-Jupiter
-
-Moon
-
-🌈 Rainbow
-
-
-雪の女王 
-
-ゆきばな 雪花
+Add Flash of aurora hard word blog post
 
 
 
