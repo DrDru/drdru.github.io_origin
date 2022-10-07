@@ -134,12 +134,13 @@ padding-left	: 10px;
 <ruby>本<rt>ほん</rt></ruby>をダウンロードするにはこのURLをクリックします。
 <br>
 <br>
+<span style="font-size: 70%;">http://www.guidetojapanese.org/grammar_guide.pdf</span>
+<br>
+<br>
 ⌈imabi」もいい<ruby>日本語<rt>にほんご</rt></ruby>の<ruby>文法<rt>ぶんぽう</rt></ruby>のウェブサイトです。
 <br><br>
 Urlは<span style="font-size: 80%;"> https://www.imabi.net/</span>。
-<br>
-<br>
-<span style="font-size: 70%;">http://www.guidetojapanese.org/grammar_guide.pdf</span>
+
 <br>
 <br>
 <br>
@@ -156,30 +157,40 @@ Urlは<span style="font-size: 80%;"> https://www.imabi.net/</span>。
 <br><br>
 ① <ruby>動詞<rt>どうし</rt></ruby>
 <br>
-<ruby>置<rt>お</rt></ruby>く、<ruby>選<rt>えら</rt></ruby>ぶ、食べる、<ruby>泳<rt>およ</rt></ruby>ぐ、<ruby>歌<rt>うた</rt></ruby>うは<ruby>動詞<rt>どうし</rt></ruby>です。 
+<ruby>置<rt>お</rt></ruby>く、<ruby>選<rt>えら</rt></ruby>ぶ、食べる、<ruby>泳<rt>およ</rt></ruby>ぐ、<ruby>押<rt>お</rt></ruby>す、<ruby>歌<rt>うた</rt></ruby>うは<ruby>動詞<rt>どうし</rt></ruby>です。 
 <br><br>
-この単語は動詞です。
-<Br>
-杖、くじら、盾、音楽、
+この<ruby>単語<rt>たんご</rt></ruby>は<ruby>動詞<rt>どうし</rt></ruby>です。
+<Br><br>
+① <ruby>名詞<rt>めいし</rt></ruby>
 <br>
-この単語は名詞です。
+<ruby>杖<rt>つえ</rt></ruby>、くじら、<ruby>盾<rt>たて</rt></ruby>、<ruby>音楽<rt>おんがく</rt></ruby>、<ruby>海賊<rt>かいぞく</rt></ruby>
 <br>
-に、は、を、が 
+この<ruby>単語<rt>たんご</rt></ruby>は<ruby>名詞<rt>めいし</rt></ruby>です。
 <br>
-助詞 
+<br>
+① <ruby>助詞<rt>じょし</rt></ruby>
+<br>
+に、は、を、が、で
+<br>
+<br>
+<ruby>形容詞<rt>けいようし</rt></ruby> 
+<br>
+①   <span style="font-size: 150%;">大きい</span>  <span style="font-size: 50%;">小さい</span>  面白い   怖い 
+<br>
+<br><div class="centered_bold">***</div>
+<br>
+<br>
+<span class="icon_twittemoji60">👲</span>
 <br>
 
-形容詞  大きい  小さい  面白い   怖い 
-
-<br>
 <p>
 
 
 
-⌈<ruby>名前<rt>なまえ</rt></ruby>・は・<ruby><rt>	</rt></ruby>名詞・を・<ruby><rt>	</rt></ruby>動詞」の文章を作ろう
+⌈<ruby>名前<rt>なまえ</rt></ruby>・は・<ruby>名詞<rt>めいし</rt></ruby>・を・<ruby>形容詞<rt>けいようし</rt></ruby>・<ruby>動詞<rt>どうし</rt></ruby>」の<ruby>文章<rt> ぶんしょう </rt></ruby>を<ruby>作<rt>つく</rt></ruby>ろう
     </p>
       
-    キャラクターを選ぶ
+    キャラクターを<ruby>選<rt>えら</rt></ruby>ぶ : 
     <br>
     <input type="radio" name="Character" value="兵士ジョン" checked="checked"> 兵士ジョン
     <br>
@@ -187,11 +198,22 @@ Urlは<span style="font-size: 80%;"> https://www.imabi.net/</span>。
     <br>
     <input type="radio" name="Character" value="エルミナ女王"> エルミナ女王
     <br>
-    <input type="radio" name="Character" value="パン">  パン 
-      
+    <input type="radio" name="Character" value="パン">  パン 🧝
+            
+    <br>
+    <br>
+    <ruby>形容詞<rt>けいようし</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ :
+    <br>
+    <input type="radio" name="Gender" value="Male" checked="checked">大きい 
+    <br>
+    <input type="radio" name="Gender" value="Female">小さい 
+    <br>
+    <input type="radio" name="Gender" value="Others">面白い 
+    <br>
+    <input type="radio" name="Gender" value="Others">怖い 
     <br>
      <br> 
-    動物を選ぶ
+    <ruby>動物<rt>どうぶつ</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ :
     <br>
     <input type="radio" name="Gender" value="Male" checked="checked">熊
     <br>
@@ -200,11 +222,13 @@ Urlは<span style="font-size: 80%;"> https://www.imabi.net/</span>。
     <input type="radio" name="Gender" value="Others"> やぎ
     <br>
     <input type="radio" name="Gender" value="Others"> こうもり
+
       
     <br>
     <br>
 
-     動詞を選ぶ
+
+     <ruby>動詞<rt>どうし</rt></ruby>を<ruby>選<rt>えら</rt></ruby>ぶ :
      <br>
     <input type="radio" name="Verb" value="Vegetarian" checked="checked"> 戦う
     <br>
@@ -212,20 +236,26 @@ Urlは<span style="font-size: 80%;"> https://www.imabi.net/</span>。
     <br>
     <input type="radio" name="Verb" value="Non-Vegetarian"> 食べる     
     <br>
-      
-    <button type="button" onclick="displayRadioValue()">
-        Submit
+      <br>
+    <button type="button" onclick="displayRadioValue()" style="width: 150px;">
+        <span style="font-size: 150%;"><ruby>押<rt>お</rt></ruby>す</span>
     </button>
       
     <br>
-      
+        <br>
     <div id="result"></div>
  
 </p>
-文法はいいです。好きですか？
-<br>
 
-Matane
+<br>
+<span class="icon_twittemoji60">👲</span>
+<br>
+<ruby>文法<rt>ぶんぽう</rt></ruby>はいいです。好きですか？
+<br>
+<br>
+<span class="icon_twittemoji60">👋</span> <span class="icon_twittemoji60">👲</span> 
+<br>
+ じゃあまたね 
 </div>
 
 
