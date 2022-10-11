@@ -11,10 +11,10 @@ https://tapas.io/episode/2458652
 
 少し休みたい。 We want to rest a bit. 
 
-それでいいんですか？ Is that ok ?
+いいなのか？ Is that ok ?
 
 2
-いや、ここにいて、 No stay here
+うん、ここにいて、 No stay here
 帰るんだから。 I'm leaving
 
 旅をしているのか？ Are you traveling ?
@@ -30,11 +30,11 @@ https://tapas.io/episode/2458652
 お好きなようにどうぞ。 Suit yourself. 
 
 3
-火はまだ燃えている The firre is still burning
+火はまだ燃えている The firre is still burning --> easier
 or
-残り火がある there are some embers left
+残り火がある there are some embers left --> closer to the original
 
-暖かくして寝たい I need to stay warm and go to bed.
+暖かくして休みたい I need to stay warm and go to bed.
 何日も寝ていない I haven't slept for days.
 
 数時間後に起こして Wake me up after a few hours. 
@@ -45,19 +45,22 @@ or
 あそこに登れるんだ We could climb over there.
 
 6
-Hold it, don't really understand
+止まれ！ Stop
+
 
 武器を持ってるなら、ゆっくり地面に置いてくれ。 If you have any weapons put them on the ground slowly
-(武器を持ってるなら地面に置け)
+or
+武器を持ってるなら地面に置け
 
 武器は持ってないが... We're not armed but... 
 
 命が大切なら、撃たない。 If you value your life, you won't shoot.
+or
 命が大切なら、撃つな If you value your life, don't shoot.
 
 信じて Believe me 
 
-黙れ！黙らせるぞ. Shut upi. I'll shut you up.
+黙れ！黙らせるぞ. Shut up. I'll shut you up.
 
 7
 待って、私に話させて。 Wait. LEt me talk to them .
@@ -77,9 +80,10 @@ Hold it, don't really understand
 私たちが間に合えばあなたたちは生きられるし、遅れればあなたは死ぬのんだ。
 Either we make it in time and you live or we're late and you die.
 
-空威張りだ！ You're bluffing
-嘘だろう？ You're lying
 
+嘘だろう？ You're lying --> easier Japanese
+or
+空威張りだ！ You're bluffing  --> close to original
 
 黙れ！撃つぞ！Shut up. I'll shoot
 
