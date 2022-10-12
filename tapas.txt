@@ -88,7 +88,6 @@ or
 黙れ！撃つぞ！Shut up. I'll shoot
 
 8
-
 Whoah ?
 
 何が起きているのか？ What's happening ? 
@@ -98,49 +97,55 @@ Whoah ?
 いったい何が？ What the ? 
 何 ？ What ?
 
+
+9
 やめて Stop it 
 
 待ってくれ！ Hold on 
-
 
 滑っている She's slipping
 
 くそ Shit
 
-おねがい 
+どうぞ Please  
 
-そうしないと決めたでしょ We agreed you would not
+そうしないと決めたでしょ We agreed you would not do that.
+
 
 10
-
 くそ！どうして？ How did you!
 
 
 やめてください、お願いします。PLease stop. Please (humble)
 
+ウッ Ugh 
+
 銃は空だ Our guns are empty
-空威張りだ
 
 
-弾丸、食べ物、そんなことはなかった。
 
+弾丸、食べ物、何もない。 Bullets, food, we don't ahve any.
+
+
+#### Not Good
 友人をよく見ていれば、よくわかったはずだ。 If I just took a good look at your friend I would have known better.
 今ならわかる。 We understand now
 まだ歩ける可能性があるのだから。It's a chance we're still able to walk
 
 行ってもいい？ Can we go ? 
+####
 
 行って Go
 
 あの巨大な男は That giant man...
-はい、そうでした。 Yes he was
+はい、そうだった。 Yes he was
 黙って走って Shut up and run
 その中の一人に会うと... Meeting one of them 
 だめだ  No goodd
 
 
 11
-もちろん、そうです。あなたは知っていた
+もちろんだよ。あなたは知っていた
 
 弾がないのは分かっていたはずだ。
 
