@@ -144,33 +144,40 @@ Whoah ?
 だめだ  No goodd
 
 
-11
-もちろんだよ。あなたは知っていた
-
-弾がないのは分かっていたはずだ。
-
-何？まあ、そうでしょうけど。
-
-しかし、彼らは間違いなくそれを面白いとは思わなかった。
-
-
-
 12
+もちろんだよ。 Of course I am !
+
+君は知っていた. You knew. 
+
+Whoa 
+
+弾がないのは分かっていたはずだ。 You knew they had no bullet. (her)
+
+何？ What (Him)
+
+まあ、そうでしょうけどね。 (her) 
+
+しかし、彼らはそれを面白いとは思わなかった。 But they did not find it funny.
+
+
+
+13
 hmpf > ?
 
 
 
 14
 
-知っています。気をつけます。
+知っていて、気をつけるよ。 I know, I'll be careful
 
-ハシゴがある。見えますか？
+ハシゴがある。見えるのか？ There is a ladder, can you see it ?
+橋の脇にある。 On the side of the bridge
 
-橋の脇にある。
+まずはあの屋上に行くんだ We reach this roof top first 
 
-まずはあの屋上に行くんだ
+どうする？ What do we do?
 
-何か思い当たることはありますか？
+
 
 15
 よかったね。 Good for you
@@ -179,7 +186,7 @@ hmpf > ?
 
 何してるの？ Waht are you doing ?
 
-いいとは思わない。 I don't think it's a good idea.
+いいじゃない It's a not good.
 
 もうやめてくれ。 Don't do that again
 
