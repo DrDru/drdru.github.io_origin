@@ -165,6 +165,8 @@ Whoa
 
 まあ、そうでしょうけどね。 (her) 
 
+
+#### Not good
 しかし、彼らはそれを面白いとは思わなかった。 But they did not find it funny.
 
 
@@ -181,9 +183,9 @@ hmpf > ?
 ハシゴがある。見えるのか？ There is a ladder, can you see it ?
 橋の脇にある。 On the side of the bridge
 
-まずはあの屋上に行くんだ We reach this roof top first 
+うん、まずはあの屋上に行くんだ We reach this roof top first 
 
-どうする？ What do we do?
+どうしようか ？ What shall we do?
 
 
 
@@ -196,28 +198,31 @@ hmpf > ?
 
 いいじゃない It's a not good.
 
-もうやめてくれ。 Don't do that again
+もうやめてくれ。 Don't do that again.
 
 
 
 17
-成功したんだ。 WE made it / We've succeeded
+成功したんだ。 We made it -- We've succeeded Litteral 
+やったね！We did it !  -- easier
 
 で、どうするんだ？どうやって中に入るの？ So what's the plan ? How do we get inside?
 
-L0L1の彼女だ. It's her
+LゼロLワンの彼女だ. It's her
+(LゼロLワン  or L0 L1 ?)
+
 
 よくやった。 Good job
 
-彼女は背の高い男と一緒にいるはずだ She must be with a tall man.
+彼女は背の高い男と一緒にいるはずんだ She must be with a tall man.
 彼を殺して                 Kill him.
-でも、撃たないように気をつけてね。 Pay attention not to shoot her.
+でも、撃たないように気をつけてね。 But pay attention not to shoot her.
 
 彼女は人間だけだ。 She is only a human. 
 
 
 18
-もちろん、それは彼女です。
+もちろん、彼女んだよ。 Of Course it's her
 
 じゃあ何で撃たないんだ？
 
