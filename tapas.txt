@@ -246,15 +246,15 @@ LゼロLワンの彼女だ. It's her
 持っているか？  Do you have it ?
 
 
-ライオン、この野郎を信じられるか？ Lion, can yuo believe this guy ?
+ライオン、この野郎を信じられるか？ Lion, can you believe this guy ?
 
-ホバークラフトに吊るされたままだ ### Not clear
+俺をホバークラフトで待たせていた。  He left me waiting in the hover craft
 
 じゃあ、取ってきてよ。 Well go get it
 
 ばか Moron
 
-19 ネガティブ 
+19 
 
 じゃあ、取ってきてよ。 Well go get it
 
@@ -268,9 +268,10 @@ LゼロLワンの彼女だ. It's her
 
 入りたいのだろうか？ They want to enter ?
 街で？ In the city?
+
 何？ What ?
 
-気にしてるように見えるか？Do I look liek I care ? 
+気にしてるように見えるか？Do I look like I care ? 
 バカに言ったんじゃないよ I was not talking to you moron.
 
 あの音は何？ What was that sound ?
@@ -292,17 +293,16 @@ LゼロLワンの彼女だ. It's her
 そう言うなら If you say so
 で、ターゲットは撃ったのか？ So did you shoot the target ?
 
-違う no (not really negative)
+ネガティブ / 違う no (not really negative)
 できなかった。 I could not.
 どうして？   Why ? 
-どうして」ってどういう意味？ What do you mean by 'Why' ?
 
+どうして」ってどういう意味？ What do you mean by 'Why' ?
 だって、大嵐なんだもん! Because there is a huge storm !
 
 
 やれやれ Oh man 
 ほとんど聞こえないよ。 I can barely hear you 
-
 それは何？ What is that ?
 
 エンジン音 Engine noise

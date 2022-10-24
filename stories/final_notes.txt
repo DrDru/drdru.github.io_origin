@@ -9,6 +9,19 @@
 そうだよ
 そうですよ#
 
+Map file remove arrow
+
+
+(groups are referred via word of mouth. You can join the group by being added by a member)
+Names are hashes.
+To join lists are stored locally and you can send a message to be added removed from list
+
+https://old.reddit.com/r/Network/
+
+
+https://old.reddit.com/r/japaneseresources/comments/ybdbhi/drdrus_lab_learn_you_first_350_words_by_reading/
+I'm passed the point where this is useful for me, but I've run into your page a number of times and I love the style. My 4 year old had fun reading through some of it with me months ago. Thanks for making such a fun resource.
+
 日付を言うときは、まず年、次に月、そして日です。
 <br>
 ひづけ 日付を知るために、私はカレンダーを見る。
@@ -28,7 +41,7 @@ Tadoku
 Bunpro 
 TPRS
 Tofugu
-
+kefke
 
 
 to be cleaned ./stories/3_20_map.html
