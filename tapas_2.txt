@@ -1,0 +1,50 @@
+21 
+賞金稼ぎ！？ ハンター?
+どうしたんだ？
+
+あの子はどこだ？
+
+採集の段階で吸引管から入る予定だそうです。 lol
+入る ? 街とか？
+
+
+何？気にしてるように見えるか？
+
+お前には聞いてないぞ
+
+
+
+では、橋のところで手に入れましょう。
+
+武器はあるのか？地面に置け
+
+
+私に話しかけないでください。
+
+危ない人たちではありません。
+
+
+const rexpaint = require('rexpaintjs-fork');
+
+
+
+
+const fs = require("fs");
+
+let buffer = fs.readFileSync("C:\\Users\\Thomas\\Desktop\\aaa.xp");
+
+data = await rexpaint(buffer);
+
+async function myFunction() {
+  let data = await rexpaint(buffer);
+  // You can now use `data` here!
+}
+
+
+let buffer = fs.readFileSync("C:\\Users\\Thomas\\Desktop\\aaa.xp");
+rexpaint(buffer, (err, data) => {
+  if (err) {
+    throw new Error(err);
+  }
+  // You can now use `data` here!
+});
