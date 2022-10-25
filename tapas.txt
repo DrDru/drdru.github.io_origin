@@ -1,333 +1,483 @@
 https://tapas.io/episode/2458652
 
-1
-とても寒い  I'm very cold
+1   
+とても寒い   
+I'm very cold
 
-あそこに行こう。 LEt's go there
+あそこに行こう。    
+Let's go there
 
-ああ   aah
-撃つな Don't shoot 
-その武器を使うのはまずいんだろう。 Using this weapon would be bad
+ああ   
+aah
+撃つな 
+Don't shoot 
+その武器を使うのはまずいんだろう。 
+Using this weapon would be bad
 
-少し休みたい。 We want to rest a bit. 
+少し休みたい。 
+We want to rest a bit. 
 
-いいなのか？ Is that ok ?
+いいなのか？ 
+Is that ok ?
 
 2
-うん、ここにいて、 No stay here
-帰るんだから。 I'm leaving
+うん、ここにいて、 
+No stay here
+帰るんだから。 
+I'm leaving
 
-旅をしているのか？ Are you traveling ?
+旅をしているのか？ 
+Are you traveling ?
 
-小料金で案内することができる。 I can lead you for a small feee
+小料金で案内することができる。 
+I can lead you for a small feee
 
-目的地は As for our destination ...
+目的地は 
+As for our destination ...
 
 ええ yes ?  
 
-まだ決めていない。 ...we've not decided yet. 
+まだ決めていない。 
+...we've not decided yet. 
 
-お好きなようにどうぞ。 Suit yourself. 
+お好きなようにどうぞ。 
+Suit yourself. 
 
 3
-火はまだ燃えている The firre is still burning --> easier
+(Please pick the most appropriate of these two)
+火はまだ燃えている 
+The fire is still burning --> easier
 or
-残り火がある there are some embers left --> closer to the original
+残り火がある 
+there are some embers left --> closer to the original
 
-暖かくして休みたい I need to stay warm and go to bed.
-何日も寝ていない I haven't slept for days.
+暖かくして休みたい 
+I need to stay warm and go to bed.
+何日も寝ていない 
+I haven't slept for days.
 
-数時間後に起こして Wake me up after a few hours. 
+数時間後に起こして 
+Wake me up after a few hours. 
 
-橋の上で捕まえるチャンスは一度きり。 We only have one chance to catch them on the bridge.
+橋の上で捕まえるチャンスは一度きり。 
+We only have one chance to catch them on the bridge.
 
 5
-あそこに登れるんだ We could climb over there.
+あそこに登れるんだ 
+We could climb over there.
 
 6
-止まれ！ Stop
+止まれ！ 
+Stop
 
 
-武器を持ってるなら、ゆっくり地面に置いてくれ。 If you have any weapons put them on the ground slowly
+武器を持ってるなら、ゆっくり地面に置いてくれ。 
+If you have any weapons put them on the ground slowly
+
+
+武器は持ってないが...
+We're not armed but... 
+
+(Please pick the most appropriate of these two)
+命が大切なら、撃たない。 
+If you value your life, you won't shoot.
 or
-武器を持ってるなら地面に置け
+命が大切なら、撃つな 
+If you value your life, don't shoot.
 
-武器は持ってないが... We're not armed but... 
+信じて
+Believe me 
 
-命が大切なら、撃たない。 If you value your life, you won't shoot.
-or
-命が大切なら、撃つな If you value your life, don't shoot.
-
-信じて Believe me 
-
-黙れ！黙らせるぞ. Shut up. I'll shut you up.
+黙れ！黙らせるぞ. 
+Shut up. I'll shut you up.
 
 7
-待って、私に話させて。 Wait. LEt me talk to them .
+待って、私に話させて。 
+Wait. Let me talk to them .
 
-バカなの？ Are you stupid ?
+バカなの？ 
+Are you stupid ?
 
-黙れって言われた！ I told yuo to shut up
+黙れって言われた！ 
+I told you to shut up
 
-武器があるのが見えないのか？ Can't yuo see we have weapons 
-馬鹿野郎、俺たちは武器を持っているんだぞ！？Can't yuo see we have weapons Idiot
+馬鹿野郎、俺たちは武器を持っているんだぞ！
+Can't you see we have weapons idiot!
 
-選択肢があるよ。 You have have choice 
+選択肢があるよ。 
+You have a have choice 
 
-いったい何 What the heck !
+いったい何 
+What the heck !
 
-私たちが間に合わせるか、あなたが生きるか...。
-私たちが間に合えばあなたたちは生きられるし、遅れればあなたは死ぬのんだ。
-Either we make it in time and you live or we're late and you die.
+私たちが間に合わせるか、あなたが生きるが...
+Either we make it in time and you live 
+遅れれば死ぬのんだ。
+or we're late and you die.
 
+嘘だろう？ 
+You're lying 
 
-嘘だろう？ You're lying --> easier Japanese
-or
-空威張りだ！ You're bluffing  --> close to original
-
-黙れ！撃つぞ！Shut up. I'll shoot
+黙れ！撃つぞ！
+Shut up. I'll shoot
 
 8
+(Please choose appropriate onomatopeia)
 Whoah ?
 
 何が起きているのか？ What's happening ? 
 
-助けて Help
+助けて 
+Help
 
 いったい何が？ What the ? 
 何 ？ What ?
 
 
 9
-やめて Stop it 
+やめて 
+Stop it 
 
-待ってくれ！ Hold on 
+待ってくれ！ 
+Hold on 
 
-滑っている She's slipping
+滑っている 
+She's slipping
 
-くそ Shit
+くそ 
+Shit
 
-どうぞ Please  
+どうぞ
+Please  
 
-そうしないと決めたでしょ We agreed you would not do that.
+そうしないと決めたでしょ 
+We agreed you would not do that.
 
 
 10
-くそ！どうして？ How did you!
+くそ！どうして？ 
+How did you!
 
 
-やめてください、お願いします。PLease stop. Please (humble)
+やめてください、お願いします。
+Please stop. Please (humble)
 
-ウッ Ugh 
+ウッ 
+Ugh 
 
-銃は空だ Our guns are empty
+銃は空だ 
+Our guns are empty
+
+弾丸、食べ物、何もない。 
+Bullets, food, we don't have any.
+
+(Please pick the most appropriate of these two)
+友人をよく見ていれば、よくわかったはずだ。 
+If I just took a good look at your friend I would have known better.(litteral )
+or
+友人を見たとき、私は気づくべきだった 
+I should have understood when I saw your friend  (more comprehensible)
+
+今ならわかるよ。 
+We understand now
+
+そして、まだ生きている。 
+And we're still alive   
 
 
+行ってもいいのか？ 
+Can we go ? 
 
-弾丸、食べ物、何もない。 Bullets, food, we don't ahve any.
+行って 
+Go
 
+あの巨大な男は 
+That giant man...
 
-#### Not Good
-友人をよく見ていれば、よくわかったはずだ。 If I just took a good look at your friend I would have known better.(litteral )
+はい、そうだった。 
+Yes he was
 
-友人を見たとき、私は気づくべきだった I shoudl have understood when I saw your friend  (more comprehensible)
+黙って走って 
+Shut up and run
 
-今ならわかるよ。 We understand now
+その中の一人に会うと... 
+Meeting one of them 
 
-
-### 
-まだ歩ける可能性があるのだから。It's a chance we're still able to walk (litteral )
-そして、まだ生きている。 And we're still alive   (more comprehensible)
-
-
-行ってもいいのか？ Can we go ? 
-####
-
-行って Go
-
-あの巨大な男は That giant man...
-はい、そうだった。 Yes he was
-黙って走って Shut up and run
-その中の一人に会うと... Meeting one of them 
-だめだ  No goodd
+だめだ  
+No good
 
 
 12
-もちろんだよ。 Of course I am !
+もちろんだよ。 
+Of course I am !
 
-君は知っていた. You knew. 
+君は知っていた. 
+You knew. 
 
+(Please choose appropriate onomatopeia)
 Whoa 
 
-弾がないのは分かっていたはずだ。 You knew they had no bullet. (her)
+弾がないのは分かっていたはずだ。 You knew they had no bullet. 
 
-何？ What (Him)
+何？ 
+What 
 
-まあ、そうでしょうけどね。 (her) 
+まあ、そうでしょうけどね。 
+Well, I'm sure you do. 
 
-
-#### Not good
-しかし、彼らはそれを面白いとは思わなかった。 But they did not find it funny.
+(I don't think this is very good. Feel free ot change)
+しかし、彼らはそれを面白いとは思わなかった。 
+But they did not find it funny.
 
 
 
 13
-hmpf > ?
+(Please choose appropriate onomatopeia)
+hmpf 
 
 
 
 14
 
-知っていて、気をつけるよ。 I know, I'll be careful
+知っていて、気をつけるよ。 
+I know, I'll be careful
 
-ハシゴがある。見えるのか？ There is a ladder, can you see it ?
-橋の脇にある。 On the side of the bridge
+ハシゴがある。見えるのか？ 
+There is a ladder, can you see it ?
 
-うん、まずはあの屋上に行くんだ We reach this roof top first 
+橋の脇にある。 
+On the side of the bridge
+
+うん、まずはあの屋上に行くんだ 
+We reach this roof top first 
 
 どうしようか ？ What shall we do?
 
 
-
 15
-よかったね。 Good for you
+よかったね。 
+Good for you (It's supposed to be sarcastic. Now, it might work in Japanese too, but I'm just not sure if it comes off as being sarcastic or not.)
 
-ああ Umm
+ああ 
+Umm
 
-何してるの？ Waht are you doing ?
+何してるの？ 
+What are you doing ?
 
-いいじゃない It's a not good.
+いいじゃない 
+It's a not good.
 
-もうやめてくれ。 Don't do that again.
-
+もうやめてくれ。 
+Don't do that again.
 
 
 17
-成功したんだ。 We made it -- We've succeeded Litteral 
-やったね！We did it !  -- easier
+やったね！
+We did it !  
 
-で、どうするんだ？どうやって中に入るの？ So what's the plan ? How do we get inside?
+で、どうするんだ？どうやって中に入るの？ 
+So what's the plan ? How do we get inside?
 
 LゼロLワンの彼女だ. It's her
-(LゼロLワン  or L0 L1 ?)
+
+よくやった。 
+Good job
+
+彼女は背の高い男と一緒にいるはずんだ 
+She must be with a tall man.
 
 
-よくやった。 Good job
+彼を殺して
+Kill him.
 
-彼女は背の高い男と一緒にいるはずんだ She must be with a tall man.
-彼を殺して                 Kill him.
-でも、撃たないように気をつけてね。 But pay attention not to shoot her.
+でも、撃たないように気をつけてね。 
+But pay attention not to shoot her.
 
-彼女は人間だけだ。 She is only a human. 
+彼女は人間だけだ。 
+She is only a human. 
 
 
 18
-もちろん、彼女んだよ。 Of Course it's her
+もちろん、彼女んだよ。 
+Of Course it's her
 
-じゃあ何で撃たないんだ？ Why don't you shoot
+じゃあ何で撃たないんだ？ 
+Why don't you shoot
 
-この嵐の中で？ ばかな In this storm ?
+この嵐の中で？ ばかな 
+In this storm ? Moron.
 
-うん  huh
+うん  
+huh
 
-あっ oh
+あっ
+oh
 
-誰かと話しているの...。 you're talking to someone else
+誰かと話しているの...。 
+you're talking to someone else
 
-いいんだ。 It's good.
+いいんだ。 
+It's good.
 
-待ってるよ。 I will wait.
+待ってるよ。 
+I will wait.
 
-問題ない No problem
+問題ない 
+No problem
 
-殴れなくても問題ない、ヒットマン That you can't even hit them is not my problem Hitman
+殴れなくても問題ない、暗殺者 
+That you can't even hit them is not my problem Hitman
 
-俺のお金はどこ？  Where is my money 
-持っているか？  Do you have it ?
+俺のお金はどこ？ 
+Where is my money 
+
+持っているか？  
+Do you have it ?
 
 
-ライオン、この野郎を信じられるか？ Lion, can you believe this guy ?
+ライオン、この野郎を信じられるか？ 
+Lion, can you believe this guy ?
 
-俺をホバークラフトで待たせていた。  He left me waiting in the hover craft
+俺をホバークラフトで待たせていた。  
+He left me waiting in the hover craft
 
-じゃあ、取ってきてよ。 Well go get it
+じゃあ、取ってきてよ。 
+Well go get it
 
-ばか Moron
+ばか 
+Moron
 
 19 
+じゃあ、取ってきてよ。 
+Well go get it
 
-じゃあ、取ってきてよ。 Well go get it
+ばか 
+Moron
 
-ばか Moron
+おい、賞金稼ぎ。 
+Hey Bounty hunter
 
-おい、賞金稼ぎ。 Hey Bounty hunter
-どうしたんだろう？ What's going on ?
-彼女はどこにいるんだ？ Where is the girl ?
+どうしたんだろう？ 
+What's going on ?
 
-吸引管から侵入するつもりなのだ。 They plan to enter through the sucking tube.
+彼女はどこにいるんだ？ 
+Where is the girl ?
 
-入りたいのだろうか？ They want to enter ?
-街で？ In the city?
+吸引管から侵入するつもりなのだ。 
+They plan to enter through the sucking tube.
 
-何？ What ?
+入りたいのだろうか？ 
+They want to enter ?
 
-気にしてるように見えるか？Do I look like I care ? 
-バカに言ったんじゃないよ I was not talking to you moron.
+街で？ 
+In the city?
 
-あの音は何？ What was that sound ?
+何？ 
+What ?
 
-戻ってきた I'm back
-あ、この音？ Oh that sound ?
+気にしてるように見えるか？
+Do I look like I care ? 
+
+バカに言ったんじゃないよ 
+I was not talking to you moron.
+
+あの音は何？ 
+What was that sound ?
+
+戻ってきた 
+I'm back
+
+あ、この音？ 
+Oh that sound ?
 
 ---
+
 あのバカを殺したんだ I killed that moron. ( I killed the informant)
 あのスパイを殺したんだ  I killed that spy.
 ---
 
 
-おいおい.....あなたは酷い waaaa you're cruel
-かもね。 Maybe
-上手と言えるだろう。 I'd say I'm proficient.
+おいおい.....あなたは酷い 
+Waaaa you're cruel
+
+かもね。 
+Maybe
+上手と言えるだろう。 
+I'd say I'm proficient.
+
+そう言うなら 
+If you say so
+
+で、ターゲットは撃ったのか？ 
+So did you shoot the target ?
+
+(Please pick the most appropriate of these two)
+ネガティブ / 違う 
+no (not really negative)
+
+できなかった。 
+I could not.
+
+どうして？ 
+Why ? 
+
+どうして」ってどういう意味？ 
+What do you mean by 'Why' ?
+
+だって、大嵐なんだもん! 
+Because there is a huge storm !
 
 
-そう言うなら If you say so
-で、ターゲットは撃ったのか？ So did you shoot the target ?
-
-ネガティブ / 違う no (not really negative)
-できなかった。 I could not.
-どうして？   Why ? 
-
-どうして」ってどういう意味？ What do you mean by 'Why' ?
-だって、大嵐なんだもん! Because there is a huge storm !
+やれやれ 
+Oh man 
 
 
-やれやれ Oh man 
-ほとんど聞こえないよ。 I can barely hear you 
-それは何？ What is that ?
+ほとんど聞こえないよ。 
+I can barely hear you 
 
-エンジン音 Engine noise
+それは何？ 
+What is that ?
 
-文句を言うのはやめてくれませんか？ Will you stop complaining ?
+エンジン音 
+Engine noise
 
-おい、お前がミスったから文句言ってんだよ。 Hey, I complain because you made a blunder
+文句を言うのはやめてくれませんか？
+Will you stop complaining ?
 
-やっぱりプロに頼むべきだった。 Of course we should have relied on a professional
+おい、お前がミスったから文句言ってんだよ。 
+Hey, I complain because you made a blunder
 
-くそっ ミュートしていない Shit it's not muted
+やっぱりプロに頼むべきだった。 
+Of course we should have relied on a professional
 
-すまん... Sorry
-そういう意味ではない。 I did not mean that. 
+くそっ ミュートしていない 
+Shit it's not muted
 
-で、どうするんだ、ハンターさん？ So what's the plan Mr Hunter?
+すまん... 
+Sorry
 
-追いかけていく。 I'm going to chase them.
-他に何ができる？ What else can I do ?
+そういう意味ではない。 
+I did not mean that. 
+
+で、どうするんだ、ハンターさん？ 
+So what's the plan Mr Hunter?
+
+追いかけていく。 
+I'm going to chase them.
+
+他に何ができる？ 
+What else can I do ?
 
 
 
-21
 
-賞金稼ぎ！？どうしたんだ？
+
+
+
+21 
+賞金稼ぎ！？ ハンター?
+どうしたんだ？
+
 あの子はどこだ？
 
 採集の段階で吸引管から入る予定だそうです。 lol
