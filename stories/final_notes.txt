@@ -11,7 +11,7 @@
 
 Map file remove arrow
 
-
+まり絵子
 (groups are referred via word of mouth. You can join the group by being added by a member)
 Names are hashes.
 To join lists are stored locally and you can send a message to be added removed from list
