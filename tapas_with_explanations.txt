@@ -2,71 +2,258 @@ https://tapas.io/episode/2458652
 
 1   
 寒くて死にそう 
-I'm freezing
+
+寒い cold  
+寒くて is the て-form of 寒い. て-form has several uses. In this case it allows to link 寒い to what's next.
+死ぬ to die 
+死に Dying
+そう to have the appearance  
+死にそう about to die
+
+
+This first sentence contains two N5 words but the way they are combined makes it a bit complicated.
+We have cold 寒い and death 死. From the image we can see she's cold so it's not too hard to infer the global meaning of this sentence.  
+
+> This expression is often used in conversation and could be translated as "I'm so cold I could die" or "I'm freezing to death".
+
+How is it constructed.
+
+
+Altogether it means "It has the appearance that I'm dying of cold" or more naturally
 
 あそこに行こう 
-Let's got there
+あそこ there
+に indicates direction 
+行く to go 
+行こう Let's go. 撃とう Let'shoot
+
+> Let's got there
+
 
 あー
-aah
+aah (onomatopeia)
+
 
 撃つのはやめて
-Don't shoot 
+
+撃つ to shoot
+止める  to stop
+
+撃つのは transforms the verb 撃つ into a noun so it becomes 'shooting' or 'the act of shooting'
+やめて is the て-form of 止める which in this case is used to express a command. It's rather soft compared with やめろ which is very rude.
+
+"Stop the act of shooting" 
+
+> Don't shoot 
+
+
+あそこに行くのはやめて
+
+> Don't go there
+
  
 武器を使うのは良くない
-Using this weapon would be bad
+
+
+武器 weapon 
+使う to use
+良く good 
+ない is the negation so 良くない is 'not good'
+
+武器を使う to use the weapon
+Here again のは transforms the proposition into a noun.  
+
+"Using this weapon is not good"
+
+> Using this weapon would be bad
+
 
 少し休みたいだけなの
-We want to rest a bit. 
+少し a little
+休む to rest
+休みたい I want to rest 
+だけ just
+
+少し休みたいだけ could be translated as "We just want to rest a bit".
+Adding なの at the end softens the sentence and make it explanatory.
+The idea could be expressed in English by saying "It's that we just want to rest a bit".
+
 
 お願い
-(this is Please, but means the same here and more natural.)
+This comes from 願う which means desire and means :
+
+> Please
+
+
 
 2
 ふん、好きにしろ
-(ここにいて sounds more like romantic situations like someone says this to her boyfriend. 好きにしろ is "do whatever", but here, it can mean you can stay.)
+
+ふん hmm  (onomatopeia)
+好き liking
+好きにする to do as one likes 
+
+好きにしろ is 好きにする in the imperative form which makes it less polite and means 
+
+> do whatever
+
+
 
 俺はすぐに出る
-I'm leaving
+
+俺 I for males
+すぐに immediately / right away
+出る to leave
+
+> I'm leaving right away  / I'm on my way out
+
+
 
 お前たちは旅人か？
-Are you traveling ?
+
+お前 'you' in familiar language adding たち turns it in to the plural
+旅 travel
+人 people
+旅人 travellers
+か is a particle that turns a sentence into a question
+
+> Are you traveling ?
 
 
 少しばかり金をくれれば案内してやってもいいぞ
-I can lead you for a small feee
+
+少し a little
+ばかり only
+金 money
+呉れる to give
+
+くれれば is (one of) the conditional form of 呉れる
+
+> 少しばかり金をくれれば If you give me only a small fee 
+
+
+案内してやってもいいぞ
+
+案内 to lead / to guide
+
+
+
+> I can lead you for a small feee
 
 行先は…
-As for our destination ...
+行先 destination
+It's composed of 2 Kanji 行 which means going and 先 which means destination
+With the particule は it could be translated as
+
+> As for our destination ...
 
 
 ん？
-yes ?  
+yes ? (onomatopeia)  
  
 
 …まだ決めてない
-...we've not decided yet. 
+
+まだ not yet
+決める to decide
+決めて turns it into a continuous form (is that true?) and ない is the negation
+
+> ...we've not decided yet. 
 
 
 勝手にしろ
-(Or... I would also want to recommend ご自由にどうぞ here. This is polite way of saying this, but if this stranger say this way, it has meaning more like he is looking down them. It's just as American people say Have a nice day at the end of the argument lol) 
+
+勝手 own's way
+勝手に as one pleases
+勝手にしろ is the imperative form of 勝手にする which makes it a bit rude
+
+> Suit yourself.
+
 
 3
 まだ火が残ってる
-(Combined them) There is some fire left
+まだ still
+火 fire
+残る to remain
+残ってる  is the continuous form of 残る
 
-暖かくして休まないと 
+All together it could be translated as 'some fire is still remaining' or more naturally 
+
+> There is some fire left
+
+暖かくして休まないともう何日も寝てない
+
+暖かい warm
+暖かく warmly
+して is する which means to do in て-form to link it in a grammatically valid way to the second part 
+休む to rest  
+休まない the negation of 休む
+
+と in this case the particle is used ot link the two parts of the sentence.
+
 I need to stay warm and go to bed.
 
 もう何日も寝てない
-(if you add もう here, you can see she is tired of this.)
+もう means 'more' or 'again'. It emphasizes she is tired of this.
+何 what
+日 day
+何日 what day
+も ?
+寝る to sleep
+寝て makes it into continuous form
+寝てない makes the continuous form into a negation
 
 ２、３時間経ったら起こして
-Wake me up after a few hours. 
-（How do you write the sentence? Vertical or horizonal? If it's vertical, please chagne ２、３時間 to 二、三時間）
+
+
+時 hour
+時間 hour with the conotation of the duration
+経つ is to pass. It's used to when talking about the time that passes.  
+経ったら is one of the conditional form of 経つ 
+起こす to wake up
+起こして is the て-form of 起こす. It expresses a command in a soft way. 
+
+> When 2, 3 hours pass, wake me up 
+or more naturally 
+> Wake me up after a few hours. 
+
 
 橋の上でそれを捕まえるチャンスは、たった１回しかないんだから
-We only have one chance to catch it on the bridge.
+
+橋 bridge
+上 on top of
+橋の上  on top of the bridge
+それ that 
+捕まえる to catch
+チャンス chance
+たった  only
+１回
+しかないhaving only
+ん explanation
+だから like I said
+
+> Like I said we only have one chance to catch it on the bridge.
+
+
+
+
+
+
+End of part 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
