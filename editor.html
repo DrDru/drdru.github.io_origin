@@ -1,0 +1,2138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pixel World Editor</title>
+  <meta name="description" content="Draw worlds out of pixel art sprites.">
+  <meta name="og:type" content="website">
+  <meta name="og:title" content="Pixel World Editor">
+  <meta name="og:description" content="Draw worlds out of pixel art sprites.">
+<style>
+@keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+a:link { color: #66C; }
+a:visited { color: #C9D; }
+.success {
+  margin: 0;
+  color: #3C3;
+}
+.fade-out {
+  animation: fadeout 4s;
+}
+
+/* Forms */
+.fields, .actions {
+  padding: 8px;
+}
+label.wrap {
+  display: block;
+  margin: 0 0 1em;
+}
+textarea, input, select {
+  background: #444;
+  border: 1px solid #999;
+  font:inherit;
+  color: inherit;
+}
+textarea {
+  border-radius: 4px;
+}
+button, .button {
+  background: #444;
+  color: inherit;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  transition: background-color 0.4s;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+button:hover, .button:hover {
+  background: #666;
+}
+button:active, .button:active {
+  transition: none;
+  background: #3399FF;
+}
+.error {
+  color: #F88;
+}
+.info-button {
+  background: #3377DD;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 17px;
+  border: 1px solid #FFF;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 0;
+  text-shadow: -1px 1px #000;
+}
+.info-button:hover {
+  background: #3399FF;
+}
+.library .info-button {
+  float: right;
+}
+
+/* Modal */
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  background: #333;
+  border: 1px solid #000;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 6px 6px 10px #000;
+  overflow: auto;
+}
+.modal .close {
+  display: inline-block;
+  float: right;
+  width: 32px;
+  height: 32px;
+  font-size: 1em;
+  line-height: 32px;
+  text-align: center;
+  padding: 0;
+}
+.modal header {
+  font-weight: 700;
+  border-radius: 15px 15px 0 0;
+  background: #444;
+  margin: -16px -16px 0;
+  padding: 8px 16px;
+}
+.modal .body {
+  padding-top: 16px;
+}
+.modal textarea {
+  width: 100%;
+  height: 140px;
+}
+.modal .actions {
+  text-align: right;
+}
+.modal .actions button {
+  margin-left: 8px;
+}
+#message-modal {
+  left: 50%;
+  margin-left: -200px;
+  width: 400px;
+}
+
+/* Page layout and content */
+html,body {
+  margin:0;
+  padding:0;
+  color: #FFF;
+  font-size: 16px;
+  font-family: Tahoma, sans-serif;
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: stretch;
+}
+.sidebar {
+  flex: 0 0 auto;
+  background: #333;
+  height: 100%;
+  width: 320px;
+}
+#left-sidebar {
+  overflow: auto;
+}
+#world-area {
+  flex: 1 1 auto;
+  background: #222;
+}
+#world-area.grid {
+  background-image:
+    linear-gradient(to right, #555 0%, #555 1px, transparent 2px),
+    linear-gradient(to bottom, #555 0%, #555 1px, transparent 2px);
+  background-position: top left, top left;
+  background-size: 10px 10px;
+}
+#world {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.sidebar section h3 {
+  background: #444;
+  padding: 8px 16px;
+  margin: 0;
+  font: inherit;
+  font-weight: 700;
+}
+
+#sprite-list,
+#layers {
+  background: #222;
+  text-align: center;
+  overflow: auto;
+  padding: 8px 8px 0;
+  margin: 8px;
+  border: 1px solid #999;
+  max-height: 50vh;
+}
+.layer {
+  display: flex;
+  background: #444;
+  border: 1px solid #000;
+  padding: 4px;
+  margin: 0 0 8px;
+  align-items: center;
+  transition: background 0.25s;
+  position: relative;
+}
+.layer:hover {
+  background: #0D2842;
+}
+.layer.active {
+  border: 1px solid #3399FF;
+}
+.layer .field {
+  height: 24px;
+  background: #222;
+  border: 1px solid #999;
+  flex: 1 1 auto;
+  width: 100%;
+  display: none;
+}
+.layer .select {
+  border-radius: 10px;
+  flex: 1 1 auto;
+  line-height: 24px;
+  padding: 8px;
+  transition: background 0.25s;
+  cursor: pointer;
+  text-align: left;
+}
+.layer .rename,
+.layer .delete {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 8px;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  flex: 0 0 auto;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+#layers[data-count="1"] .delete {
+  display: none;
+}
+.layer .delete:hover {
+  background: #803333;
+}
+.layer.edit .select {
+  display: none;
+}
+.layer.edit .field {
+  display: block;
+}
+.placeholder-layer {
+  height: 32px;
+  position: relative;
+}
+.layer.show-drop::before,
+.placeholder-layer.show-drop::before {
+  content: "";
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  background: #3399FF;
+  border-radius: 4px;
+}
+#sprite-list {
+  padding: 8px;
+  text-align: left;
+}
+#sprite-list canvas,
+.no-sprite {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 8px;
+  image-rendering: pixelated;
+  border: 2px solid transparent;
+  transition: border 0.25s;
+  cursor: pointer;
+  height: 80px;
+  width: auto;
+  text-align: center;
+}
+.no-sprite {
+  width: 80px;
+  line-height: 80px;
+  background: #333;
+}
+.no-sprite span {
+  display: inline-block;
+  line-height: 1.142857;
+  vertical-align: middle;
+}
+.no-sprite:hover,
+#sprite-list canvas:hover {
+  border-color: #555;
+}
+.no-sprite.selected,
+#sprite-list canvas.selected {
+  border-color: #3399FF;
+}
+#export {
+  background: #3377DD;
+  transition: background 0.25s;
+}
+#export:hover {
+  background: #3399FF;
+}
+.help-locator {
+  position: relative;
+  width: 128px;
+  height: 0;
+}
+.help {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  background: #444;
+  border: 1px solid #999;
+  padding: 12px 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px #FFF;
+  width: 400px;
+}
+.help::before, .help::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  right: 48px;
+
+  top: -11px;
+  border-color: transparent transparent #999 transparent;
+  border-width: 0 11px 11px;
+}
+.help::after {
+  top: -10px;
+  border-color: transparent transparent #444 transparent;
+  border-width: 0 11px 11px;
+}
+.help p {
+  margin: 0;
+}
+.help .dismiss {
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  color: #39F;
+  text-decoration: underline;
+  float: right;
+  cursor: pointer;
+}
+.tool-info {
+  padding: 0 8px 8px;
+  font-size: 0.875em;
+  font-family: Arial,Helvetica,sans-serif;
+  opacity: 1;
+  max-height: 5em;
+  transition: max-height 0.25s, padding 0.25s;
+  overflow: hidden;
+}
+.tool-info.closed {
+  max-height: 0;
+  padding-bottom: 0;
+}
+.tool-info p {
+  margin: 0.25em 0;
+}
+.small-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  dsplay: none;
+}
+@media screen and (max-width:700px) {
+  .small-screen {
+    z-index: 8;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background: rgba(51, 51, 51, 0.8);
+  }
+  .small-screen p {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+  }
+}
+.file-dialog {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+</style>
+</head>
+<body>
+  <main>
+    <div class="small-screen">
+      <p>Your viewport must be at least 700px wide to use this application</p>
+    </div>
+    <div id="left-sidebar" class="sidebar">
+      <section class="file">
+        <h3>File</h3>
+        <div class="actions">
+          <button id="save">Save...</button>
+          <button id="load">Load...</button>
+          <button id="export">Export as HTML...</button>
+        </div>
+        <div class="file-dialog">
+          <input type="file" id="load-file">
+        </div>
+        <div class="actions">
+          <label class="wrap">
+            <input type="checkbox" id="autosave" checked>
+            Autosave on every action
+          </label>
+          <button id="clear-autosave">Clear autosaved data</button>
+        </div>
+      </section>
+      <section class="world">
+        <h3>World</h3>
+        <div class="fields">
+          <label class="wrap">
+            Background:
+            <input type="color" id="background-color" value="#222222">
+          </label>
+          <label class="wrap">
+            <input type="checkbox" id="show-grid" checked>
+            Show grid
+          </label>
+          <label class="wrap">
+            Pixel size:
+            <input type="number" min="1" step="1" value="10" id="pixel-size">px
+          </label>
+        </div>
+      </section>
+
+      <section class="layers">
+        <h3>Layers</h3>
+        <div class="actions">
+          <button id="add-layer"> + New layer</button>
+        </div>
+        <div id="layers">
+          <div class="placeholder-layer"></div>
+        </div>
+      </section>
+
+    </div>
+
+    <div id="world-area" class="grid">
+    </div>
+
+    <div id="right-sidebar" class="sidebar">
+      <section class="library">
+        <h3>Library</h3>
+
+        <div class="tools">
+        </div>
+
+        <div class="actions">
+          <button id="open-import-window">Import pixel art...</button>
+          <button id="delete-sprite">Delete selected</button>
+          <button class="info-button" id="show-info">?</button>
+        </div>
+        <div class="tool-info closed">
+          <p>Click on one of the imported sprites listed below to begin placing copies in the world.</p>
+          <p>Select "Move placed sprites" to drag existing sprites around.</p>
+          <p>Press the "Delete" button below or the "Delete" key on your keyboard to delete the selected sprite.</p>
+        </div>
+<script>
+document.getElementById("show-info").addEventListener("click", e => {
+  document.querySelector(".tool-info").classList.toggle("closed");
+});
+</script>
+        <div class="help-locator">
+          <div class="help">
+            <p>
+              This is an experimental editor, so I haven't built a pixel art creator.
+              For now, you can import pixel art made with
+              <a target="_blank" href="https://www.pixelartcss.com/">https://www.pixelartcss.com/</a>
+              using this button.
+            </p>
+            <label>
+              <input type="checkbox" id="dont-show" checked>
+              Don't show this again
+            </label>
+            <span class="dismiss">DISMISS</span>
+          </div>
+        </div>
+<script>
+(function(){
+// Remove help box when clicking outside or on the dismiss button
+// This doesn't work when clicking in the iframe, but it's OK. The user can
+// click the "dismiss" button
+  let help = document.querySelector(".help");
+  if(localStorage.getItem("hideHelp")) {
+    help.remove();
+  } else {
+    let hide = () => {
+      if(document.getElementById("dont-show")) {
+        localStorage.setItem("hideHelp", true);
+      }
+      help.remove();
+      document.body.removeEventListener("click", checkHideHelp);
+    };
+    let checkHideHelp = e => {
+      let el = e.target;
+      while(el != document.body && el != help) el = el.parentNode;
+      if(el != help) hide();
+    };
+    document.body.addEventListener("click", checkHideHelp);
+    help.addEventListener( "click", e => { if(e.target.classList == "dismiss") hide(); });
+  }
+})();
+</script>
+        <div id="sprite-list">
+          <a class="no-sprite selected"><span>Move placed sprites</span></a>
+        </div>
+      </section>
+    </div>
+
+    <div id="import-modal" class="modal" style="display:none">
+      <header>
+        Import
+        <button class="close">&times;</button>
+      </header>
+      <div class="body">
+        <label for="pixelart-css-code">Create pixel art at <a target="blank" href="https://www.pixelartcss.com/">https://www.pixelartcss.com/</a> and paste the generated CSS here</label>
+        <textarea id="pixelart-css-code"></textarea>
+        <div id="import-errors" class="error" style="display: none">
+          <p>Unable to parse the CSS. The following errors were found:</p>
+          <ul></ul>
+        </div>
+        <div class="actions">
+          <button id="import-pixelart">Import</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="message-modal" class="modal" style="display:none">
+      <header><span class="header-text"></span><button class="close">&times;</button></header>
+      <div class="body"></div>
+    </div>
+
+  </main>
+
+<script>
+document.getElementById("message-modal").addEventListener("click", e => e.currentTarget.style.display = "none" );
+function showModal(title, text, acceptAction, cancelAction) {
+  let modal = document.getElementById("message-modal");
+  modal.querySelector(".header-text").innerHTML = title;
+  modal.querySelector(".body").innerHTML = text;
+  modal.style.display = "";
+  if(acceptAction || cancelAction) {
+    let buttons = document.createElement("div");
+    buttons.className = "actions";
+    let accept = document.createElement("button");
+    let cancel = document.createElement("button");
+    accept.innerHTML = "Accept";
+    cancel.innerHTML = "Cancel";
+    buttons.appendChild(accept);
+    buttons.appendChild(cancel);
+    modal.querySelector(".body").appendChild(buttons);
+    accept.addEventListener("click", e => { e.stopPropagation(); if(acceptAction) acceptAction(); modal.style.display = "none"; } );
+    cancel.addEventListener("click", e => { e.stopPropagation(); if(cancelAction) cancelAction(); modal.style.display = "none"; } );
+  }
+}
+</script>
+<script id="internal-stylesheet" type="text/css">
+html,body {
+  margin: 0; padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.s, #placeholder {
+  position: absolute;
+}
+.s::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+}
+.edit .s:hover::before {
+  border: 2px solid #3399FF;
+}
+</script>
+<script>
+/**
+ * Represents data for a unique sprite.
+ */
+class Sprite {
+  constructor(w, h) {
+    this.id = -1;
+    this.width = w;
+    this.height = h;
+    this.data = new Uint8ClampedArray(w*h*4);
+  }
+}
+
+/**
+ * Represents a sprite placed in the world
+ */
+class SpriteInstance {
+  static counter = 0;
+  constructor(sprite, x, y, id) {
+    if(typeof id === "undefined") {
+      this.id = SpriteInstance.counter++;
+    } else {
+      this.id = id;
+      if(SpriteInstance.counter <= id) {
+        SpriteInstance.counter = id + 1;
+      }
+    }
+    this.sprite = sprite;
+    this.x = x;
+    this.y = y;
+  }
+}
+
+/**
+ * Sprite layers allow the user to choose the visual order of sprites.
+ */
+class Layer {
+  static counter = 0;
+  constructor(name, id) {
+    if(typeof id === "undefined") {
+      this.id = Layer.counter++;
+    } else {
+      this.id = id;
+      if(Layer.counter <= id) {
+        Layer.counter = id + 1;
+      }
+    }
+    this.name = name;
+    this.sprites = [];
+  }
+
+  getInstanceById(id) {
+    let len = this.sprites.length;
+    for(let i = 0; i < len; i++) {
+      let sprite = this.sprites[i];
+      if(sprite.id == id) {
+        return sprite;
+      }
+    }
+    return null;
+  }
+}
+
+/**
+ * Converts between sprites and CSS.
+ */
+class CSSInterface {
+
+  /* Get sprites from user CSS input */
+  getSpritesFromCSS(css, errors) {
+
+    // Generate a <Style> tag so that the browser will give me CSS info
+    let style = document.createElement("style");
+    style.innerHTML = css;
+    style.media = "none";
+    document.head.appendChild(style);
+
+    // Loop through rules and compile a list of sprites sprites
+    let rules = style.sheet.cssRules;
+    let sprites = [];
+    for(let i = 0; i < rules.length; i++) {
+      let rule = rules[i];
+      let errList = [];
+
+      // Ignore @media, @keyframes and such for now
+      if(rule.constructor.name !== "CSSStyleRule") {
+        continue;
+      }
+
+      // Rules:
+      // - Animation not supported
+      // - width, height and box-shadow properties must exist.
+      if(rule.style["animation"]) {
+        errList.push("Animated sprites are not yet supported.");
+      }
+      if(!rule.style["width"]) {
+        errList.push("Missing width property");
+      }
+      if(!rule.style["height"]) {
+        errList.push("Missing height property");
+      }
+      if(!rule.style["box-shadow"]) {
+        errList.push("Missing box-shadow property");
+      }
+      if(errList.length == 0) {
+        // If no errors, send data to the sprite generator
+        try {
+          sprites.push(this.generateSprite(rule));
+        } catch(e) {
+          errList.push(e);
+          errors[rule.selectorText] = errList;
+        }
+      } else {
+        errors[rule.selectorText] = errList;
+      }
+    }
+
+    // Remove the temporary <style> tag
+    style.remove();
+
+    // Return the generated sprites
+    return sprites;
+  }
+
+  /* Generate CSS for a sprite */
+  getCSSFromSprite(sprite, size) {
+    let data = sprite.data;
+    let len = data.length;
+    let css = "";
+    let selector = ".s" + String(sprite.id);
+
+    css += selector + " {\n";
+    css += "width:" + String(size) + "px;\n";
+    css += "height:" + String(size) + "px;\n";
+    css += "box-shadow: ";
+
+    for(let i = 0; i < len; ) {
+      if(i > 0) css += ", ";
+      let k = i/4;
+      let r = data[i]; i++;
+      let g = data[i]; i++;
+      let b = data[i]; i++;
+      let a = data[i] / 255; i++;
+      let x = size * (1 + k % sprite.width);
+      let y = size * (1 + Math.floor(k / sprite.width));
+      css += `rgba(${r}, ${g}, ${b}, ${a.toFixed(2)}) ${x}px ${y}px`;
+    }
+    css += ";\n";
+
+    css += "}\n";
+    css += selector + "::before {\n";
+    css += "width:" + String(sprite.width * size) + "px;\n";
+    css += "height:" + String(sprite.height * size) + "px;\n";
+    css += "}";
+    return css;
+  }
+
+  /* Create a sprite from a valid CSS rule object */
+  generateSprite(rule) {
+    // Compile data
+    let w = parseInt(rule.style["width"]);
+    let h = parseInt(rule.style["height"]);
+    let cssData = rule.style["box-shadow"];
+    let unit = rule.style["width"].replace(/\d/g, "");
+    let parser = new ShadowParser(cssData, unit);
+    let pixel = null;
+    let cw = 0, ch = 0;
+
+    // Because no width or height of the drawing area is provided in the CSS, we
+    // have to run through the data and calculate it.
+    // Once we know the width and height, we can know what size to give the
+    // pixel data array.
+
+    // One run to get the sprite dimensions
+    while( pixel = parser.getNext()) {
+      let x = pixel.x / w;
+      let y = pixel.y / h;
+      if(x >= cw) cw = x;
+      if(y > ch) ch = y;
+    }
+
+    // One run to store the pixels in the sprite
+    let sprite = new Sprite(cw, ch);
+    parser.reset();
+    while( pixel = parser.getNext()) {
+      let x = -1 + pixel.x / w;
+      let y = -1 + pixel.y / h;
+      let color = pixel.color;
+      let pos = 4 * (y * cw + x);
+      sprite.data[pos  ] = color[0];
+      sprite.data[pos+1] = color[1];
+      sprite.data[pos+2] = color[2];
+      sprite.data[pos+3] = color[3];
+    }
+
+    // Return the sprite
+    return sprite;
+
+  }
+}
+
+/**
+ * Special parser for box-shadow syntax.
+ */
+class ShadowParser {
+  static WHITESPACE = 1;
+  static NUMBER = 2;
+  static COLOR = 3;
+  static COMMA = 4;
+  static END = 5;
+
+  /* Initialize the parser */
+  constructor(text, unit) {
+    this.text = text;
+    this.pointer = 0;
+    this.unit = unit;
+    this.c = "";
+    if(text.length > 0) {
+      this.c = text[0];
+    }
+  }
+
+  /* Reset the parser so it can start parsing from the beginning */
+  reset() {
+    this.pointer = 0;
+    this.c = "";
+    if(this.text.length > 0) {
+      this.c = this.text[0];
+    }
+  }
+
+  /* Get data about the next pixel in the box-shadow rule */
+  getNext() {
+    let color = null, numbers = [];
+    let token, data = { value : -1 };
+
+    // Get first token
+    token = this.getToken(data);
+
+    // Skip whitespace
+    if(data.type == ShadowParser.WHITESPACE) {
+      token = this.getToken(data);
+    }
+
+    // If end of file, return null.
+    if(data.type == ShadowParser.END) {
+      return null;
+    }
+
+    // if starting with a color
+    if(data.type == ShadowParser.COLOR) {
+      color = token;
+      token = this.getToken(data);
+      if(data.type == ShadowParser.WHITESPACE) {
+        token = this.getToken(data);
+      }
+    }
+
+    // List of up to four numbers
+    while(data.type == ShadowParser.NUMBER) {
+      if(numbers.length >= 4) {
+        if(color) {
+          throw "(" + String(this.pointer) + ") Unexpected number, expecting comma or end-of-string.";
+        } else {
+          throw "(" + String(this.pointer) + ") Unexpected number, expecting color.";
+        }
+      }
+
+      let value = parseInt(token);
+      if(data.unit != this.unit) {
+        throw "(" + String(this.pointer) + ") Unexpected unit \"" + data.unit + "\", expected \"" + this.unit + "\". The box-shadow units must match the width property units.";
+      }
+      numbers.push(value);
+
+      // Next token
+      token = this.getToken(data);
+
+      // Skip whitespace
+      if(data.type == ShadowParser.WHITESPACE) {
+        token = this.getToken(data);
+      }
+    }
+
+    if(numbers.length < 2) {
+      throw "(" + String(this.pointer) + ") Expecting at least 2 numeric values, found \"" + String(numbers.length) + "\".";
+    }
+
+    // If ending with a color
+    if(!color) {
+      if(data.type == ShadowParser.COLOR) {
+        color = token;
+        if(data.type == ShadowParser.WHITESPACE) {
+          token = this.getToken(data);
+        }
+      }
+    }
+
+    // Expecting a comma or end of document
+    if(data.type != ShadowParser.COMMA && data.type != ShadowParser.END) {
+      throw "(" + String(this.pointer) + ") Unexpected \"" + this.c + "\", expecting comma or end-of-string";
+    }
+
+    return {
+      color : color,
+      x : parseInt(numbers[0]),
+      y : parseInt(numbers[1])
+    };
+
+  }
+
+  /* Find the next token */
+  getToken(data) {
+    data.unit = "";
+    if(this.c == ",") {
+      data.type = ShadowParser.COMMA
+      this.next()
+      return this.c;
+    } else if(this.c == "r") {
+      data.type = ShadowParser.COLOR;
+      return this.parseColor();
+    } else if(/[\s\t\r\n]/.test(this.c)) {
+      data.type = ShadowParser.WHITESPACE;
+      return this.parseWhitespace();
+    } else if(/\d/.test(this.c)) {
+      let info = {};
+      data.type = ShadowParser.NUMBER;
+      let value = this.parseNumber(info);
+      data.unit = info.unit;
+      return value;
+    } else if(this.c == "") {
+      data.type = ShadowParser.END;
+    } else {
+      throw "(" + String(this.pointer) + ") Unexpected character \"" + this.c + "\"";
+    }
+  }
+
+  /* Run through all whitespace until we hit a different character */
+  parseWhitespace() {
+    let out = "";
+    while(/[\s\n\r\t]/.test(this.c)) {
+      out += this.c;
+      this.next();
+    }
+    return out;
+  }
+
+  /* Retrieve a number */
+  parseNumber(data) {
+    if(!data) data = {};
+    let out = "";
+    data.unit = "";
+    while(/\d/.test(this.c)) {
+      out += this.c;
+      this.next();
+    }
+    while(/[a-zA-Z%]/.test(this.c)) {
+      data.unit += this.c;
+      out += this.c;
+      this.next();
+    }
+    if(out.length == 0) {
+      throw "(" + String(this.pointer) + ") Unexpected \"" + this.c + "\", expecting number.";
+    }
+    return out;
+  }
+
+  /* Retrieve a color in rgb() or rgba() format */
+  parseColor() {
+    let type = this.c;
+
+    this.next();
+    type += this.c;
+
+    if(this.c == "g") {
+      this.next();
+      type += this.c;
+    } else {
+      throw "(" + String(this.pointer) + ") Unexpected color format: \"" + type + "\"";
+    }
+
+    if(this.c == "b") {
+      this.next();
+    } else {
+      throw "(" + String(this.pointer) + ") Unexpected color format: \"" + type + "\"";
+    }
+
+    if(this.c != "(") {
+      type += this.c;
+    }
+
+    if(this.c == "a") {
+      this.next();
+    }
+
+    if(this.c == "(") {
+      let r, g, b, a;
+      a = 255;
+
+      this.next();
+      this.parseWhitespace();
+      r = parseInt(this.parseNumber());
+      this.parseWhitespace();
+
+      if(this.c == ",") {
+        this.next();
+        this.parseWhitespace();
+        g = parseInt(this.parseNumber());
+        this.parseWhitespace();
+
+        if(this.c == ",") {
+
+          this.next();
+          this.parseWhitespace();
+          b = parseInt(this.parseNumber());
+          this.parseWhitespace();
+
+          if(type == "rgba") {
+            if(this.c == ",") {
+              this.next();
+              this.parseWhitespace();
+              a = parseInt(this.parseNumber());
+              this.parseWhitespace();
+            } else {
+              throw "(" + String(this.pointer) + ") Unexpected \"" + this.c + "\" in color definition, expecting \",\"";
+            }
+          }
+
+          if(this.c == ")") {
+            this.next();
+            return [r, g, b, a];
+          } else {
+            throw "(" + String(this.pointer) + ") Unexpected \"" + this.c + "\" in color definition, expecting \")\"";
+          }
+        }
+      } else {
+        throw "(" + String(this.pointer) + ") Unexpected \"" + this.c + "\" in color definition, expecting \",\"";
+      }
+    } else {
+      throw "(" + String(this.pointer) + ") Unexpected color format: \"" + type + "\"";
+    }
+
+  }
+
+  /* Move the pointer ahead once and update the buffered character */
+  next() {
+    if(this.pointer < this.text.length - 1) {
+      this.pointer++;
+      this.c = this.text[this.pointer];
+    } else {
+      this.c = "";
+    }
+  }
+
+}
+
+/**
+ * Sprite library
+ */
+class Library {
+  // Unique ID generator for sprites
+  static counter = 0;
+
+  /* Initialize */
+  constructor(editor) {
+    this.editor = editor;
+    this.sprites = [];
+    this.activeSprite = null;
+    this.spriteList = document.getElementById("sprite-list");
+    this.noSprite = document.querySelector(".no-sprite");
+
+    // Add event listener to the delete sprite button
+    document.getElementById("delete-sprite").addEventListener(
+      "click",
+      e => { if(this.activeSprite) this.deleteSprite(this.activeSprite.id); }
+    );
+
+    // Add event listener to the no-sprite button
+    this.noSprite.classList.add("selected");
+    this.noSprite.addEventListener("click", e => this.setActiveSprite(null) );
+  }
+
+  /* Returns a sprite object given its id */
+  getSpriteById(id) {
+    for(let i = 0; i < this.sprites.length; i++) {
+      let sprite = this.sprites[i];
+      if(sprite.id == id) {
+        return sprite;
+      }
+    }
+  }
+
+  /* Add a sprite to the library and display it in the library window */
+  addSprite(sprite) {
+    if(sprite.id >= 0) {
+      if(Library.counter <= sprite.id) {
+        Library.counter = sprite.id + 1;
+      }
+    } else {
+      sprite.id = Library.counter++;
+    }
+    this.sprites.push(sprite);
+
+    // Generate a canvas for the sprite and add it to the library window
+    let canvas = document.createElement("canvas");
+    canvas.width = sprite.width;
+    canvas.height = sprite.height;
+    canvas.id =  "s" + String(sprite.id);
+    canvas.setAttribute("data-id", String(sprite.id));
+    canvas.addEventListener("click", this.eventSelectSprite.bind(this));
+    this.spriteList.appendChild(canvas);
+
+    // Draw the sprite data onto the canvas
+    let ctx = canvas.getContext("2d");
+    let imageData = ctx.createImageData(sprite.width, sprite.height);
+    for(let i = 0; i < sprite.data.length; i++) {
+      imageData.data[i] = sprite.data[i];
+    }
+    ctx.putImageData(imageData, 0, 0);
+
+  }
+
+  /* Delete a sprite from the library */
+  deleteSprite(id) {
+    let accept = () => {
+      for(let i = 0; i < this.sprites.length; i++) {
+        if(this.sprites[i].id == id) {
+          // Remove from data list
+          if(this.sprites[i] == this.activeSprite) {
+            this.activeSprite = null;
+          }
+          this.sprites.splice(i, 1);
+
+          // Remove instances from the editor
+          this.editor.deleteSprite(id);
+
+          // Remove from library window
+          document.getElementById("s" + id).remove();
+          break;
+        }
+      }
+    };
+    
+    showModal("Delete Sprite", "<p>All instances of this sprite will disappear from the world. Do you want to continue?</p>", accept);
+  }
+
+  /* Select which sprite will used to draw onto the world */
+  setActiveSprite(id) {
+    this.spriteList.querySelectorAll("canvas").forEach( c => c.classList.remove("selected") );
+    if(id === null) {
+      this.activeSprite = null;
+      this.noSprite.classList.add("selected");
+    } else {
+      this.activeSprite = this.getSpriteById(id);
+      document.getElementById("s" + id).classList.add("selected");
+      this.noSprite.classList.remove("selected");
+    }
+    this.editor.setActiveSprite(id);
+  }
+
+  /* Event handler for when a libary sprite is clicked */
+  eventSelectSprite(e) {
+    let id = Number(e.currentTarget.getAttribute("data-id"));
+    this.setActiveSprite(id);
+  }
+}
+
+/**
+ * Interfaces with the output HTML document in which the world will be represented.
+ */
+class World {
+  /* Initialize */
+  constructor(editor, css) {
+    this.editor = editor;
+    this.css = css;
+
+    // Edit mode
+    this.placeMode = false;
+
+    // Create the iframe
+    this.frame = document.createElement("iframe");
+    this.frame.id = "world";
+    document.getElementById("world-area").appendChild(this.frame);
+    this.doc = this.frame.contentWindow.document;
+
+    // Write a base document into the frame
+    this.doc.open();
+    this.doc.write("<!DOCTYPE html><html><head><title>My Pixel World</title></head><body></body></html>");
+    this.doc.close();
+
+    // Edit mode is on (edit mode and place mode are mutually exclusive)
+    this.doc.body.classList.add("edit");
+    this.doc.body.editor = this.editor;
+
+    // Create a style container for sprite definitions
+    this.definitions = this.doc.createElement("style");
+    this.doc.head.appendChild(this.definitions);
+
+    // Add general styles to the document
+    let style = this.doc.createElement("style");
+    style.innerHTML = document.getElementById("internal-stylesheet").innerHTML;
+    this.doc.head.appendChild(style);
+
+    // Create a placeholder
+    this.placeholder = this.doc.createElement("div");
+    this.placeholder.id = "placeholder";
+    this.placeholder.editor = this.editor;
+  }
+
+  /* Reconstruct the entire output document */
+  regenerate(sprites, layers) {
+    this.deletePlaceholder();
+    this.doc.body.innerHTML = "";
+    this.definitions.innerHTML = "";
+
+    // Add sprite definitions
+    sprites.forEach( sprite => {
+      let css = this.css.getCSSFromSprite(sprite, this.editor.pixelSize);
+      let node = this.doc.createTextNode(css);
+      this.definitions.appendChild(node);
+    });
+
+    // Add layers and sprite instances
+    layers.forEach( layer => {
+
+      // Create container
+      let layerEl = this.doc.createElement("div");
+      layerEl.className = "layer";
+      layerEl.id = "l" + String(layer.id);
+      layerEl.setAttribute("data-id", String(layer.id));
+      layerEl.setAttribute("data-name", layer.name);
+      this.doc.body.appendChild(layerEl);
+      if(layer.id == this.editor.activeLayer.id) {
+        this.activeLayer = layerEl;
+        if(this.placeMode) {
+          this.activeLayer.appendChild(this.placeholder);
+        }
+      }
+
+      // Append sprites and update stylesheet
+      layer.sprites.forEach( instance => {
+
+        // Create an element for the sprite instance
+        let top = instance.x * this.editor.pixelSize;
+        let left = instance.y * this.editor.pixelSize;
+        let spriteEl = this.doc.createElement("div");
+        spriteEl.id = "i" + instance.id;
+        spriteEl.className = "s s" + String(instance.sprite.id);
+        spriteEl.setAttribute("data-id", String(instance.sprite.id));
+        spriteEl.editor = this.editor;
+        spriteEl.style.left = String(instance.x * this.editor.pixelSize) + "px";
+        spriteEl.style.top = String(instance.y * this.editor.pixelSize) + "px";
+        layerEl.appendChild(spriteEl);
+      });
+
+    });
+  }
+
+  /* Add a layer to the world */
+  addLayer(id) {
+    let layerEl = this.doc.createElement("div");
+    layerEl.className = "layer";
+    layerEl.id = "l" + String(id);
+    layerEl.setAttribute("data-id", String(id));
+    layerEl.setAttribute("data-name", this.editor.getLayerById(id).name);
+    this.doc.body.appendChild(layerEl);
+  }
+
+  /* Rename a layer */
+  renameLayer(id, name) {
+    let el = this.doc.getElementById("l" + String(id));
+    if(el) {
+      el.setAttribute("data-name", name);
+    }
+  }
+
+  /* Delete a layer */
+  deleteLayer(id) {
+    let layer = this.doc.getElementById("l" + String(id));
+    if(this.activeLayer == layer) {
+      this.activeLayer = null;
+    }
+    layer.remove();
+  }
+
+  /* Add sprite CSS to the output document */
+  addSpriteDefinition(sprite) {
+    let css = this.css.getCSSFromSprite(sprite, this.editor.pixelSize);
+    let node = document.createTextNode(css);
+    this.definitions.appendChild(node);
+  }
+
+  /* Set in which layer new sprites will be added */
+  setActiveLayer(id) {
+    this.activeLayer = this.doc.getElementById("l" + String(id));
+    if(this.placeholder.parentNode) {
+      this.activeLayer.appendChild(this.placeholder);
+    }
+  }
+
+  /* Remove the placeholder from the world and switch to "edit mode" */
+  deletePlaceholder() {
+    let initialized = this.doc.body.hasAttribute("data-initialized");
+    if(this.placeMode || !initialized) {
+      this.doc.body.removeEventListener("mousemove", this.eventUpdatePos);
+      this.doc.body.removeEventListener("mouseup", this.eventPlace);
+      this.doc.body.addEventListener("mousedown", this.eventBeginMove);
+      this.doc.body.addEventListener("touchstart", this.eventBeginMove);
+      this.doc.body.addEventListener("mouseup", this.eventEndMove);
+      this.doc.body.addEventListener("touchend", this.eventEndMove);
+      if(!initialized) {
+        this.doc.body.setAttribute("data-initialized", "");
+      }
+    }
+    this.placeholder.remove();
+    this.placeMode = false;
+    this.doc.body.classList.add("edit");
+  }
+
+  /* Update the placeholder's sprite and switch to "place mode" */
+  updatePlaceholder(id) {
+    this.placeholder.className = "s" + String(id);
+    this.placeholder.setAttribute("data-id", String(id));
+    this.placeholder.style.left = "-1000px";
+    this.placeholder.style.top = "-1000px";
+    if(this.activeLayer) {
+      this.activeLayer.appendChild(this.placeholder);
+      let initialized = this.doc.body.hasAttribute("data-initialized");
+      if(!this.placeMode || !initialized) {
+        this.doc.body.addEventListener("mousemove", this.eventUpdatePos);
+        this.doc.body.addEventListener("mouseup", this.eventPlace);
+        this.doc.body.removeEventListener("mousedown", this.eventBeginMove);
+        this.doc.body.removeEventListener("touchstart", this.eventBeginMove);
+        this.doc.body.removeEventListener("touchmove", this.eventMove);
+        this.doc.body.removeEventListener("touchend", this.eventEndMove);
+        this.placeMode = true;
+        this.doc.body.classList.remove("edit");
+        if(!initialized) {
+          this.doc.body.setAttribute("data-initialized", "");
+        }
+      }
+    }
+  }
+
+  /* Return the output HTML with unnecessary data removed */
+  getHTML() {
+    if(this.placeholder.parentNode) {
+      this.placeholder.remove();
+    }
+
+    this.doc.body.classList.remove("edit");
+
+    let bg = document.getElementById("world-area").style.backgroundColor;
+    this.doc.documentElement.setAttribute("style", "background-color:" + bg);
+    let out = this.doc.documentElement.outerHTML;
+    this.doc.documentElement.removeAttribute("style");
+
+    if(!this.placeMode) {
+      this.doc.body.classList.add("edit");
+    }
+
+    if(this.placeMode && this.activeLayer) {
+      this.activeLayer.appendChild(this.placeholder);
+    }
+
+    return out;
+  }
+
+  /* Event handler for moving the placeholder */
+  eventUpdatePos(e) {
+    let doc = e.currentTarget.ownerDocument;
+    let placeholder = doc.getElementById("placeholder");
+    if(!placeholder) {
+      return;
+    }
+    let editor = placeholder.editor;
+    let realX = Math.floor(e.pageX / editor.pixelSize) - 1;
+    let realY = Math.floor(e.pageY / editor.pixelSize) - 1;
+    let x = realX * editor.pixelSize;
+    let y = realY * editor.pixelSize;
+    placeholder.setAttribute("data-pos", String(realX) + "," + String(realY));
+    placeholder.style.left = String(x) + "px";
+    placeholder.style.top = String(y) + "px";
+  }
+
+  /* Event handler for placing a new sprite */
+  eventPlace(e) {
+    let doc = e.currentTarget.ownerDocument;
+    let placeholder = doc.getElementById("placeholder");
+    if(!placeholder) {
+      return;
+    }
+    let editor = placeholder.editor;
+    let next = placeholder.cloneNode(true);
+    next.editor = editor;
+    next.classList.add("s");
+    next.removeAttribute("data-pos");
+    placeholder.parentNode.appendChild(next);
+    let id = Number(placeholder.getAttribute("data-id"));
+    let pos = placeholder.getAttribute("data-pos").split(",");
+    let x = Number(pos[0]);
+    let y = Number(pos[1]);
+    let instanceId = editor.addSpriteToActiveLayer(id, x, y);
+    next.id = "i" + instanceId;
+  }
+
+  /* Event handler for beginning to move a sprite instance */
+  eventBeginMove(e) {
+    let instance = e.target;
+    if(instance.classList.contains("s")) {
+      let body = e.currentTarget;
+      if(e.type == "mousedown") {
+        body.addEventListener("mousemove", World.eventMove);
+      } else if(e.type == "touchstart") {
+        body.addEventListener("touchmove", World.eventMove);
+        e.pageX = e.touches[0].pageX;
+        e.pageY = e.touches[0].pageY;
+      }
+      body.setAttribute("data-instance", e.target.id);
+      body.setAttribute("data-startx", parseInt(instance.style.left));
+      body.setAttribute("data-starty", parseInt(instance.style.top));
+      body.setAttribute("data-mousex", e.pageX);
+      body.setAttribute("data-mousey", e.pageY);
+    }
+  }
+
+  /* Event handler for moving a sprite instance */
+  static eventMove(e) {
+    let body = e.currentTarget;
+    let id = body.getAttribute("data-instance");
+    if(id) {
+      if(e.type == "touchmove") {
+        e.pageX = e.touches[0].pageX;
+        e.pageY = e.touches[0].pageY;
+      }
+      let instance = body.ownerDocument.getElementById(id);
+      let editor = body.editor;
+      let startX = Number(body.getAttribute("data-startx"));
+      let startY = Number(body.getAttribute("data-starty"));
+      let offsetX = e.pageX - Number(body.getAttribute("data-mousex"));
+      let offsetY = e.pageY - Number(body.getAttribute("data-mousey"));
+      offsetX = Math.floor(offsetX / editor.pixelSize) * editor.pixelSize;
+      offsetY = Math.floor(offsetY / editor.pixelSize) * editor.pixelSize;
+      let x = startX + offsetX;
+      let y = startY + offsetY;
+      instance.style.left = String(x) + "px";
+      instance.style.top  = String(y) + "px";
+    } else {
+      body.removeEventListener("mousemove", World.eventMove);
+      body.removeEventListener("touchmove", World.eventMove);
+      body.removeAttribute("data-startx");
+      body.removeAttribute("data-starty");
+      body.removeAttribute("data-mousex");
+      body.removeAttribute("data-mousey");
+    }
+  }
+
+  /* Event handler for when a sprite instance stops being moved */
+  eventEndMove(e) {
+    let body = e.currentTarget;
+    let id = body.getAttribute("data-instance");
+    if(id) {
+      body.removeEventListener("mousemove", World.eventMove);
+      body.removeEventListener("touchmove", World.eventMove);
+      let instance = body.ownerDocument.getElementById(id);
+      let editor = body.editor;
+      let layerId = Number(instance.parentNode.getAttribute("data-id"));
+      let instanceId = Number(instance.id.substr(1));
+      let x = parseInt(instance.style.left) / editor.pixelSize;
+      let y = parseInt(instance.style.top) / editor.pixelSize;
+      editor.relocateSprite(layerId, instanceId, x, y);
+      body.removeAttribute("data-instance");
+      body.removeAttribute("data-startx");
+      body.removeAttribute("data-starty");
+      body.removeAttribute("data-mousex");
+      body.removeAttribute("data-mousey");
+    }
+  }
+
+}
+
+/**
+ * Takes input from the user and moves data between all the classes.
+ * Handles layers and sprite instance data.
+ */
+class WorldEditor {
+  /* Set up the world editor */
+  init() {
+    this.css = new CSSInterface();
+    this.library = new Library(this);
+    this.world = new World(this, this.css);
+
+    // Data
+    this.layers = [];
+
+    // Targets
+    this.activeLayer = null;
+
+    // Settings
+    this.showGrid = true;
+    this.pixelSize = 10;
+    this.autosaveEnabled = false;
+    this.background = "#222222";
+
+    /* File tools */
+
+    // Save and load
+    let file = document.getElementById("load-file");
+    file.addEventListener("change", e => this.fileSelected(e));
+    document.getElementById("save").addEventListener("click", e => this.save() );
+    document.getElementById("load").addEventListener("click", e => file.click() );
+    document.getElementById("export").addEventListener("click", this.eventExport.bind(this));
+
+    // Autosave checkbox
+    let autosaveField = document.getElementById("autosave");
+    autosaveField.checked = true;
+    autosaveField.addEventListener("change", e => this.autosaveEnabled = e.currentTarget.checked );
+
+    // Autosave delete
+    document.getElementById("clear-autosave").addEventListener("click", e => this.clearAutosave() );
+
+    /* Settings event handlers */
+    // Grid checkbox
+    let gridField = document.getElementById("show-grid");
+    gridField.checked = this.showGrid;
+    gridField.addEventListener("change", this.eventToggleGrid.bind(this));
+
+    // Pixel size form
+    let sizeField = document.getElementById("pixel-size");
+    sizeField.value = this.pixelSize;
+    sizeField.addEventListener("input", this.eventPixelSize.bind(this));
+
+    // Background input
+    let bgSelect = document.getElementById("background-color");
+    document.getElementById("world-area").style.backgroundColor = bgSelect.value;
+    bgSelect.addEventListener("input", e => {
+      this.background = e.currentTarget.value;
+      document.getElementById("world-area").style.backgroundColor = e.currentTarget.value;
+      this.attemptAutosave();
+    });
+
+    /* Import window event listener */
+    // Import
+    let openModal = e => {
+      document.getElementById("import-errors").style.display = "none";
+      document.getElementById("import-modal").style.display = "";
+      document.getElementById("pixelart-css-code").value = "";
+    };
+    let closeModal = e => document.getElementById("import-modal").style.display = "none";
+    document.getElementById("open-import-window").addEventListener("click", openModal);
+    document.querySelector("#import-modal .close").addEventListener("click", closeModal);
+    document.getElementById("import-pixelart").addEventListener("click", this.eventImportCSS.bind(this));
+
+    /* Layers window operations */
+
+    // Layers properties
+    this.layersBox = document.getElementById("layers");
+    this.addLayer("Layer 1");
+
+    // Add layer
+    document.getElementById("add-layer").addEventListener("click", e => {
+      let id = this.addLayer("Layer").id;
+      let el = document.getElementById("l" + String(id));
+      el.classList.add("edit");
+      el.querySelector(".field").focus();
+    });
+
+    // Layer drag placeholder
+    let placeholder = this.layersBox.querySelector(".placeholder-layer");
+    placeholder.addEventListener("dragover", this.eventAllowDrop.bind(this));
+    placeholder.addEventListener("dragenter", this.eventDragEnter.bind(this));
+    placeholder.addEventListener("dragleave", this.eventDragExit.bind(this));
+    placeholder.addEventListener("drop", this.eventLayerDrop.bind(this));
+
+    // Try to load from autosave
+    this.autosaveEnabled = true;
+    this.loadFromAutosave();
+  }
+  
+  /* Clear the world */
+  reset() {
+    this.autosaveEnabled = false;
+    document.querySelectorAll("#layers .layer").forEach( el => el.remove() );
+    document.querySelectorAll("#sprite-list canvas").forEach( el => el.remove() );
+    this.layers = [];
+    this.library.sprites = [];
+    this.library.activeSprite = null;
+    Layer.counter = 0;
+    SpriteInstance.counter = 0;
+    Library.counter = 0;
+    this.setGridDisplay(true);
+    this.updatePixelSize(10);
+    this.background = "#222222";
+    document.getElementById("world-area").style.backgroundColor = this.background;
+    document.getElementById("background-color").value = this.background;
+    this.regenerateWorld();
+  }
+
+  /* Return a Layer object given its id */
+  getLayerById(id) {
+    for(let i = 0; i < this.layers.length; i++) {
+      if(this.layers[i].id == id) {
+        return this.layers[i];
+      }
+    }
+    return null;
+  }
+
+  /* Update pixel size */
+  updatePixelSize(size) {
+    this.pixelSize = size;
+    document.getElementById("pixel-size").value = size;
+    let world = document.getElementById("world-area");
+    world.style.backgroundSize = String(size) + "px " + String(size) + "px";
+    this.regenerateWorld();
+    this.attemptAutosave();
+  }
+
+  /* Grid display */
+  setGridDisplay(show) {
+    this.showGrid = show;
+    if(this.showGrid) {
+      world.classList.add("grid");
+    } else {
+      world.classList.remove("grid");
+    }
+    this.attemptAutosave();
+  }
+
+  /* Regenerate the output document */
+  regenerateWorld() {
+    this.world.regenerate(this.library.sprites, this.layers);
+  }
+
+  /* Delete the current autosave and uncheck the autosave box */
+  clearAutosave() {
+    showModal(
+      "Clear Autosave Data",
+      "<p>This will clear all autosaved data and load an empty document. Do you wish to continue?</p>",
+      this.confirmClearAutosave.bind(this)
+    );
+  }
+  
+  confirmClearAutosave() {
+    localStorage.removeItem("autosave");
+    document.getElementById("autosave").checked = false;
+    this.reset();
+    this.addLayer("Layer 1");
+
+    let button = document.getElementById("clear-autosave");
+    let p = document.createElement("p");
+    p.className = "success";
+    p.innerHTML = "Autosave data cleared and autosave disabled.";
+    button.parentNode.appendChild(p);
+    p.classList.add("fade-out");
+    p.addEventListener("animationend", removeSelf);
+    p.addEventListener("animationcancel", removeSelf);
+    function removeSelf(e) {
+      e.currentTarget.remove();
+    }
+  }
+
+  /* Load data from autosave */
+  loadFromAutosave() {
+    let input = localStorage.getItem("autosave");
+    if(input) {
+      let data = JSON.parse(input);
+      this.loadFromObject(data);
+    }
+  }
+
+  /* Autosave */
+  attemptAutosave() {
+    if(this.autosaveEnabled) {
+      let data = this.generateSaveData();
+      let out = JSON.stringify(data);
+      localStorage.setItem("autosave", out);
+    }
+  }
+
+  /* Save */
+  save() {
+    let data = this.generateSaveData();
+    let out = JSON.stringify(data, null, 2);
+    this.download("pixel-world.json", out);
+  }
+
+  /* Load */
+  fileSelected(e) {
+    var reader = new FileReader();
+    var file = e.currentTarget.files[0]
+    reader.onload = f => {
+      try {
+        this.autosaveEnabled = false;
+        document.getElementById("autosave").checked = false;
+        this.loadFromObject( JSON.parse( f.target.result ) );
+        this.attemptAutosave();
+      } catch (e) {
+        showModal("Error", "<p>File data could not be read:</p><p>" + e.message + "</p>");
+      }
+    };
+    reader.readAsBinaryString(file);
+  }
+
+  /* Load from an object */
+  loadFromObject(data) {
+
+    // Reset everything
+    this.reset();
+
+    // Load properties
+    this.autosaveEnabled = data.settings.autosave;
+    document.getElementById("autosave").checked = this.autosaveEnabled;
+    this.setGridDisplay(data.settings.grid);
+    this.updatePixelSize(data.settings.pixelSize);
+    this.background = data.settings.background;
+    document.getElementById("world-area").style.backgroundColor = this.background;
+    document.getElementById("background-color").value = this.background;
+
+
+    // Load sprite definitions
+    data.sprites.forEach( item => {
+      let sprite = new Sprite(item[1], item[2]);
+      sprite.id = item[0];
+      let d = atob(item[3]);
+      for(let i = 0; i < d.length; i++) {
+        sprite.data[i] = d[i].charCodeAt(0);
+      }
+      this.library.addSprite(sprite);
+    });
+
+    // Load layers and sprite instances
+    data.layers.forEach( item => {
+      let layer = new Layer(item.n, item.id);
+      item.s.forEach( i => {
+        let sprite = this.library.getSpriteById(i[1]);
+        let instance = new SpriteInstance(sprite, i[2], i[3], i[0]);
+        layer.sprites.push(instance);
+      });
+      this.addLayer(layer);
+    });
+
+    // Set active layer and sprite
+    this.setActiveLayer(data.settings.activeLayer);
+    this.setActiveSprite(data.settings.activeSprite);
+
+    // Regenerate the world
+    this.regenerateWorld();
+  }
+
+
+  /* Save data */
+  generateSaveData() {
+
+    // Global structure
+    let data = {
+      "settings" : {
+        "autosave" : this.autosaveEnabled,
+        "grid" : this.showGrid,
+        "pixelSize" : this.pixelSize,
+        "background" : this.background,
+        "activeLayer" : this.activeLayer ? this.activeLayer.id : null,
+        "activeSprite" : this.library.activeSprite ? this.library.activeSprite.id : null,
+      },
+      "sprites" : [],
+      "layers" : []
+    };
+
+    // Add sprite definitions
+    this.library.sprites.forEach( sprite => {
+      let s = [
+        sprite.id,
+        sprite.width,
+        sprite.height,
+        this.serializeSpriteData(sprite.data)
+      ];
+      data.sprites.push(s);
+    });
+
+    // Add layers
+    this.layers.forEach( layer => {
+      let l = {
+        id : layer.id,
+        n : layer.name,
+        s : []
+      };
+      layer.sprites.forEach( instance => {
+
+        l.s.push([
+          instance.id,
+          instance.sprite.id,
+          instance.x,
+          instance.y
+        ]);
+
+      });
+      
+      // Layers stored in reverse order, because addLayer always adds the new layer to the beginning
+      data.layers.unshift(l);
+    });
+
+    // Return
+    return data;
+  }
+
+  serializeSpriteData(data) {
+    let out = "";
+    data.forEach( c => out += String.fromCharCode(c) );
+    return btoa(out);
+  }
+
+  /* Add a new layer */
+  addLayer(value) {
+    let layer;
+    if(value instanceof Layer) {
+      layer = value;
+    } else {
+      // Add to beginning of list
+      layer = new Layer(value);
+    }
+    this.layers.unshift(layer);
+    document.getElementById("layers").setAttribute("data-count", String(this.layers.length));
+
+    // Add to beginning of DOM container
+    let container = document.createElement("div");
+    container.className = "layer";
+    container.draggable = true;
+    container.setAttribute("data-id", layer.id);
+    container.id = "l" + String(layer.id);
+    container.addEventListener("dragexit", this.eventDragExit.bind(this));
+    container.addEventListener("dragenter", this.eventDragEnter.bind(this));
+    container.addEventListener("dragover", this.eventAllowDrop.bind(this));
+    container.addEventListener("dragstart", this.eventLayerDrag.bind(this));
+    container.addEventListener("drop", this.eventLayerDrop.bind(this));
+    this.layersBox.insertBefore(container, this.layersBox.firstChild);
+
+    // Add field
+    let field = document.createElement("input");
+    field.type = "text";
+    field.className = "field";
+    field.setAttribute("data-id", layer.id);
+    field.addEventListener("keyup", this.eventLayerNameKey.bind(this));
+    field.addEventListener("blur", this.eventCancelLayerName.bind(this));
+    field.value = layer.name;
+    container.appendChild(field);
+
+    // Add select button
+    let select = document.createElement("a");
+    select.className = "select";
+    select.setAttribute("data-id", layer.id);
+    select.addEventListener("mouseup", this.eventSelectLayer.bind(this));
+    select.innerHTML = layer.name;
+    container.appendChild(select);
+
+    // Add rename button
+    let rename = document.createElement("a");
+    rename.className = "button rename";
+    rename.setAttribute("data-id", layer.id);
+    rename.addEventListener("mouseup", this.eventRenameLayer.bind(this));
+    rename.innerHTML = "&#9881;&#xFE0E;";
+    container.appendChild(rename);
+
+    // Add delete button
+    let del = document.createElement("a");
+    del.className = "button delete";
+    del.setAttribute("data-id", layer.id);
+    del.addEventListener("mouseup", this.eventDeleteLayer.bind(this));
+    del.innerHTML = "&times;";
+    container.appendChild(del);
+
+    // Create in world
+    this.world.addLayer(layer.id);
+
+    // Set as active layer
+    this.setActiveLayer(layer.id);
+
+    // Autosave
+    this.attemptAutosave();
+
+    // Return the layer
+    return layer;
+  }
+
+  /* When a library sprite is selected, this sends a command to the World */
+  setActiveSprite(id) {
+    if(id === null) {
+      this.world.deletePlaceholder();
+    } else {
+      this.world.updatePlaceholder(id);
+    }
+    this.attemptAutosave();
+  }
+
+  /* Set in which layer new sprites will be placed */
+  setActiveLayer(id) {
+    for(let i = 0; i < this.layers.length; i++) {
+      if(this.layers[i].id == id) {
+        this.layersBox.children[i].classList.add("active");
+        this.activeLayer = this.layers[i];
+      } else {
+        this.layersBox.children[i].classList.remove("active");
+      }
+    }
+    this.world.setActiveLayer(id);
+    this.attemptAutosave();
+  }
+
+  /* Creates a sprite instance from a sprite and puts it into the active layer */
+  addSpriteToActiveLayer(id, x, y) {
+    let sprite = this.library.getSpriteById(id);
+    let instance = new SpriteInstance(sprite, x, y);
+    this.activeLayer.sprites.push(instance);
+    this.attemptAutosave();
+    return instance.id;
+  }
+
+  /* Updates a sprite instance's coordinates */
+  relocateSprite(layerId, spriteId, x, y) {
+    let layer = this.getLayerById(layerId);
+    let instance = layer.getInstanceById(spriteId);
+    instance.x = x;
+    instance.y = y;
+    this.attemptAutosave();
+  }
+
+  /* Changes a layer's name */
+  renameLayer(id, name) {
+    let layer = this.getLayerById(id);
+    if(layer) {
+      layer.name = name;
+      let el = document.getElementById("l" + String(id));
+      el.querySelector(".select").innerHTML = name;
+      el.querySelector(".field").blur();
+      el.classList.remove("edit");
+    }
+    this.world.renameLayer(id, name);
+    this.attemptAutosave();
+  }
+
+  /* Deleted a layer and all sprite instances within */
+  deleteLayer(id) {
+    if(this.layers.length > 1) {
+      for(let i = 0; i < this.layers.length; i++) {
+        if(this.layers[i].id == id) {
+          let layer = this.layers[i]
+          this.layers.splice(i, 1);
+          this.layersBox.children[i].remove();
+          if(this.activeLayer == layer) {
+            this.setActiveLayer(this.layers[0].id);
+          }
+          this.regenerateWorld();
+          document.getElementById("layers").setAttribute("data-count", String(this.layers.length));
+          this.attemptAutosave();
+          break;
+        }
+      }
+    }
+  }
+
+  deleteSprite(id) {
+    for(let i = 0; i < this.layers.length; i++) {
+      let sprites = this.layers[i].sprites;
+      for(let j = sprites.length - 1; j >= 0; j--) {
+        if(sprites[j].id == id) {
+          sprites.splice(j, 1);
+        }
+      }
+    }
+    this.regenerateWorld();
+    this.attemptAutosave();
+  }
+
+  /* Reorders the layer */
+  updateLayerOrder() {
+    let updated = [];
+    for(let i = 0; i < this.layersBox.children.length; i++) {
+      let el = this.layersBox.children[i];
+      if(el.hasAttribute("data-id")) {
+        let id = Number(el.getAttribute("data-id"));
+        updated.push(this.getLayerById(id));
+      }
+    }
+    this.layers = updated;
+    this.regenerateWorld();
+    this.attemptAutosave();
+  }
+
+  /* Event handler for when the user imports CSS */
+  eventImportCSS(e) {
+    let css = document.getElementById("pixelart-css-code").value;
+    let errors = {};
+    let sprites = this.css.getSpritesFromCSS(css, errors);
+
+    // Error handling
+    let ul = document.querySelector("#import-errors ul");
+    ul.innerHTML = "";
+    let hasErrors = false;
+    for( let err in errors) {
+      hasErrors = true;
+      let selector = err;
+      let list = errors[err];
+      list.forEach( item => {
+        let li = document.createElement("li");
+        li.innerHTML = selector + ": " + item;
+        ul.appendChild(li);
+      });
+    }
+
+    if(hasErrors) {
+      document.getElementById("import-errors").style.display = "";
+    } else {
+      document.getElementById("import-modal").style.display = "none";
+      sprites.forEach(sprite => {
+        this.library.addSprite(sprite);
+        this.world.addSpriteDefinition(sprite);
+      });
+      this.attemptAutosave();
+    }
+
+  }
+
+  /* Drag and drop handler for layer ordering */
+  eventAllowDrop(e) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+
+  /* Drag and drop handler for layer ordering */
+  eventDragEnter(e) {
+    e.currentTarget.classList.add("show-drop");
+  }
+
+  /* Drag and drop handler for layer ordering */
+  eventDragExit(e) {
+    e.currentTarget.classList.remove("show-drop");
+  }
+
+  /* Drag and drop handler for layer ordering */
+  eventLayerDrag(e) {
+     e.dataTransfer.setData("text", e.currentTarget.getAttribute("data-id"));
+  }
+
+  /* Drag and drop handler for layer ordering */
+  eventLayerDrop(e) {
+    e.preventDefault();
+    let id = e.dataTransfer.getData("text");
+    let element = document.querySelector(".layer[data-id='" + id + "']");
+    e.currentTarget.parentNode.insertBefore(element, e.currentTarget);
+    e.currentTarget.classList.remove("show-drop");
+    this.updateLayerOrder();
+  }
+
+  /* Key event listener for layer renaming */
+  eventLayerNameKey(e) {
+    let input = e.currentTarget;
+    let id = Number(input.getAttribute("data-id"));
+    if(e.key == "Enter") {
+      this.renameLayer(id, input.value.trim());
+      input.parentNode.classList.remove("edit");
+    } else if(e.key == "Escape") {
+      let layer = this.getLayerById(id);
+      input.value = layer.name;
+      input.parentNode.classList.remove("edit");
+    }
+  }
+
+  /* Event listener for when the layer name test field loses focus */
+  eventCancelLayerName(e) {
+    let id = Number(e.currentTarget.getAttribute("data-id"));
+    let layer = this.getLayerById(id);
+    e.currentTarget.value = layer.name;
+    e.currentTarget.parentNode.classList.remove("edit");
+  }
+
+  /* Event listener for when a layer is clicked */
+  eventSelectLayer(e) {
+    let id = Number(e.currentTarget.getAttribute("data-id"));
+    this.setActiveLayer(id);
+  }
+
+  /* Event listener for when a layer's delete button is clicked */
+  eventDeleteLayer(e) {
+    let id = Number(e.currentTarget.getAttribute("data-id"));
+    this.deleteLayer(id);
+  }
+
+  /* Event listener for when a layer's rename button is clicked */
+  eventRenameLayer(e) {
+    let parent = e.currentTarget.parentNode;
+    parent.classList.add("edit");
+    parent.querySelector(".field").focus();
+  }
+
+  /* Event listener for grid toggle checkbox */
+  eventToggleGrid(e) {
+    let world = document.getElementById("world-area");
+    this.setGridDisplay(e.currentTarget.checked);
+  }
+
+  /* Event listener for pixel size input */
+  eventPixelSize(e) {
+    let size = parseInt(e.currentTarget.value);
+    if(size > 0) {
+      this.updatePixelSize(size);
+    }
+  }
+
+  /* Event listener for HTML export */
+  eventExport(e) {
+    let filename = "pixel-art.html";
+    let data = this.world.getHTML();
+    this.download(filename, data);
+  }
+
+  /* File downloader */
+  download(filename, data) {
+    let a = document.createElement("a");
+    a.href = "data:text/plain;charset=utf-8," + encodeURIComponent(data);
+    a.rel = "noopener";
+    a.download = filename;
+    data = null;
+    setTimeout(() => a.dispatchEvent(new MouseEvent('click')), 0);
+  }
+
+}
+
+let editor = new WorldEditor();
+editor.init();
+
+
+</script>
+</body>
+</html>
