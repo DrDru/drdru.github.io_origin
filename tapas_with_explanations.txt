@@ -13,12 +13,12 @@ https://tapas.io/episode/2458652
 
 This first sentence contains two N5 words but the way they are combined makes it a bit complicated.
 We have cold 寒い and death 死. From the image we can see she's cold so it's not too hard to infer the global meaning of this sentence.  
-
 Altogether it means "It has the appearance that I'm dying of cold".
-This expression is often used in conversation and could be translated as L 
+This expression is often used in conversation and could be translated as :
 
 > "I'm so cold I could die" or "I'm freezing to death".
 
+---
 
 あそこに行こう 
 あそこ there
@@ -28,10 +28,13 @@ This expression is often used in conversation and could be translated as L
 
 > Let's got there
 
+---
 
 あー
+
 aah (onomatopeia)
 
+---
 
 撃つのはやめて
 
@@ -47,13 +50,10 @@ Appending のは transforms the verb 撃つ into a noun so it becomes 'shooting'
 
 For instance 
 あそこに行くのはやめて
-would be
-'stop the act of going there'
+would be 'stop the act of going there' or more naturally "Don't go there"
 
+---
 
-> Don't go there
-
- 
 武器を使うのは良くない
 
 武器 weapon 
@@ -68,24 +68,28 @@ Here again のは transforms the proposition into a noun.
 
 > Using this weapon would be bad
 
+---
 
 少し休みたいだけなの
+
 少し a little
 休む to rest
 休みたい I want to rest 
 だけ just
 
-少し休みたいだけ could be translated as "We just want to rest a bit".
+少し休みたいだけ could be translated as :
+
+> We just want to rest a bit.
+
 Adding なの at the end softens the sentence and make it explanatory.
 The idea could be expressed in English by saying "It's that we just want to rest a bit".
-
 
 お願い
 This comes from 願う which means desire and means :
 
 > Please
 
-
+---
 
 2
 ふん、好きにしろ
@@ -96,9 +100,9 @@ This comes from 願う which means desire and means :
 
 好きにしろ is 好きにする in the imperative form which makes it less polite and means 
 
-> do whatever
+> hmm, do whatever
 
-
+---
 
 俺はすぐに出る
 
@@ -108,7 +112,7 @@ This comes from 願う which means desire and means :
 
 > I'm leaving right away  / I'm on my way out
 
-
+---
 
 お前たちは旅人か？
 
@@ -120,6 +124,7 @@ This comes from 願う which means desire and means :
 
 > Are you traveling ?
 
+---
 
 少しばかり金をくれれば案内してやってもいいぞ
 
@@ -132,14 +137,16 @@ This comes from 願う which means desire and means :
 
 > 少しばかり金をくれれば If you give me only a small fee 
 
+---
 
 案内してやってもいいぞ
 
 案内 to lead / to guide
 
 
-
 > I can lead you for a small feee
+
+---
 
 行先は…
 行先 destination
@@ -148,10 +155,13 @@ With the particule は it could be translated as
 
 > As for our destination ...
 
+---
 
 ん？
+
 yes ? (onomatopeia)  
  
+---
 
 …まだ決めてない
 
@@ -170,6 +180,7 @@ yes ? (onomatopeia)
 
 > Suit yourself.
 
+---
 
 3
 まだ火が残ってる
@@ -182,6 +193,8 @@ yes ? (onomatopeia)
 Altogether it could be translated as 'some fire is still remaining' or more naturally 
 
 > There is some fire left
+
+---
 
 暖かくして休まないともう何日も寝てない
 
@@ -205,8 +218,9 @@ I need to stay warm and go to bed.
 寝て makes it into continuous form
 寝てない makes the continuous form into a negation
 
-２、３時間経ったら起こして
+---
 
+２、３時間経ったら起こして
 
 時 hour
 時間 hour with the conotation of the duration
@@ -219,6 +233,7 @@ I need to stay warm and go to bed.
 or more naturally 
 > Wake me up after a few hours. 
 
+---
 
 橋の上でそれを捕まえるチャンスは、たった１回しかないんだから
 
@@ -236,8 +251,7 @@ or more naturally
 
 > Like I said we only have one chance to catch it on the bridge.
 
-
-
+---
 
 
 
