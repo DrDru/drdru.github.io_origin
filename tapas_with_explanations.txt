@@ -14,12 +14,11 @@ https://tapas.io/episode/2458652
 This first sentence contains two N5 words but the way they are combined makes it a bit complicated.
 We have cold 寒い and death 死. From the image we can see she's cold so it's not too hard to infer the global meaning of this sentence.  
 
-> This expression is often used in conversation and could be translated as "I'm so cold I could die" or "I'm freezing to death".
+Altogether it means "It has the appearance that I'm dying of cold".
+This expression is often used in conversation and could be translated as L 
 
-How is it constructed.
+> "I'm so cold I could die" or "I'm freezing to death".
 
-
-Altogether it means "It has the appearance that I'm dying of cold" or more naturally
 
 あそこに行こう 
 あそこ there
@@ -39,21 +38,23 @@ aah (onomatopeia)
 撃つ to shoot
 止める  to stop
 
-撃つのは transforms the verb 撃つ into a noun so it becomes 'shooting' or 'the act of shooting'
+Appending のは transforms the verb 撃つ into a noun so it becomes 'shooting' or 'the act of shooting'
 やめて is the て-form of 止める which in this case is used to express a command. It's rather soft compared with やめろ which is very rude.
 
 "Stop the act of shooting" 
 
 > Don't shoot 
 
-
+For instance 
 あそこに行くのはやめて
+would be
+'stop the act of going there'
+
 
 > Don't go there
 
  
 武器を使うのは良くない
-
 
 武器 weapon 
 使う to use
@@ -172,12 +173,13 @@ yes ? (onomatopeia)
 
 3
 まだ火が残ってる
+
 まだ still
 火 fire
 残る to remain
 残ってる  is the continuous form of 残る
 
-All together it could be translated as 'some fire is still remaining' or more naturally 
+Altogether it could be translated as 'some fire is still remaining' or more naturally 
 
 > There is some fire left
 
@@ -260,16 +262,30 @@ End of part 1
 
 5
 あそこが登れる
-We could climb over there.
+あそこ there / over there
+に indicates direction 
+登る climb
+登れる Adding れ expresses that the action can be done : Can climb
+
+> We could climb over there.
 
 6
 止まれ！ 
-Stop
+
+止まる Stop
+止まれ is the imperative form. Here it expresses an order.
+
+> Stop
+
 
 武器を持ってるなら地面に置け…ゆっくりだ
+武器 weapon 
+
 If you have any weapons put them on the ground slowly
 
 武器は持ってないけど…
+武器 weapon 
+
 We're not armed but... 
 
 命が大事なら、撃つのはやめて

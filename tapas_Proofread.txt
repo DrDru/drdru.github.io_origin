@@ -55,10 +55,8 @@ yes ?
 まだ火が残ってる
 (Combined them) There is some fire left
 
-暖かくして休まないと 
+暖かくして休まないともう何日も寝てない 
 I need to stay warm and go to bed.
-
-もう何日も寝てない
 (if you add もう here, you can see she is tired of this.)
 
 ２、３時間経ったら起こして
