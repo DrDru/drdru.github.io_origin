@@ -141,21 +141,23 @@ Japanese version :
 English version : <a href="https://tapas.io/episode/2458652">https://tapas.io/episode/2458652</a>
 <br>
 <br>
+Note : click on any word or sentence in Japanese to get its pronunciation.
+<br>
  <hr>
 <div class="centered_bold"><h4>Page 1</h4></div> 
  <hr>
 
 
-<span class="japanese_bold japanese_sentence"><ruby>寒<rt>さむ</rt></ruby>くて<ruby>死<rt>し</rt></ruby>にそう </span>
-<br><span style="color: blue; text-decoration: underline;">Play audio</span>
+<span class="japanese_bold japanese_sentence"  onclick="speak('寒くて死にそう')"><ruby>寒<rt>さむ</rt></ruby>くて<ruby>死<rt>し</rt></ruby>にそう </span>
+<br><span style="color: blue; text-decoration: underline;" onclick="speak('寒くて死にそう')">Play audio</span>
 <br>
 <br>
-<span class="japanese_bold"><ruby>寒<rt>さむ</rt></ruby>い</span> cold<br>  
-<span class="japanese_bold"><ruby>寒<rt>さむ</rt></ruby>くて</span> is the て-form of <span class="japanese_bold"><ruby>寒<rt>さむ</rt></ruby>い</span>. て-form has several uses. In this case it allows to link <span class="japanese_bold"><ruby>寒<rt>さむ</rt></ruby>い</span> to what's next.<br>
-<span class="japanese_bold"><ruby>死<rt>し</rt></ruby>ぬ</span> to die <br>
-<span class="japanese_bold"><ruby>死<rt>し</rt></ruby>に</span> Dying<br>
-<span class="japanese_bold">そう</span> to have the appearance  <br>
-<span class="japanese_bold"><ruby>死<rt>し</rt></ruby>にそう</span> about to die<br>
+<span class="japanese_bold" onclick="speak('寒い')"><ruby>寒<rt>さむ</rt></ruby>い</span> cold<br>  
+<span class="japanese_bold" onclick="speak('寒くて')"><ruby>寒<rt>さむ</rt></ruby>くて</span> is the て-form of <span class="japanese_bold" onclick="speak('寒い')"><ruby>寒<rt>さむ</rt></ruby>い</span>. て-form has several uses. In this case it allows to link <span class="japanese_bold" onclick="speak('寒い')"><ruby>寒<rt>さむ</rt></ruby>い</span> to what's next.<br>
+<span class="japanese_bold" onclick="speak('死ぬ')"><ruby>死<rt>し</rt></ruby>ぬ</span> to die <br>
+<span class="japanese_bold" onclick="speak('死に')"><ruby>死<rt>し</rt></ruby>に</span> Dying<br>
+<span class="japanese_bold" onclick="speak('そう')">そう</span> to have the appearance  <br>
+<span class="japanese_bold" onclick="speak('死にそう')"><ruby>死<rt>し</rt></ruby>にそう</span> about to die<br>
 <br>
 
 This expression often is often used in conversation and could be translated as :
@@ -164,13 +166,13 @@ This expression often is often used in conversation and could be translated as :
 <span class="japanese_bold">> "I'm so cold I could die" or "I'm freezing to death".</span>
 <br><br>
  <hr>
-<span class="japanese_bold japanese_sentence">あそこに<ruby>行<rt>い</rt></ruby>こう</span>
-<br><span style="color: blue; text-decoration: underline;">Play audio</span>
+<span class="japanese_bold japanese_sentence" onclick="speak('あそこに行こう')">あそこに<ruby>行<rt>い</rt></ruby>こう</span>
+<br><span style="color: blue; text-decoration: underline;" onclick="speak('あそこに行こう')">Play audio</span>
 <br><br> 
-<span class="japanese_bold">あそこ</span> there<br>
-<span class="japanese_bold">に</span> indicates direction<br> 
-<span class="japanese_bold"><ruby>行<rt>い</rt></ruby>く</span> to go <br>
-<span class="japanese_bold"><ruby>行<rt>い</rt></ruby>こう</span> is the volitional form of <span class="japanese_bold"><ruby>行<rt>い</rt></ruby>く</span> which turns "to go" into "let's go". 
+<span class="japanese_bold" onclick="speak('あそこ')">あそこ</span> there<br>
+<span class="japanese_bold" onclick="speak('に')">に</span> indicates direction<br> 
+<span class="japanese_bold" onclick="speak('行く')"><ruby>行<rt>い</rt></ruby>く</span> to go <br>
+<span class="japanese_bold" onclick="speak('行こう')"><ruby>行<rt>い</rt></ruby>こう</span> is the volitional form of <span class="japanese_bold" onclick="speak('行く')><ruby>行<rt>い</rt></ruby>く</span> which turns "to go" into "let's go". 
 <br>
 <!--<span class="japanese_bold"><ruby>撃<rt>う</rt></ruby>とう</span> would turn <span class="japanese_bold"><ruby>撃<rt>う</rt></ruby>つ</span>  (to shoot) in to "let's shoot".<br>-->
 <br>
@@ -430,6 +432,36 @@ or more naturally
  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
 <script>
   twemoji.parse(document.body);
+</script>
+
+
+<script>
+let speak;
+{
+  // Speech synthesis
+  const synth = window.speechSynthesis;
+  let voices = synth.getVoices();
+  speechSynthesis.onvoiceschanged = () => { voices = synth.getVoices() };
+  speak = function (text) {
+    let selectedVoice;
+    let hasJapaneseVoice = false;
+    for (const voice of voices) {
+      if (voice.name.toLowerCase().includes('japan') || voice.lang.toLowerCase().includes('ja-jp')) {
+        selectedVoice = voice;
+        hasJapaneseVoice = true;
+        break;
+      }
+    }
+    if ( ! hasJapaneseVoice) {
+      return;
+    }
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.voice = selectedVoice;
+    utterance.pitch = 1;
+    utterance.rate = 1;
+    synth.speak(utterance);
+  };
+}
 </script>
 
 </body>
