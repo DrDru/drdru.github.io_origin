@@ -1,0 +1,55 @@
+{
+  "settings": {
+    "autosave": false,
+    "grid": true,
+    "pixelSize": 10,
+    "background": "#222222",
+    "activeLayer": 0,
+    "activeSprite": null
+  },
+  "sprites": [
+    [
+      0,
+      8,
+      8,
+      "AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//////wAAAP8AAAD//////wAAAP//////AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP//////AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//////8AAAD//////wAAAP8AAAD/AAAA//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/w=="
+    ],
+    [
+      1,
+      8,
+      8,
+      "AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/////////////////AAAA/////////////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//////8AAAD/////////////////AAAA//////8AAAD//////wAAAP////////////////8AAAD//////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA////////////AAAA/////////////////wAAAP8AAAD//////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/w=="
+    ],
+    [
+      2,
+      8,
+      8,
+      "AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP//////AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP//////AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP//////AAAA/w=="
+    ],
+    [
+      3,
+      8,
+      8,
+      "AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP//////AAAA//////////////////////8AAAD//////wAAAP////////////////////////////////8AAAD/AAAA/////////////////////////////////wAAAP8AAAD//////wAAAP//////////////////////AAAA/wAAAP////////////////////////////////8AAAD//////////////////////////////////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/w=="
+    ],
+    [
+      4,
+      8,
+      8,
+      "AAAA/wAAAP////////////////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP//////AAAA//////8AAAD/AAAA/wAAAP8AAAD//////////////////////wAAAP8AAAD/AAAA/wAAAP////////////////8AAAD/AAAA/wAAAP///////////wAAAP8AAAD/////////////////AAAA/wAAAP///////////wAAAP8AAAD//////wAAAP//////////////////////AAAA/////////////////////////////////wAAAP8AAAD/////////////////AAAA/w=="
+    ],
+    [
+      5,
+      8,
+      8,
+      "AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/////////////////AAAA/////////////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD///////////8AAAD/////////////////AAAA/////////////////wAAAP////////////////8AAAD//////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/////////////////AAAA/////////////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/w=="
+    ]
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "n": "Layer 1",
+      "s": []
+    }
+  ]
+}
