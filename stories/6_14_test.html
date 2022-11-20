@@ -47,7 +47,10 @@ overflow-wrap: break-word;
 }
 
 
-
+.icon_twittemoji30 .emoji {
+    height: 20px;
+    width: 20px;
+}
 /*SFS light red = #c30b0a;
 SFS dark red = #9f2026; */
 
@@ -62,49 +65,152 @@ SFS dark red = #9f2026; */
 <!--https://codepen.io/harrysadlermusic/pen/qBdMvN-->
 <div class="long_text_div"> 
 <p>
-JLPT N5 テスト
-
-日本語のテスト
+<div style="font-weight: bold; font-size: 200%; text-align: center;">日本語のテスト</div>
 <br>
-
-10問のクイズ問題
-
 <br>
+<!--<div style="font-weight: bold; font-size: 100%; text-align: center;">10問のクイズ問題</div>-->
 
-	<br>
-	 たんご 単語
-	 <br>
-	  ぶんぽう 文法
+
 
 <br>
+<h2>① 漢字</h2>
 
+<!--
+<hr>
+<div class="	centered_bold	">正しいひらがなを選</div>
+<hr>
+<div>
+例え
 
-Create an example wiht :
+<p class="question">1. 例えば #1</p>
 
-
-
-
-Add example in Waseigo and garaigo
-
-
-
-
-正しい in green and incorrect in red
-
-
-	  8つのクイズです
-	  <br>
+<ul>
+<input class="answer" type="radio" name="q1" value="1">
+<label id="correctString1">For example</label>  <span class="	green">	正しい漢字 </span>
+<br>
+<input class="answer" type="radio" name="q1" value="0">  
+<label>Word</label> <span class="	red"> 正しい漢字 </span>
+<br>
+<input class="answer" type="radio" name="q1" value="0">  
+<label>Study</label> <span class="	red">	不正解 </span>
+<br>
+<input class="answer" type="radio" name="q1" value="0">  
+<label>Japanese</label>  <span class="	red">	不正解 </span>
+</ul>
+</div>
+<hr>
+-->
 	  	<div>
-	  		漢字
-	  		<br>
-	  		正しい漢字に対応するふりがなを選ぶ
-
-
+<hr>
+<div class="	centered_bold	" style="font-weight: bold; font-size	: 120%	;">正しいひらがなを選</div>
 	  	<div>
 	
-	  		正しい漢字に対応するふりがなを選ぶ
 	  		<br>
-	  		<p class="question">1. 大学 #1</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">大学 </p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">だいがく</label>   <span class="	icon_twittemoji30">	✅</span>  <span class="	green">	正しいひらがなです</span>
+ 	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0"> 
+	        <label>はなし</label> <span class="	icon_twittemoji30">	❌</span>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>べんきょう</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>おおさか</label> 
+    		</ul>
+	  	</div>
+
+<hr>
+	  		<br>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">1. 大学 </p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString1">だいがく</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>はなし</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>べんきょう</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>おおさか</label>
+    		</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">2. 勉強 </p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>にほんじん</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString2">べんきょう</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>だいがく</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>とうきょう</label>
+	    	</ul>
+	  	</div>
+
+
+
+	  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 東京 </p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label> きょうと </label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString3">とうきょう</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>だいがく</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>べんきょう</label>
+	    	</ul>
+		</div>
+
+
+			  	<div>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 検索 </p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label> きょうと </label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="1">
+	        <label id="correctString4">とうきょう</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>だいがく</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>べんきょう</label>
+	    	</ul>
+		</div>
+
+<br>
+<br>
+<h2>② 文法</h2>
+
+<hr>
+<div class="	centered_bold	" style="font-weight: bold	;  font-size	: 120%	;"> 正しい単語の種類を選ぶ </div>
+	  	<div>
+	
+	  		<br>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">大学 </p>
 
 	    	<ul>
 	    	<input class="answer" type="radio" name="q1" value="1">
@@ -121,106 +227,27 @@ Add example in Waseigo and garaigo
     		</ul>
 	  	</div>
 
-
-	  		<br>
-	  		<p class="question">1. 大学 #1</p>
-
-	    	<ul>
-	    	<input class="answer" type="radio" name="q1" value="1">
-	        <label id="correctString1">だいがく</label>
-	    	<br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>はなし</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>べんきょう</label>
-	        <br>
-	        <input class="answer" type="radio" name="q1" value="0">
-	        <label>おおさか</label>
-    		</ul>
-	  	</div>
+<hr>
 
 
 
-	  	<div>
-	  		<p class="question">2. 勉強 #2</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>にほんじん</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">べんきょう</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>だいがく</label>
-	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
-	        <label>とうきょう</label>
-	    	</ul>
-	  	</div>
-
-
-
-	  	<div>
-	  		<p class="question">3. 東京 #3</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label> きょうと </label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">とうきょう</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>だいがく</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>べんきょう</label>
-	    	</ul>
-		</div>
-
-
-			  	<div>
-	  		<p class="question">3. 検索 #3</p>
-
-	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label> きょうと </label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">とうきょう</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>だいがく</label>
-	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>べんきょう</label>
-	    	</ul>
-		</div>
-
-
-<br>
-文法問題
-<br>
-正しい単語の種類を選ぶ
 <br>
 
 
 	  	<div>
-	  		<p class="question">4. 正しい</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">4. 正しい</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q4" value="0">
+	        <input class="answer" type="radio" name="q6" value="0">
 	        <label>wrong answer</label>
 	        <br>
-	        <input class="answer" type="radio" name="q4" value="1">
-	        <label id="correctString4">correct answer 4</label>
+	        <input class="answer" type="radio" name="q6" value="1">
+	        <label id="correctString6">correct answer 4</label>
 	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
+	        <input class="answer" type="radio" name="q6" value="0">
 	        <label>wrong answer</label>
 	        <br>
-	        <input class="answer" type="radio" name="q4" value="0">
+	        <input class="answer" type="radio" name="q6" value="0">
 	        <label>wrong answer</label>
     		</ul>
 	  	</div>
@@ -229,19 +256,19 @@ Add example in Waseigo and garaigo
 	  		  	<div>
 
 
-	  		<p class="question">2. 単語 #2</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">2. 単語 </p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q7" value="0">
 	        <label>にほんじん</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">べんきょう</label>
+	        <input class="answer" type="radio" name="q7" value="1">
+	        <label id="correctString7">べんきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q7" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q7" value="0">
 	        <label>とうきょう</label>
 	    	</ul>
 	  	</div>
@@ -249,19 +276,19 @@ Add example in Waseigo and garaigo
 
 
 	  	<div>
-	  		<p class="question">3. の #3</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. の</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q8" value="0">
 	        <label> きょうと </label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">とうきょう</label>
+	        <input class="answer" type="radio" name="q8" value="1">
+	        <label id="correctString8">とうきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q8" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q8" value="0">
 	        <label>べんきょう</label>
 	    	</ul>
 		</div>
@@ -269,19 +296,19 @@ Add example in Waseigo and garaigo
 			  		  	<div>
 
 
-	  		<p class="question">2. 種類 #2</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">2. 種類</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q9" value="0">
 	        <label>にほんじん</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">べんきょう</label>
+	        <input class="answer" type="radio" name="q9" value="1">
+	        <label id="correctString8">べんきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q9" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q9" value="0">
 	        <label>とうきょう</label>
 	    	</ul>
 	  	</div>
@@ -289,50 +316,72 @@ Add example in Waseigo and garaigo
 
 
 	  	<div>
-	  		<p class="question">3. 選ぶ #3</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 選ぶ</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q10" value="0">
 	        <label> きょうと </label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">とうきょう</label>
+	        <input class="answer" type="radio" name="q10" value="1">
+	        <label id="correctString9">とうきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q10" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q10" value="0">
 	        <label>べんきょう</label>
 	    	</ul>
 		</div>
 
 
 
+<br>
+<br>
+<h2>③ 単語</h2>
 
+<hr>
+<div class="	centered_bold	" style="font-weight: bold	;  font-size	: 120%	;"> 正しい意味を選び </div>
+	  	<div>
+	
+	  		<br>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">大学 </p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString10">だいがく</label>  <span class="	green">	正しい</span>
+ 	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>はなし</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>べんきょう</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>おおさか</label> 
+    		</ul>
+	  	</div>
+
+<hr>
 
 <Br>
 
-単語の質問
-<br>
-正しい意味を選び
-<br>
 
 			  		  	<div>
 
 
-	  		<p class="question">2. 辞書 #2</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">2. 辞書 </p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q11" value="0">
 	        <label>にほんじん</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">べんきょう</label>
+	        <input class="answer" type="radio" name="q11" value="1">
+	        <label id="correctString11">べんきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q11" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q11" value="0">
 	        <label>とうきょう</label>
 	    	</ul>
 	  	</div>
@@ -340,19 +389,19 @@ Add example in Waseigo and garaigo
 
 
 	  	<div>
-	  		<p class="question">3. 暗記 #3</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 暗記</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q12" value="0">
 	        <label> きょうと </label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">とうきょう</label>
+	        <input class="answer" type="radio" name="q12" value="1">
+	        <label id="correctString12">とうきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q12" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q12" value="0">
 	        <label>べんきょう</label>
 	    	</ul>
 		</div>
@@ -361,19 +410,19 @@ Add example in Waseigo and garaigo
 			  		  	<div>
 
 
-	  		<p class="question">2. 動詞 #2</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">2. 動詞</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q13" value="0">
 	        <label>にほんじん</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="1">
-	        <label id="correctString2">べんきょう</label>
+	        <input class="answer" type="radio" name="q13" value="1">
+	        <label id="correctString13">べんきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q13" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q2" value="0">
+	        <input class="answer" type="radio" name="q13" value="0">
 	        <label>とうきょう</label>
 	    	</ul>
 	  	</div>
@@ -381,38 +430,38 @@ Add example in Waseigo and garaigo
 
 
 	  	<div>
-	  		<p class="question">3. 中国 #3</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 中国</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q14" value="0">
 	        <label> Middle Earth </label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">とうきょう</label>
+	        <input class="answer" type="radio" name="q14" value="1">
+	        <label id="correctString14">とうきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
-	        <label>だいがく</label>
+	        <input class="answer" type="radio" name="q14" value="0">
+	        <label>Middle Ground</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q14" value="0">
 	        <label>べんきょう</label>
 	    	</ul>
 		</div>
 
 
 	  	<div>
-	  		<p class="question">3. 正しい #3</p>
+	  		<p class="question" style="font-weight: bold; font-size: 	120%;">3. 正しい</p>
 
 	    	<ul>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q15" value="0">
 	        <label> Middle Earth </label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="1">
-	        <label id="correctString3">とうきょう</label>
+	        <input class="answer" type="radio" name="q15" value="1">
+	        <label id="correctString15">とうきょう</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q15" value="0">
 	        <label>だいがく</label>
 	        <br>
-	        <input class="answer" type="radio" name="q3" value="0">
+	        <input class="answer" type="radio" name="q15" value="0">
 	        <label>べんきょう</label>
 	    	</ul>
 		</div>
@@ -437,6 +486,17 @@ Add example in Waseigo and garaigo
 	    <div class="quizAnswers" id="correctAnswer2"></div>
     <div class="quizAnswers" id="correctAnswer3"></div>
     <div class="quizAnswers" id="correctAnswer4"></div>
+    <div class="quizAnswers" id="correctAnswer5"></div>
+    <div class="quizAnswers" id="correctAnswer6"></div>
+    <div class="quizAnswers" id="correctAnswer7"></div>
+    <div class="quizAnswers" id="correctAnswer8"></div>
+    <div class="quizAnswers" id="correctAnswer9"></div>
+        <div class="quizAnswers" id="correctAnswer10"></div>
+    <div class="quizAnswers" id="correctAnswer11"></div>
+    <div class="quizAnswers" id="correctAnswer12"></div>
+    <div class="quizAnswers" id="correctAnswer13"></div>
+    <div class="quizAnswers" id="correctAnswer14"></div>
+    <div class="quizAnswers" id="correctAnswer15"></div>
 
 
 
@@ -491,7 +551,8 @@ Add example in Waseigo and garaigo
 		}
 
 	// calc score with answerScore function
-		var calcScore = (answerScore('q1') + answerScore('q2') + answerScore('q3') + answerScore('q4'));
+		var calcScore = (answerScore('q1') + answerScore('q2') + answerScore('q3') + answerScore('q4') + answerScore('q5') + answerScore('q6') + answerScore('q7') + answerScore('q8') + answerScore('q9')+ answerScore('q10') + answerScore('q11') + answerScore('q12') + answerScore('q13') + answerScore('q14') + answerScore('q15')
+			);
 		console.log("CalcScore: " + calcScore); // it works!
 
 	// function to return correct answer string
@@ -513,6 +574,39 @@ Add example in Waseigo and garaigo
 		}
 		if (answerScore('q4') === 0) {
 			document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString4', 4, 'aaaa');
+		}
+				if (answerScore('q5') === 0) {
+			document.getElementById('correctAnswer5').innerHTML = correctAnswer('correctString5', 5, 'aaaa');
+		}
+		if (answerScore('q6') === 0) {
+			document.getElementById('correctAnswer6').innerHTML = correctAnswer('correctString6', 6, 'aaaa');
+		}
+		if (answerScore('q7') === 0) {
+			document.getElementById('correctAnswer7').innerHTML = correctAnswer('correctString7', 7, 'aaaa');
+		}
+		if (answerScore('q8') === 0) {
+			document.getElementById('correctAnswer8').innerHTML = correctAnswer('correctString8', 8, 'aaaa');
+		}
+				if (answerScore('q9') === 0) {
+			document.getElementById('correctAnswer9').innerHTML = correctAnswer('correctString9', 9, 'aaaa');
+		}
+		if (answerScore('q10') === 0) {
+			document.getElementById('correctAnswer10').innerHTML = correctAnswer('correctString10', 10, 'aaaa');
+		}
+		if (answerScore('q11') === 0) {
+			document.getElementById('correctAnswer11').innerHTML = correctAnswer('correctString11', 11, 'aaaa');
+		}
+		if (answerScore('q12') === 0) {
+			document.getElementById('correctAnswer12').innerHTML = correctAnswer('correctString12', 12, 'aaaa');
+		}
+				if (answerScore('q13') === 0) {
+			document.getElementById('correctAnswer13').innerHTML = correctAnswer('correctString13', 13, 'aaaa');
+		}
+		if (answerScore('q14') === 0) {
+			document.getElementById('correctAnswer14').innerHTML = correctAnswer('correctString14', 14, 'aaaa');
+		}
+		if (answerScore('q15') === 0) {
+			document.getElementById('correctAnswer15').innerHTML = correctAnswer('correctString15', 15, 'aaaa');
 		}
 
 	// calculate "possible score" integer

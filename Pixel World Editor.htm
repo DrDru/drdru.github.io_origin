@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<html>
+<head>
   <title>Pixel World Editor</title>
   <meta name="description" content="Draw worlds out of pixel art sprites.">
   <meta name="og:type" content="website">
@@ -424,7 +424,7 @@ main {
         </div>
         <div class="actions">
           <label class="wrap">
-            <input type="checkbox" id="autosave" checked="checked">
+            <input type="checkbox" id="autosave" checked>
             Autosave on every action
           </label>
           <button id="clear-autosave">Clear autosaved data</button>
@@ -438,7 +438,7 @@ main {
             <input type="color" id="background-color" value="#222222">
           </label>
           <label class="wrap">
-            <input type="checkbox" id="show-grid" checked="checked">
+            <input type="checkbox" id="show-grid" checked>
             Show grid
           </label>
           <label class="wrap">
@@ -453,15 +453,15 @@ main {
         <div class="actions">
           <button id="add-layer"> + New layer</button>
         </div>
-        <div id="layers" data-count="1"><div class="layer active" draggable="true" data-id="0" id="l0"><input type="text" class="field" data-id="0" value="Layer 1"><a class="select" data-id="0">Layer 1</a><a class="button rename" data-id="0">&#9881;&#65038;</a><a class="button delete" data-id="0">×</a></div>
+        <div id="layers">
           <div class="placeholder-layer"></div>
         </div>
       </section>
 
     </div>
 
-    <div id="world-area" class="grid" style="background-color: rgb(34, 34, 34);">
-    <iframe id="world"></iframe></div>
+    <div id="world-area" class="grid">
+    </div>
 
     <div id="right-sidebar" class="sidebar">
       <section class="library">
@@ -486,7 +486,19 @@ document.getElementById("show-info").addEventListener("click", e => {
 });
 </script>
         <div class="help-locator">
-          
+          <div class="help">
+            <p>
+              This is an experimental editor, so I haven't built a pixel art creator.
+              For now, you can import pixel art made with
+              <a target="_blank" href="https://www.pixelartcss.com/">https://www.pixelartcss.com/</a>
+              using this button.
+            </p>
+            <label>
+              <input type="checkbox" id="dont-show" checked>
+              Don't show this again
+            </label>
+            <span class="dismiss">DISMISS</span>
+          </div>
         </div>
 <script>
 (function(){
@@ -523,7 +535,7 @@ document.getElementById("show-info").addEventListener("click", e => {
     <div id="import-modal" class="modal" style="display:none">
       <header>
         Import
-        <button class="close">×</button>
+        <button class="close">&times;</button>
       </header>
       <div class="body">
         <label for="pixelart-css-code">Create pixel art at <a target="blank" href="https://www.pixelartcss.com/">https://www.pixelartcss.com/</a> and paste the generated CSS here</label>
@@ -539,7 +551,7 @@ document.getElementById("show-info").addEventListener("click", e => {
     </div>
 
     <div id="message-modal" class="modal" style="display:none">
-      <header><span class="header-text"></span><button class="close">×</button></header>
+      <header><span class="header-text"></span><button class="close">&times;</button></header>
       <div class="body"></div>
     </div>
 
@@ -2122,5 +2134,5 @@ editor.init();
 
 
 </script>
-
-</body></html>
+</body>
+</html>
