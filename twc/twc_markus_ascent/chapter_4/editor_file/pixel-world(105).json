@@ -2,10 +2,10 @@
   "settings": {
     "autosave": true,
     "grid": true,
-    "pixelSize": 3,
+    "pixelSize": 5,
     "background": "#222222",
     "activeLayer": 0,
-    "activeSprite": 46
+    "activeSprite": 49
   },
   "sprites": [
     [
@@ -295,6 +295,18 @@
       16,
       20,
       "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/wUEA/8FBAP/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/BQQD/4huav+9pJn/vaSZ/4huav8FBAP/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/72kmf/dzr//3c6//93Ov/+9pJn/iG5q/4huav8FBAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/72kmf+Ibmr/vaSZ/93Ov/+9pJn/iG5q/72kmf+9pJn/iG5q/wUEA/8AAAAAAAAAAAAAAAAAAAAABQQD/4huav+Ibmr/vaSZ/93Ov/+9pJn/iG5q/4huav+Ibmr/vaSZ/72kmf8FBAP/AAAAAAAAAAAAAAAAAAAAAAUEA/+Ibmr/vaSZ/72kmf+Ibmr/BQQD/wUEA/+9pJn/vaSZ/4huav+9pJn/BQQD/wAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/4huav8FBAP/BQQD/080L/9PNC//BQQD/wUEA/+9pJn/iG5q/wUEA/8AAAAAAAAAAAAAAAAAAAAABQQD/1lNTf8FBAP/WU1N/080L//GhVb/xoVW/080L/9ZTU3/BQQD/1lNTf8FBAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/wUEA/8FBAP/xoVW/8aFVv8FBAP/BQQD/4huav8FBAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/TzQv/1lNTf+Io7z/AGBL/8aFVv/GhVb/AGBL/4ijvP9ZTU3/TzQv/wUEA/8AAAAAAAAAAAAAAAAAAAAABQQD/080L/8FBAP/7Ovn/wBgS//isn7/4rJ+/wBgS//s6+f/BQQD/080L/8FBAP/AAAAAAAAAAAAAAAAAAAAAAUEA/9PNC//BQQD/080L//GhVb/4rJ+/+Kyfv/GhVb/TzQv/wUEA/9PNC//BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/4VfOf+FXzn/TD0u/4xbPv+MWz7/TD0u/4VfOf+FXzn/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/+bn8P+al7n/BQQD/4VfOf+al7n/mpe5/4VfOf8FBAP/mpe5/+bn8P8FBAP/AAAAAAAAAAAAAAAAAAAAAAUEA//GhVb/BQQD/4VfOf/Tl0H/5ufw/+bn8P/Tl0H/hV85/wUEA//GhVb/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/wUEA//Tl0H/05dB/+bn8P/m5/D/05dB/9OXQf8FBAP/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/hV85/9OXQf+al7n/mpe5/9OXQf+FXzn/BQQD/wAAAAAAAAAAAAAAAAAAAAA="
+    ],
+    [
+      48,
+      16,
+      16,
+      "QkFb/05Ta/9OU2v/TlNr/05Ta/9OU2v/TlNr/05Ta/9OU2v/TlNr/05Ta/9OU2v/TlNr/0JBW/9CQVv/Ni1K/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/0JBW//O2er/rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/9CQVv/ztnq/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//TlNr/87Z6v+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/05Ta//O2er/rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/9OU2v/ztnq/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//TlNr/87Z6v+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/05Ta//O2er/rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/9OU2v/ztnq/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//TlNr/87Z6v+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/05Ta//O2er/rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/9OU2v/ztnq/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//TlNr/+D29f+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/05Ta//g9vX/rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/+sqs//rKrP/6yqz/9OU2v/TlNr/+D29f/g9vX/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v/O2er/ztnq/87Z6v+sqs//QkFb/w=="
+    ],
+    [
+      49,
+      16,
+      20,
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/wUEA/8FBAP/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/BQQD/4huav+9pJn/vaSZ/4huav8FBAP/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/72kmf/dzr//3c6//93Ov/+9pJn/iG5q/4huav8FBAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/72kmf+Ibmr/vaSZ/93Ov/+9pJn/iG5q/72kmf+9pJn/iG5q/wUEA/8AAAAAAAAAAAAAAAAAAAAABQQD/4huav+Ibmr/vaSZ/93Ov/+9pJn/iG5q/4huav+Ibmr/vaSZ/72kmf8FBAP/AAAAAAAAAAAAAAAAAAAAAAUEA/+Ibmr/vaSZ/72kmf+Ibmr/AAAA/wAAAP+9pJn/vaSZ/4huav+9pJn/BQQD/wAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/4huav8FBAP/BQQD/080L/9PNC//BQQD/wUEA/+9pJn/iG5q/wUEA/8AAAAAAAAAAAAAAAAAAAAABQQD/1lNTf8FBAP/WU1N/080L//GhVb/xoVW/080L/9ZTU3/BQQD/1lNTf8FBAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/iG5q/wUEA/8FBAP/xoVW/8aFVv8FBAP/BQQD/4huav8FBAP/AAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/TzQv/1lNTf+Io7z/AGBL/8aFVv/GhVb/AGBL/4ijvP9ZTU3/TzQv/wUEA/8AAAAAAAAAAAAAAAAAAAAABQQD/080L/8FBAP/7Ovn/wBgS//isn7/4rJ+/wBgS//s6+f/BQQD/080L/8FBAP/AAAAAAAAAAAAAAAAAAAAAAUEA/9PNC//BQQD/080L//GhVb/4rJ+/+Kyfv/GhVb/TzQv/wUEA/9PNC//BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/4VfOf+FXzn/TD0u/4xbPv+MWz7/TD0u/4VfOf+FXzn/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/+bn8P+al7n/BQQD/4VfOf+al7n/mpe5/4VfOf8FBAP/mpe5/+bn8P8FBAP/AAAAAAAAAAAAAAAAAAAAAAUEA//GhVb/BQQD/4VfOf/Tl0H/5ufw/+bn8P/Tl0H/hV85/wUEA//GhVb/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAABQQD/wUEA//Tl0H/05dB/+bn8P/m5/D/05dB/9OXQf8FBAP/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBAP/hV85/9OXQf+al7n/mpe5/9OXQf+FXzn/BQQD/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
     ]
   ],
   "layers": [
@@ -695,14 +707,14 @@
         [
           65,
           44,
-          46,
-          71
+          87,
+          54
         ],
         [
           66,
           47,
-          46,
-          -1
+          95,
+          25
         ],
         [
           67,
@@ -714,7 +726,73 @@
           68,
           46,
           45,
-          18
+          22
+        ],
+        [
+          69,
+          12,
+          96,
+          28
+        ],
+        [
+          70,
+          12,
+          96,
+          32
+        ],
+        [
+          71,
+          48,
+          46,
+          -1
+        ],
+        [
+          72,
+          48,
+          46,
+          47
+        ],
+        [
+          73,
+          48,
+          46,
+          31
+        ],
+        [
+          74,
+          48,
+          46,
+          15
+        ],
+        [
+          75,
+          44,
+          47,
+          49
+        ],
+        [
+          76,
+          46,
+          89,
+          55
+        ],
+        [
+          77,
+          12,
+          87,
+          56
+        ],
+        [
+          78,
+          12,
+          88,
+          62
+        ],
+        [
+          79,
+          49,
+          46,
+          10
         ]
       ]
     }
