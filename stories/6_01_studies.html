@@ -249,7 +249,10 @@ Oxford<ruby>大学<rt>だいがく</rt></ruby>、Cambridge<ruby>大学<rt>だい
 
  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
 <script>
-  twemoji.parse(document.body);
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
 </script>
 
 </body>
