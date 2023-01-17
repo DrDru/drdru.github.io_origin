@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <html style=""><head><title>The Tile World Chronicles</title>
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=420">
 <link rel="stylesheet" type="text/css" href="./book_pages.css">
 <link rel="stylesheet" type="text/css" href="./09_same_time.css">
@@ -77,7 +78,7 @@
 <div style="width: 20%; padding-left: 5px; padding-top: 10px" >
 <div class="celestina" style="color: blue;">.</div></div>
 <div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
-マーカス！ルーン入ったブレスレットは、とても便利ね。
+マーカス！ルーン入ったブレスレットは、とても便利ね
 </div>
 </div>
 
@@ -130,9 +131,13 @@
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+  
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>

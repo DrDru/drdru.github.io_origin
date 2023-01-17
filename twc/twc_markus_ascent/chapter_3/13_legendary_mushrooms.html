@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <html style=""><head><title>The Tile World Chronicles</title>
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=420">
 <link rel="stylesheet" type="text/css" href="./book_pages.css">
 <link rel="stylesheet" type="text/css" href="./13_legendary_mushrooms.css">
@@ -71,7 +72,7 @@
 
 </div>
 <div style="padding-left: 20px; padding-right: 20px; font-size: 160%; overflow-wrap: break-word;">
-「キノコの<Ruby>髭<rt>ひげ</rt></Ruby>とその息子は<ruby>昔<rt>むかし</rt></ruby>ここに来たんだ。森に帰りたいけど、ここでいい友達ができた。」と話しました。 
+「キノコの<Ruby>髭<rt>ひげ</rt></Ruby>とその息子は<ruby>昔<rt>むかし</rt></ruby>ここに来たんだ。森に帰りたいけど、ここでいい友達ができた」と話しました。 
 
 
 </div>  
@@ -172,9 +173,13 @@
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+  
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>

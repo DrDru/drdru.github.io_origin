@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <html style=""><head><title>The Tile World Chronicles</title>
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=420">
 <link rel="stylesheet" type="text/css" href="./book_pages.css">
 <link rel="stylesheet" type="text/css" href="./05_test.css">
@@ -56,7 +57,7 @@
    <ruby>少年<rt>しょうねん</rt></ruby>はもう2<ruby>時間<rt><!--じかん--></rt></ruby>も<ruby>歩<rt><!--ある--></rt></ruby>きました。もうすぐ<ruby>昼<rt>ひる</rt></ruby>になりました。
 
 
-Suddenly the gound opens under Markus and he falls into a dark hole
+
 
 </div>  
 </div>
@@ -128,9 +129,13 @@ Suddenly the gound opens under Markus and he falls into a dark hole
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+  
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>
