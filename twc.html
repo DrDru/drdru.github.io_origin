@@ -2,6 +2,7 @@
 <html lang="ja">
 
 <html style=""><head><title>The Tile World Chronicles</title>
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=420">
 <link rel="stylesheet" type="text/css" href="./twc/book_pages.css">
 <link rel="stylesheet" type="text/css" href="./twc/characters.css">
@@ -157,6 +158,16 @@ color: #22419e;
 
 </div>
 
+<div class="dialogue">
+<div style="width: 20%; padding-left: 10px; padding-top: 10px; " >
+<div class="celestina" style="color: black;">.</div></div>
+<br>
+<div style="width: 80%; font-size: 200%; overflow-wrap: break-word; padding-right: 10px;padding-top: 23px">
+<a href="./twc/twc_markus_ascent/chapter_3/01_the_legend_of_the_cavern.html">Markus's ascent Chapter 2</a> 
+</div>
+
+</div>
+
 </div>
 
 
@@ -171,9 +182,13 @@ color: #22419e;
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+  
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>
