@@ -1,0 +1,38 @@
+{
+  "settings": {
+    "autosave": true,
+    "grid": true,
+    "pixelSize": 10,
+    "background": "#222222",
+    "activeLayer": 0,
+    "activeSprite": 0
+  },
+  "sprites": [
+    [
+      0,
+      8,
+      8,
+      "b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9EiRr/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/GnJE/0SJGv9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP9vpDD/b6Qw/0SJGv9vpDD/b6Qw/2+kMP9vpDD/b6Qw/2+kMP8ackT/RIka/2+kMP9vpDD/b6Qw/2+kMP9EiRr/b6Qw/2+kMP9vpDD/b6Qw/w=="
+    ],
+    [
+      1,
+      8,
+      8,
+      "b6Qw/2+kMP9vpDD/SyUH/204Dv9cLQj/dVAP/204Dv9vpDD/b6Qw/0SJGv9LJQf/bTgO/3VQD/91UA//dVAP/2+kMP9EiRr/SyUH/204Dv9tOA7/bTgO/3VQD/91UA//b6Qw/2+kMP9LJQf/SyUH/204Dv9cLQj/dVAP/3VQD/9vpDD/RIka/zwkBv9LJQf/bTgO/204Dv91UA//XC0I/2+kMP9vpDD/b6Qw/0slB/9LJQf/bTgO/3VQD/91UA//b6Qw/2+kMP9EiRr/SyUH/0slB/9tOA7/bTgO/3VQD/9vpDD/RIka/zwkBv9LJQf/bTgO/204Dv91UA//dVAP/w=="
+    ]
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "n": "Layer 1",
+      "s": [
+        [
+          0,
+          0,
+          -1,
+          -1
+        ]
+      ]
+    }
+  ]
+}
