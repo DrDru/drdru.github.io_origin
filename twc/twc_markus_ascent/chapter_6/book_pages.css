@@ -1,0 +1,164 @@
+body { 
+
+         background-color: #04042b;
+background-image:
+
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+   box-sizing: border-box;
+     margin:0px;
+     padding: 0px;     
+ }
+
+
+.a2 {
+  
+  color: white;
+  text-decoration: none;
+
+}
+
+
+.main {
+     
+  margin: 0 auto;
+  width: 790px;
+  box-sizing: border-box;
+   
+}
+
+.top {
+
+  background-color: #22419e;
+  border:5px solid white;
+  border-radius: 25px;
+  color: white;
+  font-size: 150%;
+  margin-bottom: 4px;
+  width: 100%;
+
+}
+
+
+
+.bottom {
+      
+     float: left;
+     border: 5px solid white;
+    background-color: #22419e;
+     border-radius: 25px;
+     color: white;
+     font-size: 150%;
+     margin-bottom: 30px;
+    
+     width: 100%;
+
+
+}
+
+
+.next {
+
+     text-align: center;
+     font-weight: bold;
+
+}
+
+
+.page {
+   width: 380px;
+    color:  white;
+     float: left;
+     
+     
+     height: 640px;
+     background-color: #22419e;
+     border-radius: 25px;
+     margin-bottom: 10px;
+    border: 5px solid white;
+}
+
+
+.left_page {
+
+   margin-right: 10px;
+
+}
+
+.right_page {
+
+   margin-left: 0px;
+
+}
+
+.dialogue {
+
+    display: flex;
+    float: left;
+    width: 100%;
+
+ min-height: 80px; 
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+  margin-bottom: 10px;
+
+}
+
+@media (max-width: 850px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    
+.page {
+
+     width: 400px;
+
+}
+
+
+body  {
+
+  width: 420px;
+
+}
+.top,
+.page,
+.bottom {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+
+
+
+.left_page {
+
+   margin-right: 0px;
+
+}
+
+  .main { 
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px;
+
+   }
+
+   .top {
+
+width:  400px;
+
+}
+.bottom {
+      
+
+width:  400px;
+
+}
+
+}
