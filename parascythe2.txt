@@ -294,30 +294,60 @@ Sorry. I shouldn't have told you... You're suffering so much.
 I promise
 
 32
-この見晴らしの良さは、私にとって有利に働きます。
+きっと、(彼らにとっての)最短ルートを知っているのだろう。
+I bet he knows what the shortest route is (for them).
+
+ここは自分にとって良い場所になる。
+This will be a good place for me.
 
 電源もある。
+There's also a power supply.
 
-通路を渡る瞬間に待ち伏せをしたら...。
+通路を渡る瞬間に攻撃すると......。
+If I attack at the moment of crossing the passage. ......
 
-おいおい......プリズムだよ。拡張性のあるチームが必要だ。
-ライオンです。場所はどこですか？
+おいおい......プリズムだよ。使い捨てのチームが必要なんだ。
+Hey, hey, hey. ...... Prism. I'll need a disposable team.
 
-旧発電所です。
+ライオンだ。場所はどこか？
+Lion. Where is the location?
 
-L0L1が表記されています
+古い発電所。
+The Old power plant
 
-トラッキングナンバーを送ります。
 
-何個必要ですか？
+L0L1が表記されている
+L0L1 is marked.
 
-教えてくれるんですね。どんなモンスターを逃がしたんだ？
+トラッキングナンバーを送る。
+I'll send you the tracking number.
 
-まさか機密事項とは言わせませんよ、本当に損切りしたくなりますね。
+何人必要なんだ？
+How many people do you need ?
+
+教えてくれるね。
+You tell me.
+
+
+##
+どんなモンスターを逃がしたんだ？
+What monster did you let go?
+
+(easier)
+どんなモンスターが逃げたのか？
+What monsters have escaped?
+##
+
+
+本当にやめたくなるから、機密事項なんて言わないでね。
+Don't tell me it's confidential because I really want to stop.
 
 わからない
+We don't know.
 
 あなたは知らない！？
+You don't know !
+
 
 せめてAAを何枚使ったかくらいは教えてほしい。
 
