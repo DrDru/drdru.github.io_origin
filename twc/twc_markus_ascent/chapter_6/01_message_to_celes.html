@@ -2,11 +2,24 @@
 <html lang="ja">
 
 <html style=""><head><title>The Tile World Chronicles</title>
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=420">
 <link rel="stylesheet" type="text/css" href="./book_pages.css">
-<link rel="stylesheet" type="text/css" href="./01_message_to_celes.css">
-<link rel="stylesheet" type="text/css" href="./characters.css">
+<link rel="stylesheet" type="text/css" href="./forest_1.css">
+
 <style>
+
+.black {
+
+  color: black;
+
+}
+
+
+.icon_twittemoji .emoji {
+    height: 30px;
+    width: 30px;
+}
 
 .layer {
   position: absolute;
@@ -26,15 +39,72 @@
   border: 2px solid #3399FF;
 }
 
-.icon_twittemoji .emoji {
-    height: 40px;
-    width: 40px;
+
+.dark_grey_key {
+
+  display: inline-block;
+   background-color: rgba(96, 125, 139, 1); 
+   width: 15px; height: 15px;transform: translate(0px, 0px);
+   border-right: solid black 1px;
+
+}
+
+.light_grey_key {
+
+  display: inline-block;
+   background-color: rgba(158, 158, 158, 1); 
+   width: 15px; height: 15px;transform: translate(0px, 0px);
+border-right: solid black 1px;
+
+}  
+
+.message_tmp {
+
+  margin-top: 25px;
+
+
+}
+
+.message_tmp2 {
+
+  margin-top: 15px;
+
+
+}
+
+.rune_stone {
+
+  box-shadow: 3px 3px 0 0 rgba(0,0,0,0), 6px 3px 0 0 rgba(0,0,0,0), 9px 3px 0 0 rgba(0,0,0,0), 12px 3px 0 0 rgba(0,0,0,0), 15px 3px 0 0 rgba(0,0,0,0), 18px 3px 0 0 rgba(0,0,0,0), 21px 3px 0 0 rgba(0,0,0,0), 24px 3px 0 0 rgba(0,0,0,0), 27px 3px 0 0 rgba(0,0,0,0), 30px 3px 0 0 rgba(0,0,0,0), 33px 3px 0 0 rgba(0,0,0,0), 36px 3px 0 0 rgba(0,0,0,0), 39px 3px 0 0 rgba(0,0,0,0), 42px 3px 0 0 rgba(0,0,0,0), 45px 3px 0 0 rgba(0,0,0,0), 48px 3px 0 0 rgba(0,0,0,0), 3px 6px 0 0 rgba(0,0,0,0), 6px 6px 0 0 rgba(0,0,0,0), 9px 6px 0 0 rgba(0,0,0,0), 12px 6px 0 0 rgba(0,0,0,0), 15px 6px 0 0 rgba(0,0,0,0), 18px 6px 0 0 rgba(0,0,0,0), 21px 6px 0 0 rgba(0,0,0,255), 24px 6px 0 0 rgba(0,0,0,255), 27px 6px 0 0 rgba(0,0,0,255), 30px 6px 0 0 rgba(0,0,0,255), 33px 6px 0 0 rgba(0,0,0,0), 36px 6px 0 0 rgba(0,0,0,0), 39px 6px 0 0 rgba(0,0,0,0), 42px 6px 0 0 rgba(0,0,0,0), 45px 6px 0 0 rgba(0,0,0,0), 48px 6px 0 0 rgba(0,0,0,0), 3px 9px 0 0 rgba(0,0,0,0), 6px 9px 0 0 rgba(0,0,0,0), 9px 9px 0 0 rgba(0,0,0,0), 12px 9px 0 0 rgba(0,0,0,0), 15px 9px 0 0 rgba(0,0,0,255), 18px 9px 0 0 rgba(0,0,0,255), 21px 9px 0 0 rgba(102,102,102,255), 24px 9px 0 0 rgba(102,102,102,255), 27px 9px 0 0 rgba(102,102,102,255), 30px 9px 0 0 rgba(102,102,102,255), 33px 9px 0 0 rgba(0,0,0,255), 36px 9px 0 0 rgba(0,0,0,255), 39px 9px 0 0 rgba(0,0,0,0), 42px 9px 0 0 rgba(0,0,0,0), 45px 9px 0 0 rgba(0,0,0,0), 48px 9px 0 0 rgba(0,0,0,0), 3px 12px 0 0 rgba(0,0,0,0), 6px 12px 0 0 rgba(0,0,0,0), 9px 12px 0 0 rgba(0,0,0,0), 12px 12px 0 0 rgba(0,0,0,255), 15px 12px 0 0 rgba(102,102,102,255), 18px 12px 0 0 rgba(102,102,102,255), 21px 12px 0 0 rgba(132,132,132,255), 24px 12px 0 0 rgba(132,132,132,255), 27px 12px 0 0 rgba(132,132,132,255), 30px 12px 0 0 rgba(102,102,102,255), 33px 12px 0 0 rgba(102,102,102,255), 36px 12px 0 0 rgba(74,74,74,255), 39px 12px 0 0 rgba(0,0,0,255), 42px 12px 0 0 rgba(0,0,0,0), 45px 12px 0 0 rgba(0,0,0,0), 48px 12px 0 0 rgba(0,0,0,0), 3px 15px 0 0 rgba(0,0,0,0), 6px 15px 0 0 rgba(0,0,0,0), 9px 15px 0 0 rgba(0,0,0,255), 12px 15px 0 0 rgba(102,102,102,255), 15px 15px 0 0 rgba(132,132,132,255), 18px 15px 0 0 rgba(217,217,217,255), 21px 15px 0 0 rgba(179,179,179,255), 24px 15px 0 0 rgba(179,179,179,255), 27px 15px 0 0 rgba(132,132,132,255), 30px 15px 0 0 rgba(132,132,132,255), 33px 15px 0 0 rgba(102,102,102,255), 36px 15px 0 0 rgba(102,102,102,255), 39px 15px 0 0 rgba(74,74,74,255), 42px 15px 0 0 rgba(0,0,0,255), 45px 15px 0 0 rgba(0,0,0,0), 48px 15px 0 0 rgba(0,0,0,0), 3px 18px 0 0 rgba(0,0,0,0), 6px 18px 0 0 rgba(0,0,0,0), 9px 18px 0 0 rgba(0,0,0,255), 12px 18px 0 0 rgba(102,102,102,255), 15px 18px 0 0 rgba(217,217,217,255), 18px 18px 0 0 rgba(255,255,255,255), 21px 18px 0 0 rgba(217,217,217,255), 24px 18px 0 0 rgba(179,179,179,255), 27px 18px 0 0 rgba(132,132,132,255), 30px 18px 0 0 rgba(132,132,132,255), 33px 18px 0 0 rgba(102,102,102,255), 36px 18px 0 0 rgba(102,102,102,255), 39px 18px 0 0 rgba(74,74,74,255), 42px 18px 0 0 rgba(0,0,0,255), 45px 18px 0 0 rgba(0,0,0,0), 48px 18px 0 0 rgba(0,0,0,0), 3px 21px 0 0 rgba(0,0,0,0), 6px 21px 0 0 rgba(0,0,0,255), 9px 21px 0 0 rgba(102,102,102,255), 12px 21px 0 0 rgba(132,132,132,255), 15px 21px 0 0 rgba(179,179,179,255), 18px 21px 0 0 rgba(217,217,217,255), 21px 21px 0 0 rgba(179,179,179,255), 24px 21px 0 0 rgba(179,179,179,255), 27px 21px 0 0 rgba(132,132,132,255), 30px 21px 0 0 rgba(132,132,132,255), 33px 21px 0 0 rgba(102,102,102,255), 36px 21px 0 0 rgba(102,102,102,255), 39px 21px 0 0 rgba(74,74,74,255), 42px 21px 0 0 rgba(37,37,37,255), 45px 21px 0 0 rgba(0,0,0,255), 48px 21px 0 0 rgba(0,0,0,0), 3px 24px 0 0 rgba(0,0,0,0), 6px 24px 0 0 rgba(0,0,0,255), 9px 24px 0 0 rgba(102,102,102,255), 12px 24px 0 0 rgba(132,132,132,255), 15px 24px 0 0 rgba(179,179,179,255), 18px 24px 0 0 rgba(179,179,179,255), 21px 24px 0 0 rgba(179,179,179,255), 24px 24px 0 0 rgba(132,132,132,255), 27px 24px 0 0 rgba(132,132,132,255), 30px 24px 0 0 rgba(132,132,132,255), 33px 24px 0 0 rgba(102,102,102,255), 36px 24px 0 0 rgba(102,102,102,255), 39px 24px 0 0 rgba(74,74,74,255), 42px 24px 0 0 rgba(37,37,37,255), 45px 24px 0 0 rgba(0,0,0,255), 48px 24px 0 0 rgba(0,0,0,0), 3px 27px 0 0 rgba(0,0,0,0), 6px 27px 0 0 rgba(0,0,0,255), 9px 27px 0 0 rgba(102,102,102,255), 12px 27px 0 0 rgba(132,132,132,255), 15px 27px 0 0 rgba(132,132,132,255), 18px 27px 0 0 rgba(132,132,132,255), 21px 27px 0 0 rgba(132,132,132,255), 24px 27px 0 0 rgba(132,132,132,255), 27px 27px 0 0 rgba(132,132,132,255), 30px 27px 0 0 rgba(102,102,102,255), 33px 27px 0 0 rgba(102,102,102,255), 36px 27px 0 0 rgba(102,102,102,255), 39px 27px 0 0 rgba(74,74,74,255), 42px 27px 0 0 rgba(37,37,37,255), 45px 27px 0 0 rgba(0,0,0,255), 48px 27px 0 0 rgba(0,0,0,0), 3px 30px 0 0 rgba(0,0,0,0), 6px 30px 0 0 rgba(0,0,0,255), 9px 30px 0 0 rgba(102,102,102,255), 12px 30px 0 0 rgba(102,102,102,255), 15px 30px 0 0 rgba(132,132,132,255), 18px 30px 0 0 rgba(132,132,132,255), 21px 30px 0 0 rgba(132,132,132,255), 24px 30px 0 0 rgba(132,132,132,255), 27px 30px 0 0 rgba(102,102,102,255), 30px 30px 0 0 rgba(102,102,102,255), 33px 30px 0 0 rgba(102,102,102,255), 36px 30px 0 0 rgba(74,74,74,255), 39px 30px 0 0 rgba(74,74,74,255), 42px 30px 0 0 rgba(37,37,37,255), 45px 30px 0 0 rgba(0,0,0,255), 48px 30px 0 0 rgba(0,0,0,0), 3px 33px 0 0 rgba(0,0,0,0), 6px 33px 0 0 rgba(0,0,0,0), 9px 33px 0 0 rgba(0,0,0,255), 12px 33px 0 0 rgba(102,102,102,255), 15px 33px 0 0 rgba(102,102,102,255), 18px 33px 0 0 rgba(102,102,102,255), 21px 33px 0 0 rgba(102,102,102,255), 24px 33px 0 0 rgba(102,102,102,255), 27px 33px 0 0 rgba(102,102,102,255), 30px 33px 0 0 rgba(102,102,102,255), 33px 33px 0 0 rgba(74,74,74,255), 36px 33px 0 0 rgba(74,74,74,255), 39px 33px 0 0 rgba(37,37,37,255), 42px 33px 0 0 rgba(0,0,0,255), 45px 33px 0 0 rgba(0,0,0,0), 48px 33px 0 0 rgba(0,0,0,0), 3px 36px 0 0 rgba(0,0,0,0), 6px 36px 0 0 rgba(0,0,0,0), 9px 36px 0 0 rgba(0,0,0,255), 12px 36px 0 0 rgba(74,74,74,255), 15px 36px 0 0 rgba(102,102,102,255), 18px 36px 0 0 rgba(102,102,102,255), 21px 36px 0 0 rgba(102,102,102,255), 24px 36px 0 0 rgba(102,102,102,255), 27px 36px 0 0 rgba(102,102,102,255), 30px 36px 0 0 rgba(74,74,74,255), 33px 36px 0 0 rgba(74,74,74,255), 36px 36px 0 0 rgba(74,74,74,255), 39px 36px 0 0 rgba(37,37,37,255), 42px 36px 0 0 rgba(0,0,0,255), 45px 36px 0 0 rgba(0,0,0,0), 48px 36px 0 0 rgba(0,0,0,0), 3px 39px 0 0 rgba(0,0,0,0), 6px 39px 0 0 rgba(0,0,0,0), 9px 39px 0 0 rgba(0,0,0,0), 12px 39px 0 0 rgba(0,0,0,255), 15px 39px 0 0 rgba(74,74,74,255), 18px 39px 0 0 rgba(74,74,74,255), 21px 39px 0 0 rgba(74,74,74,255), 24px 39px 0 0 rgba(74,74,74,255), 27px 39px 0 0 rgba(74,74,74,255), 30px 39px 0 0 rgba(74,74,74,255), 33px 39px 0 0 rgba(37,37,37,255), 36px 39px 0 0 rgba(37,37,37,255), 39px 39px 0 0 rgba(0,0,0,255), 42px 39px 0 0 rgba(0,0,0,0), 45px 39px 0 0 rgba(0,0,0,0), 48px 39px 0 0 rgba(0,0,0,0), 3px 42px 0 0 rgba(0,0,0,0), 6px 42px 0 0 rgba(0,0,0,0), 9px 42px 0 0 rgba(0,0,0,0), 12px 42px 0 0 rgba(0,0,0,0), 15px 42px 0 0 rgba(0,0,0,255), 18px 42px 0 0 rgba(0,0,0,255), 21px 42px 0 0 rgba(37,37,37,255), 24px 42px 0 0 rgba(37,37,37,255), 27px 42px 0 0 rgba(37,37,37,255), 30px 42px 0 0 rgba(37,37,37,255), 33px 42px 0 0 rgba(0,0,0,255), 36px 42px 0 0 rgba(0,0,0,255), 39px 42px 0 0 rgba(0,0,0,0), 42px 42px 0 0 rgba(0,0,0,0), 45px 42px 0 0 rgba(0,0,0,0), 48px 42px 0 0 rgba(0,0,0,0), 3px 45px 0 0 rgba(0,0,0,0), 6px 45px 0 0 rgba(0,0,0,0), 9px 45px 0 0 rgba(0,0,0,0), 12px 45px 0 0 rgba(0,0,0,0), 15px 45px 0 0 rgba(0,0,0,0), 18px 45px 0 0 rgba(0,0,0,0), 21px 45px 0 0 rgba(0,0,0,255), 24px 45px 0 0 rgba(0,0,0,255), 27px 45px 0 0 rgba(0,0,0,255), 30px 45px 0 0 rgba(0,0,0,255), 33px 45px 0 0 rgba(0,0,0,0), 36px 45px 0 0 rgba(0,0,0,0), 39px 45px 0 0 rgba(0,0,0,0), 42px 45px 0 0 rgba(0,0,0,0), 45px 45px 0 0 rgba(0,0,0,0), 48px 45px 0 0 rgba(0,0,0,0), 3px 48px 0 0 rgba(0,0,0,0), 6px 48px 0 0 rgba(0,0,0,0), 9px 48px 0 0 rgba(0,0,0,0), 12px 48px 0 0 rgba(0,0,0,0), 15px 48px 0 0 rgba(0,0,0,0), 18px 48px 0 0 rgba(0,0,0,0), 21px 48px 0 0 rgba(0,0,0,0), 24px 48px 0 0 rgba(0,0,0,0), 27px 48px 0 0 rgba(0,0,0,0), 30px 48px 0 0 rgba(0,0,0,0), 33px 48px 0 0 rgba(0,0,0,0), 36px 48px 0 0 rgba(0,0,0,0), 39px 48px 0 0 rgba(0,0,0,0), 42px 48px 0 0 rgba(0,0,0,0), 45px 48px 0 0 rgba(0,0,0,0), 48px 48px 0 0 rgba(0,0,0,0);
+  height: 3px;
+  width: 3px;
 }
 </style>
+
+
+<!--
+  Rune powered devices are everywhere. Lead by Grand Engineer Markus and his 3 companions, Rune crafters in Akotis are making more of them everyday, always more powerful. Their spread has changed the world for ever.
+
+Due to the world's dependency on these devices, his rule his felt everywhere and his opponents are destroyed.
+
+Before being Grand Engineer, Markus was a passionate boy from Rocktown.
+-->
 </head><body class="">
 
 
+<!--
+Yes. Markus ?
 
+Where are you ?
+
+
+I am on the way. about 2 miles from you !
+
+I have played with the runestones we gathered in the cavern on the way home. (they sell some to Nikolo in part 5)
+
+Their range is a bit wider than normal. I am happy :-)
+
+Nice I am glad for you
+-->
 <br>
 
 <div class="main">
@@ -42,86 +112,114 @@
 
 
     <div class="top">
-    <span class="next"><p>昼ご飯 (4 / 22)</p></span>
+    <span class="next"><p> ルーンチャット (18 / 21)</p></span>
   </div>
-  <div class="page left_page">
+  <div class="page left_page" style="background-color:black; font-size: 145%; text-align: center; line-height: 29px;">
 
-<div style="height: 320px;">
-	<div style=" padding-top: 15px;padding-left: 8px;">
-<div class="layer" id="l0" data-id="0" data-name="Layer 1"><div id="i0" class="s s0" data-id="0" style="left: -3px; top: -3px;"></div><div id="i1" class="s s0" data-id="0" style="left: -3px; top: 45px;"></div><div id="i2" class="s s0" data-id="0" style="left: -3px; top: 93px;"></div><div id="i3" class="s s0" data-id="0" style="left: -3px; top: 141px;"></div><div id="i4" class="s s0" data-id="0" style="left: -3px; top: 189px;"></div><div id="i5" class="s s0" data-id="0" style="left: -3px; top: 237px;"></div><div id="i6" class="s s0" data-id="0" style="left: 45px; top: -3px;"></div><div id="i7" class="s s0" data-id="0" style="left: 93px; top: -3px;"></div><div id="i8" class="s s0" data-id="0" style="left: 141px; top: -3px;"></div><div id="i9" class="s s0" data-id="0" style="left: 189px; top: -3px;"></div><div id="i10" class="s s0" data-id="0" style="left: 237px; top: -3px;"></div><div id="i11" class="s s0" data-id="0" style="left: 285px; top: -3px;"></div><div id="i12" class="s s0" data-id="0" style="left: 303px; top: -3px;"></div><div id="i13" class="s s0" data-id="0" style="left: 45px; top: 45px;"></div><div id="i14" class="s s0" data-id="0" style="left: 45px; top: 93px;"></div><div id="i15" class="s s0" data-id="0" style="left: 45px; top: 141px;"></div><div id="i16" class="s s0" data-id="0" style="left: 45px; top: 189px;"></div><div id="i17" class="s s0" data-id="0" style="left: 45px; top: 237px;"></div><div id="i18" class="s s0" data-id="0" style="left: 93px; top: 45px;"></div><div id="i19" class="s s0" data-id="0" style="left: 141px; top: 45px;"></div><div id="i20" class="s s0" data-id="0" style="left: 93px; top: 93px;"></div><div id="i21" class="s s0" data-id="0" style="left: 93px; top: 141px;"></div><div id="i22" class="s s0" data-id="0" style="left: 93px; top: 189px;"></div><div id="i23" class="s s0" data-id="0" style="left: 93px; top: 237px;"></div><div id="i24" class="s s0" data-id="0" style="left: 141px; top: 93px;"></div><div id="i25" class="s s0" data-id="0" style="left: 189px; top: 45px;"></div><div id="i26" class="s s0" data-id="0" style="left: 237px; top: 45px;"></div><div id="i27" class="s s0" data-id="0" style="left: 285px; top: 45px;"></div><div id="i28" class="s s0" data-id="0" style="left: 303px; top: 45px;"></div><div id="i29" class="s s0" data-id="0" style="left: 189px; top: 93px;"></div><div id="i30" class="s s0" data-id="0" style="left: 237px; top: 93px;"></div><div id="i31" class="s s0" data-id="0" style="left: 285px; top: 93px;"></div><div id="i32" class="s s0" data-id="0" style="left: 303px; top: 93px;"></div><div id="i33" class="s s0" data-id="0" style="left: 141px; top: 141px;"></div><div id="i34" class="s s0" data-id="0" style="left: 189px; top: 141px;"></div><div id="i35" class="s s0" data-id="0" style="left: 237px; top: 141px;"></div><div id="i36" class="s s0" data-id="0" style="left: 285px; top: 141px;"></div><div id="i37" class="s s0" data-id="0" style="left: 303px; top: 141px;"></div><div id="i38" class="s s0" data-id="0" style="left: 141px; top: 189px;"></div><div id="i39" class="s s0" data-id="0" style="left: 141px; top: 237px;"></div><div id="i41" class="s s0" data-id="0" style="left: 189px; top: 237px;"></div><div id="i42" class="s s0" data-id="0" style="left: 237px; top: 189px;"></div><div id="i43" class="s s0" data-id="0" style="left: 285px; top: 189px;"></div><div id="i44" class="s s0" data-id="0" style="left: 303px; top: 189px;"></div><div id="i45" class="s s0" data-id="0" style="left: 237px; top: 237px;"></div><div id="i46" class="s s0" data-id="0" style="left: 285px; top: 237px;"></div><div id="i47" class="s s0" data-id="0" style="left: 303px; top: 237px;"></div><div id="i48" class="s s17" data-id="17" style="left: 3px; top: -3px;"></div><div id="i49" class="s s18" data-id="18" style="left: 3px; top: 45px;"></div><div id="i50" class="s s19" data-id="19" style="left: 3px; top: 93px;"></div><div id="i51" class="s s20" data-id="20" style="left: 51px; top: -3px;"></div><div id="i52" class="s s21" data-id="21" style="left: 51px; top: 45px;"></div><div id="i53" class="s s22" data-id="22" style="left: 51px; top: 93px;"></div><div id="i54" class="s s23" data-id="23" style="left: 99px; top: -3px;"></div><div id="i55" class="s s24" data-id="24" style="left: 99px; top: 45px;"></div><div id="i56" class="s s25" data-id="25" style="left: 99px; top: 93px;"></div><div id="i57" class="s s26" data-id="26" style="left: 147px; top: -3px;"></div><div id="i58" class="s s27" data-id="27" style="left: 147px; top: 45px;"></div><div id="i59" class="s s28" data-id="28" style="left: 147px; top: 93px;"></div><div id="i60" class="s s29" data-id="29" style="left: 195px; top: -3px;"></div><div id="i61" class="s s30" data-id="30" style="left: 195px; top: 45px;"></div><div id="i62" class="s s31" data-id="31" style="left: 195px; top: 93px;"></div><div id="i63" class="s s4" data-id="4" style="left: 237px; top: -3px;"></div><div id="i64" class="s s4" data-id="4" style="left: 237px; top: 45px;"></div><div id="i65" class="s s4" data-id="4" style="left: 237px; top: 93px;"></div><div id="i66" class="s s5" data-id="5" style="left: 285px; top: -3px;"></div><div id="i67" class="s s5" data-id="5" style="left: 285px; top: 45px;"></div><div id="i68" class="s s5" data-id="5" style="left: 285px; top: 93px;"></div><div id="i69" class="s s5" data-id="5" style="left: 285px; top: 141px;"></div><div id="i70" class="s s5" data-id="5" style="left: 285px; top: 189px;"></div><div id="i71" class="s s5" data-id="5" style="left: 285px; top: 237px;"></div><div id="i72" class="s s4" data-id="4" style="left: 237px; top: 237px;"></div><div id="i73" class="s s33" data-id="33" style="left: 237px; top: 189px;"></div><div id="i74" class="s s16" data-id="16" style="left: 189px; top: 189px;"></div><div id="i75" class="s s16" data-id="16" style="left: 144px; top: 189px;"></div><div id="i76" class="s s16" data-id="16" style="left: 96px; top: 189px;"></div><div id="i77" class="s s34" data-id="34" style="left: 237px; top: 141px;"></div><div id="i78" class="s s3" data-id="3" style="left: 189px; top: 141px;"></div><div id="i79" class="s s3" data-id="3" style="left: 141px; top: 141px;"></div><div id="i80" class="s s13" data-id="13" style="left: 48px; top: 189px;"></div><div id="i81" class="s s2" data-id="2" style="left: 48px; top: 141px;"></div><div id="i82" class="s s3" data-id="3" style="left: 93px; top: 141px;"></div><div id="i83" class="s s35" data-id="35" style="left: 159px; top: 99px;"></div><div id="i84" class="s s36" data-id="36" style="left: 72px; top: 237px;"></div><div id="i85" class="s s36" data-id="36" style="left: 123px; top: 237px;"></div><div id="i86" class="s s36" data-id="36" style="left: 18px; top: 237px;"></div><div id="i87" class="s s37" data-id="37" style="left: -3px; top: 168px;"></div><div id="i88" class="s s38" data-id="38" style="left: -3px; top: 120px;"></div><div id="i89" class="s s39" data-id="39" style="left: 51px; top: 150px;"></div><div id="i90" class="s s40" data-id="40" style="left: 261px; top: 6px;"></div><div id="i91" class="s s36" data-id="36" style="left: 180px; top: 237px;"></div><div id="i92" class="s s41" data-id="41" style="left: 159px; top: 99px;"></div><div id="i93" class="s s2" data-id="2" style="left: 48px; top: 141px;"></div><div id="i94" class="s s13" data-id="13" style="left: 48px; top: 189px;"></div><div id="i95" class="s42 s" data-id="42" style="left: 261px; top: 39px;"></div><div id="i96" class="s43 s" data-id="43" style="left: 75px; top: 147px;"></div><div id="i97" class="s43 s" data-id="43" style="left: 75px; top: 147px;"></div><div id="i98" class="s44 s" data-id="44" style="left: 129px; top: 147px;"></div><div id="i99" class="s45 s" data-id="45" style="left: 264px; top: 189px;"></div></div>
+<div style="padding-top:  0px; padding-left:   160px; height:  60px; text-align:left;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
+<div class="message_tmp">
+
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> セレスティーナ？ <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
 
 
 </div>
-
+<div class="message_tmp2">
+<span class="icon_twittemoji">⏳</span>
 </div>
-<div style="padding-left: 20px; padding-right: 20px; font-size: 180%; overflow-wrap: break-word;">
-Say somethig like Leo said he's never heard of special funstones
+<div class="message_tmp2">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> セレスティーナ？ <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+<div class="message_tmp2">
+<span class="icon_twittemoji">⏳</span>
+</div>
+<div class="message_tmp2">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> セレスティーナ？<div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span>  はい  <span class="icon_twittemoji">💎</span> 
+</div>
+
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> どこにいるんだ？ <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span> もう<ruby>湖<rt>みずうみ</rt></ruby>に <span class="icon_twittemoji">💎</span> 
+</div>
 
 
-
-
-
+<div style="padding-top:  0px; padding-left:   160px; height:  60px; text-align:left;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
 </div>  
-</div>
- <div class="page">
 
-	<br>
+ <div class="page"  style="background-color:black;font-size: 160%; text-align: center; line-height: 25px;">
 
-<div class="dialogue">
-
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="markus" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
-It's very dark in here. Let's stay close
-</div>
-</div>
-
-
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 100%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
-モグモグ  
-  <br>
-<ruby><span class="icon_twittemoji">🥪</span><rt></rt></ruby> 
-</div>
-
-<div class="dialogue">
-
-<div style="width: 20%; padding-left: 10px; padding-top: 20px" >
-<span class="icon_twittemoji">😁</span></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
-このサンドウィッチはおいしいね 
-</div>
-</div>
-
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 200%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
   
-<span style="font-style: italic;font-size: 130%;">グオー</span>
+
+
+<div style="padding-top:  0px; padding-left:   160px; height:  50px; text-align:left;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
+
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span> あなたは？ <span class="icon_twittemoji">💎</span> 
 </div>
 
 
-<div class="dialogue" style="margin-bottom: 25px;">
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> <ruby>湖<rt>みずうみ</rt></ruby>から2キロ以上
 
-<div style="width: 20%; padding-left: 10px; padding-top: 20px" >
-<span class="icon_twittemoji">😨</span></div> 
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
-この<ruby>音<rt><!--おと--></rt></ruby>は何？だめだ<ruby>熊<rt>くま</rt></ruby>！
-</div>
+ <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
 </div>
 
 
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 200%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
-  
-<span class="icon_twittemoji">🐻</span>
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> 
 
+
+離れたところさ！
+ <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
 </div>
 
+
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> 洞窟で集めた <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> ルーンストーンは <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> 遠くまでメッセージを  <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> 
+
+<span style="font-size: 90%;"><ruby>届<rt>とど</rt></ruby>けることができるんだ！</span><div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
 </div>
 
 
+
+
+
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span> すごいわね <span class="icon_twittemoji">💎</span> 
+</div>
+<div style="padding-top:  5px; padding-left:   160px; height:  60px; text-align:left;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
+
+
+</div>
 
 
 <div class="bottom"> 
   <span class="next">
-    <p><a href="./../../../twc.html" class="a2">前</a>
+    <p><a href="./17_farewell.html" class="a2">前</a>
        | 
        <a href="./02_nikolo_1.html" class="a2">次</a>
      </p>
@@ -130,9 +228,12 @@ It's very dark in here. Let's stay close
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>
