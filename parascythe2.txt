@@ -61,7 +61,9 @@ What about these ?
 
 上層部で手に入れた。
 I got them in the upper levels
-
+“これはどう？
+ただのスーツだけど。
+上の階で見つけたの。”
 
 私が売っているのは野菜や果物であって、物語じゃない。
 I sell fruits and vegetables, not stories.
@@ -115,23 +117,39 @@ And fast cause you stink!
 I'm sorry, we had no chance to wash.
 
 
-You can't wash away your rotten human smell Especiallythe upper level kind.
+人間の嫌な臭いは洗い流せない。特に上層部の類は。
+You can't wash away your offensive/bad human smell. Especially the upper level kind.
 
+
+あなたの匂いのせいで、他のオーグリーチがみんな去ってしまった。お客さんかな。
+Because of your smell, all the other Orgriash have left. Customers maybe.
+
+何がしたいんだ？
+What do you want ?
+
+私があなたを恐れているとでも？
+You think I'm afraid of you?
+
+私に触るなよ。
+Don't touch me
+
+そうでなければ、多くの-
+Otherwise, there will be many-
+
+待って、それがどうしたの？
+Wait, what about it ?
 
 でも、あなたには1秒しかかからない。
 But it only takes a second for you.
 
-
 そこが2人とも間違っている。
 That's where you're both wrong.
 
-
-全部同じなんですけどね。
+全部同じなんだけどね。
 It's all the same.
 
 
 27
-
 ここなのか？
 Is this the place?
 
@@ -147,17 +165,18 @@ Oh, what's this?
 何かお困りですか？
 Can I help you?
 
-You! (don't know what to do with that)
+あなたね！
+You!
 
 
-客室は1泊500円です。
+客室は1泊500です。
 Rooms cost 500 yen per night.
 
 んん 
 Hmm
 
-うん...ロボットなんだ。マインドコントロールは効かない。
-Yeah... He is a robot. Mind control doesn't work.
+うん...ロボットなんだ。マインドコントロールは無駄なんだ。
+Yeah... He is a robot. Mind control is useless.
 
 こんにちは
 Hello
@@ -171,12 +190,13 @@ Let me show you.
 ベルさん、私たちのために例外をつくってくれませんか？
 Mr Bell, can you make an exception for us?
 
-一夜限り。
+一泊だけ。
 One night only.
 
-倉庫をきれいにすれば、そこにいてもいい...。
+
+倉庫をきれいにすれば、そこにいてもいい...。 ### I prefer this one. Not sure if it's correct.
 倉庫の片付けさえすれば、そこにいてもいい...。
-You can stay there as long as they clean up the warehouse...
+You can stay there as long as you clean up the warehouse...
 
 よーし
 alright
@@ -188,11 +208,13 @@ ugh
 さて...そろそろ始めようかな
 Well... I think it's time to get started.
 
-追加料金を払っても良いので、部屋を選べるようにしてほしい
-I can pay extra, all I want is being able to choose the room.
-(see with Author)
+o?
+え？
 
+もっと高くても良いから、部屋を選べるようにしてほしい。
+I would like to be able to choose my room, even if it costs more.
 
+ん、お客様？
 Hum sir? 
 
 
@@ -205,8 +227,8 @@ Don't worry about us, we have all the time in the world.
 いいえどうぞ、先にどうぞ。
 No please, go first.
 
-
-I insist.
+お願いします。
+Please. (it has a sense of 'Do me a favour' in Japanese)
 
 
 29
@@ -216,7 +238,7 @@ Mr Bell, We're done cleaning.
 ご苦労様です。
 Thank you for your efforts. (set phrase)
 
-12号室に泊まることができます。
+12号室の部屋に泊まることができます。
 You can stay in room 12.
 
 部屋番号は......

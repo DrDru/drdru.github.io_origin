@@ -55,9 +55,7 @@
 
 </div>
 <div style="padding-left: 20px; padding-right: 20px; font-size: 180%; overflow-wrap: break-word;">
-岩をなんとか乗り越えようとしたマルクスは、謎の建物の扉が開いていることに気づく。
-
-
+建物の扉が開いていました。
 
 </div>  
 </div>
@@ -65,14 +63,27 @@
 
 	<br>
 
-<div class="dialogue">
+
+<div class="dialogue" style="margin-bottom: 25px;">
 
 <div style="width: 20%; padding-left: 5px; padding-top: 10px" >
 <div class="markus" style="color: blue;">.</div></div>
 <div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
 この建物の中に、この世界の未来がある。
+
 </div>
 </div>
+
+
+<div class="dialogue" style="margin-bottom: 25px;">
+
+<div style="width: 20%; padding-left: 10px; padding-top: 20px" >
+<span class="icon_twittemoji">🫤</span></div> 
+<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
+行けるけど、行っちゃダメなんだ
+</div>
+</div>
+
 
 
 <div class="dialogue">
@@ -80,16 +91,7 @@
 <div style="width: 20%; padding-left: 5px; padding-top: 10px" >
 <div class="markus" style="color: blue;">.</div></div>
 <div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
- 行けるけど、いけないんです。
-</div>
-</div>
-
-<div class="dialogue">
-
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="markus" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
-私は本当にこの未来から人々を奪っていいのだろうか？
+僕は本当にこの未来から人々を奪っていいのだろうか？
 </div>
 </div>
 
@@ -111,9 +113,12 @@
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>
