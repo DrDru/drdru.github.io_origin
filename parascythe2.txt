@@ -37,7 +37,7 @@ Come on, stop saying this.
 何もないのなら、消えてしまえ。
 If you have nothing to offer, go away.
 
-他にもあるので、スーツは外せないけどね。
+あの鳥が助かるなら、私の体をどう使ってもいいが、スーツは外せないけどね。
 I have other things, I can't take the suit off though.
 
 まだ歯が全部残っている。
@@ -45,6 +45,9 @@ I still have all my teeth.
 
 停止する！ 
 Stop
+
+
+
 
 人間の子供と ? 
 With a human child 
@@ -256,8 +259,8 @@ the 13th please
 And net ?
 (What's that ?)
 
-そして、テレビは？何が映ってるんだろう。ああ......つまらない。
-And is that a TV? What's on the screen? Oh, ...... Boring.
+そして、テレビも！何が映ってるんだろう。ああ......つまらない。
+And a TV! What's on ? Oh, ...... Boring.
 
 
 ふぉー
@@ -271,7 +274,7 @@ A shower...!
 I wonder if it works.
 
 
-重要な機材を盗んだとして、ZOOに追われることになる。
+重要な機材を盗んだとして、ZOOに追われることになります。
 They are pursued by the ZOO for stealing important equipment.
 
 エエッ
@@ -282,22 +285,20 @@ Caution, do not approach.
 (set phrase)
 
 水が冷たい ゾクゾク
-The water's cold. It's chilling.
+The water's cold. ゾクゾク (onomatopeia for It's chilling).
 
 どうにかしてくれないか？ ゾクゾク
-Can you do something about it? It's chilling.
+Could you do something about it? ゾクゾク (onomatopeia for It's chilling)
 
 された？ありがとう。
 Made? Thank you.
 
 31 
-
 このスーツでも、お湯は気持ちいい。
 Even through this suit, hot water feels good.
 
 本当に参加した方がいいよ......。
 You really should join you know.......
-
 
 早くこの "メカニック "を見つけて、最終的にこれらのものを外してくれるようにしたい。
 We hope to find this "mechanic" soon so that he can finally remove these things.
