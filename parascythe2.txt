@@ -38,35 +38,29 @@ Come on, stop saying this.
 If you have nothing to offer, go away.
 
 あの鳥が助かるなら、私の体をどう使ってもいいが、スーツは外せないけどね。
-I have other things, I can't take the suit off though.
+I don't care what you do with my body if it saves that bird, I can't take the suit off though.
 
 まだ歯が全部残っている。
 I still have all my teeth.
 
 停止する！ 
 Stop
-
-
-
-
-人間の子供と ? 
-With a human child 
+ 
+人間の子を使う？
+Using a human child ?
 
 私は違う。
 I differ.
 
+子じゃないんだから、いろんなことができるんだよ。
+I'm not a child, and I can do a lot of things.
 
-#### Check with JK
-Ask flexible speech bubble
-
-これらはどうでしょうか？
+これはどう？
 What about these ?
 
-上層部で手に入れた。
+上の階で手に入れたの。
 I got them in the upper levels
-“これはどう？
-ただのスーツだけど。
-上の階で見つけたの。”
+
 
 私が売っているのは野菜や果物であって、物語じゃない。
 I sell fruits and vegetables, not stories.
@@ -77,19 +71,14 @@ I'm offering you my gloves.
 取るか取らないか。
 Take or leave it.
 
-あなたの食べ物がすべて変異したキノコであることは、私たちも知っています。
+あなたの食べ物がすべて変異したキノコであることは、私たちも知っている。
 We know that all your food is mutated mushrooms.
 
 このスラム街では、何も良いものが育たない。
 Proper food can't grown in these slums.
 
-###
-上段のこれ、上段のあれ。
-Upper level this, upper level that.
-
-上層部、上層部...。
+上の階、上の階...。
 Upper levels, upper levels...
-####
 
 なぜ戻らないの？
 Why don't you go back there ?
@@ -119,10 +108,8 @@ And fast cause you stink!
 すみません、洗う機会がなかったんよ。
 I'm sorry, we had no chance to wash.
 
-
-人間の嫌な臭いは洗い流せない。特に上層部の類は。
+人間の嫌な臭いは洗い流せない。特に上の階の類は。
 You can't wash away your offensive/bad human smell. Especially the upper level kind.
-
 
 あなたの匂いのせいで、他のオーグリーチがみんな去ってしまった。お客さんかな。
 Because of your smell, all the other Orgriash have left. Customers maybe.
@@ -196,6 +183,8 @@ Mr Bell, can you make an exception for us?
 一泊だけ。
 One night only.
 
+おねがいします
+Please
 
 倉庫をきれいにすれば、そこにいてもいい...。 ### I prefer this one. Not sure if it's correct.
 倉庫の片付けさえすれば、そこにいてもいい...。
@@ -219,7 +208,6 @@ I would like to be able to choose my room, even if it costs more.
 
 ん、お客様？
 Hum sir? 
-
 
 お客様を待たせてはいけません。
 Do not keep customers waiting.
@@ -256,10 +244,11 @@ the 13th please
 
 
 30 
-And net ?
-(What's that ?)
+そしてNETが利用できる！
+And NET is available !
+(NET is the sort of internet of this world)
 
-そして、テレビも！何が映ってるんだろう。ああ......つまらない。
+テレビも！何が映ってるんだろう。ああ......つまらない。
 And a TV! What's on ? Oh, ...... Boring.
 
 
@@ -293,39 +282,47 @@ Could you do something about it? ゾクゾク (onomatopeia for It's chilling)
 された？ありがとう。
 Made? Thank you.
 
+
+HERE
 31 
 このスーツでも、お湯は気持ちいい。
-Even through this suit, hot water feels good.
+Even in this suit, the hot water feels good.
 
 本当に参加した方がいいよ......。
 You really should join you know.......
 
-早くこの "メカニック "を見つけて、最終的にこれらのものを外してくれるようにしたい。
-We hope to find this "mechanic" soon so that he can finally remove these things.
+早くこのメカニックを見つけて、最終的にこれらのものを外してくれるようにしたい。
+I hope to find this mechanic soon so that he can finally remove these things.
 
 本当に彼しかいないと思っているのか？
 Do you really think he is the only one?
 
-下層部に有能な人がいないのか？
+下の階に有能な人がいないのか？
 Is there no one with the ability in the lower levels ?
 
-だから不愉快。 
-So unpleasant
+ムズムズ、気持ち悪い。  
+(onomatopeia for itchy), So unpleasant
 
-CAGEを装着しているあなたには想像もつきないね。
-You can't imagine what it's like to be with the  CAGE on.
 
-もし、彼らが上層部入れば、俺の賞金は無効になる。
+#### (not too sure about this )
+CAGEをつけたままだと、こんなに大変な思いをしているんですね。
+You must be having such a hard time with the CAGE on.
+
+CAGEをつけたままでは、ひどい目にあうのでは？
+It must be awful for you with the CAGE on.
+####
+
+もし、彼らが上の階入れば、俺の賞金は無効になる。
 If they come out on top, my bounty will be void.
 
 トラッカーをつけたほうがいい。
 Better put a tracker.
 
-すみません。言わなければよかった...あなたがこんなに苦しんでいるのに
-Sorry. I shouldn't have told you... You're suffering so much.
+すみません。言わなければよかった...あなたがこんなに痛がっているのに
+Sorry. I shouldn't have told you... You're in so much pain.
 
-
-少しでも楽になるようにお手伝いさせていただきます。
+それを終わらせるために、私が協力する。
+I will help to put an end to that.
 
 約束するよ。
 I promise
@@ -535,7 +532,6 @@ My little friend, twice now you have escaped terrible fates.
 My little friend, twice now you have escaped death.
 ####
 
-
 食べて。
 Eat. 
 
@@ -545,15 +541,12 @@ Don't worry, these are real ones.
 嘘はつかない。
 I would not lie to you.
 
-
-####
 あの人とは違うんだ。
 Not like with that man.
 
 あの人に嘘をついたのとは違う。
 I lied to that man but it's different.
 ### Please choose
-
 
 汚かった ...
 He was greedy 
@@ -570,12 +563,3 @@ You're right.
 My friend.
 
 予見者
-
-
-
-
-
-
-
-
-
