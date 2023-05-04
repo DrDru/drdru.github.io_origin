@@ -282,8 +282,6 @@ Could you do something about it? ゾクゾク (onomatopeia for It's chilling)
 された？ありがとう。
 Made? Thank you.
 
-
-HERE
 31 
 このスーツでも、お湯は気持ちいい。
 Even in this suit, the hot water feels good.
@@ -328,8 +326,8 @@ I will help to put an end to that.
 I promise
 
 32
-きっと、(彼らにとっての)最短ルートを知っているのだろう。
-I bet he knows what the shortest route is (for them).
+きっと、最短ルートを知っているのだろう。
+I bet he knows what the shortest route is.
 
 ここは自分にとって良い場所になる。
 This will be a good place for me.
@@ -337,7 +335,7 @@ This will be a good place for me.
 電源もある。
 There's also a power supply.
 
-通路を渡る瞬間に攻撃すると......。
+歩道を渡る瞬間に攻撃すると......。
 If I attack at the moment of crossing the passage. ......
 
 おいおい......プリズムだよ。使い捨てのチームが必要なんだ。
@@ -348,7 +346,6 @@ Lion. Where is the location?
 
 古い発電所。
 The Old power plant
-
 
 L0L1が表記されている
 L0L1 is marked.
@@ -362,19 +359,25 @@ How many people do you need ?
 教えてくれるね。
 You tell me.
 
+Cannon fodder 
+> I cut this line
 
-##
+
+#### check by JK
 どんなモンスターを逃がしたんだ？
 What monster did you let go?
 
-(easier)
-どんなモンスターが逃げたのか？
-What monsters have escaped?
+(is it really what happend)
+どんなモンスターを逃がしてしまったのか？
+What monsters have you let escape?
 ##
 
 
-本当にやめたくなるから、機密事項なんて言わないでね。
-Don't tell me it's confidential because I really want to stop.
+今本当にここでやめたくなるから、機密事項なんて言わないでね。
+Don't tell me it's confidential because I really want to stop here now.
+
+フー
+Onomatopeia for exhaling lightly
 
 わからない
 We don't know.
@@ -384,18 +387,19 @@ You don't know !
 
 
 せめてAAは何枚使えるか教えてほしい。
-At least tell us how many AAs he can use.
+At least tell me how many AAs he can use.
 
 1つ以上。
 More than one.
 
 1つ以上であることは分かっている！
+I know it is more than one!
 
 心・体・要素・物質の術を使しているのが見えた。
 I saw him using the art of mind, body, element and matter.
 
 
-### To change
+### Check with JK
 彼は単なる遊牧民ではありません。
 He is not a mere nomad.
 (Is Nomad a key word ?)
@@ -405,14 +409,16 @@ He is not a mere nomad.
 Prism! We will double your bounty.
 
 女の子を返してくれればいいんだ。
-All you have to do is bring us back the girl.
+All you have to do is give us back the girl.
 
 賞金を3倍にしろ。
 Triple the bounty.
 
 この強欲野郎が 
+You greedy bastard. 
 
-私の代わりにアナコンダと付き合いたいのか？
+俺の代わりにアナコンダと話をしたいのか？
+You want to talk to an anaconda instead of me?
 
 聞いてライオン
 Listen to me, Lion.
@@ -420,18 +426,24 @@ Listen to me, Lion.
 チームを送れば、女の子と彼の首を持ってくるよ。
 Send a team and I'll bring you the girl and his head.
 
-馬鹿。もちろん殺するよ。
+
+(I don't know what the appropriate word is)
+Deal
+
+
+馬鹿。もちろん殺すよ。
 Idiot. Of course I'll kill him.
 
 彼女を捕らえるには、それ以外に方法はない。
 There is no other way to catch her.
 
-
 ### Please choose one 
 工場の電力を使えば、一発で済む。
-With the power from the plant only one shot will be necessary.
+Using the plant's electricity, it will only take one shot.
+
 工場からのパワーで、彼に一発当てるしかない。
 With the power from the plant  it will take only one shot.
+####
 
 
 この一発を確実に当てるために、まずは馬場爺さんから必要なものを手に入れよう。
