@@ -447,28 +447,28 @@ With the power from the plant  it will take only one shot.
 
 
 この一発を確実に当てるために、まずは馬場爺さんから必要なものを手に入れよう。
-Is the Old Baba sentence necessary ?
+To make sure I get this shot, I will first get what I need from old Baba.
+Is the Old Baba sentence necessary ? (see with JK)
 
 33
-あなたに必要なものがある。
-I need something from you.
+必要なもの-
+The thing I need is-.
 
 マインドアクセラレーターだね。
 A mind accelerator right?
 
-
 どうして...？
 How did you...?
 
-女帝なんだ
+予見者なんだ
+It's that I am a seeress (this Japanese bit does not translate well)
 
-今ならどうでしょう？
 
 それなら、私があなたにあまりお金を払わないことは分かっているよね？
 Then you know I won't pay much right?
 
 
-### Choose on. Sentence chnaged to remove the  word threat.
+### Choose one. Sentence chandged to remove the  word threat. See with JK
 銃を見せても無駄だ、賞金稼ぎ。
 Showing me your gun is useless, bounty hunter.
 
@@ -485,19 +485,22 @@ I already know that you are not going to shoot me.
 いくら？
 How much?
 
+10000 (See with JK)
+
 ファットチャンスババ
 Fat chance Baba
 
-私の提案を受け入れてください プリズム
+私の提案を受け入れて、 プリズム
+Accept my offer, Prism.
 
 それしかないでしょ。
 That's all you can do.
 
 誰も助けてくれない。
-No one can help you.
+No one will help you.
 
 俺は...わかった。10000どうぞ。
-I'm... All right, 10,000 please.
+I'm... All right, please (accept these) 10,000. 
 
 あなたの未来を読ませて。
 Let me read your future.
@@ -509,11 +512,16 @@ Free of charge.
 Think of it as a gift.
 
 ふむふむ、チップを使うと死んでしまう。間違いなくね。
+Hmmm...using the chip will kill you. Definitely.
 
+あなたは、物事が違うように起こってほしいですか？
+Do you want things to happen differently?
 
-起こらなくてもいい。5000円で方法を教える。
+5000円で、教えてあげよう
+5000 and I'll tell you
 
-別の5000のためにそれを回避する方法を伝えることができます
+# 起こらなくてもいい。5000円で方法を教える。
+# 別の5000のためにそれを回避する方法を伝えることができます
 
 それをくれ！
 Give me that
@@ -522,10 +530,16 @@ Give me that
 Sure, take it.
 
 10000どうぞ。
+please (accept these) 10,000. 
+
 
 チッ、チッ、チッ。
 私を撃つことはないだろう。
 さあ...払え。
+Tsk, tsk, tsk.
+You're not going to shoot me.
+Come on... Pay up.
+
 
 あなたの言うとおりだった。
 You were right
@@ -540,8 +554,8 @@ Stupid Baba
 私の小さな友人、今まで2度、君は酷い運命から逃れられたのだ。
 My little friend, twice now you have escaped terrible fates.
 
-私の小さな友人よ、あなたは今までに2度、死を免れた。
-My little friend, twice now you have escaped death.
+#私の小さな友人よ、あなたは今までに2度、死を免れた。
+#My little friend, twice now you have escaped death.
 ####
 
 食べて。
@@ -550,23 +564,25 @@ Eat.
 安心して、これは本物。
 Don't worry, these are real ones.
 
+### Please choose
+### Option 1
 嘘はつかない。
 I would not lie to you.
 
 あの人とは違うんだ。
 Not like with that man.
 
+
+#### Option 2
 あの人に嘘をついたのとは違う。
 I lied to that man but it's different.
-### Please choose
+
 
 汚かった ...
 He was greedy 
 
 そうなんだ。その上、失礼な人だった。
-That's right. On top of it he was greedy.
-
-
+That's right. On top of it he was rude.
 
 その通りです。
 You're right.
@@ -574,4 +590,4 @@ You're right.
 友人
 My friend.
 
-予見者
+Mon ami
