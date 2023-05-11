@@ -21,11 +21,10 @@ Hehe
 商品から手を離せ！
 Hands off the merchandise !
 
-
 500なんだ！
 It's 500!
 
-命に値段はつけられない
+命に値段はつけられないの
 You can't put a price on his life.
 
 痛がっている
@@ -38,29 +37,35 @@ Come on, stop saying this.
 If you have nothing to offer, go away.
 
 あの鳥が助かるなら、私の体をどう使ってもいいが、スーツは外せないけどね。
-I don't care what you do with my body if it saves that bird, I can't take the suit off though.
+You can use my body any way you like if it saves that bird, although I can't take the suit off.
 
 まだ歯が全部残っている。
 I still have all my teeth.
 
-停止する！ 
+止めて！ 
 Stop
  
 人間の子を使う？
 Using a human child ?
 
 私は違う。
-I differ.
+I differ / I disagree (違う is a common polite way to say no in Japanese and it does not translate well).
 
 子じゃないんだから、いろんなことができるんだよ。
 I'm not a child, and I can do a lot of things.
+
+あなたの男性にどうすればいいかわかるけど。
+I would know what to do with your man, though.
+
+ちょっと
+a polite way not to say no or not to answer a question. A translation is "thanks, but no; not feasible; not possible" 
+Note : That's not what she says but I don't think it matters too much here
 
 これはどう？
 What about these ?
 
 上の階で手に入れたの。
 I got them in the upper levels
-
 
 私が売っているのは野菜や果物であって、物語じゃない。
 I sell fruits and vegetables, not stories.
@@ -83,13 +88,13 @@ Upper levels, upper levels...
 なぜ戻らないの？
 Why don't you go back there ?
 
-待って！
-Wait 
+待って！私は
+Wait. I... 
 
 あそこから来たんじゃないのか？
 Not from up there ?
 
-じゃあ そのスーツはどうやって手に入れたのか？
+じゃあ、そのスーツはどうやって手に入れたのか？
 Then how did you get that suit ?
 
 盗んだ？
@@ -102,7 +107,10 @@ Just go away!
 出て行くよね．
 I'll leave, right .
 
-そして、臭いから早く！
+落ち着いて
+Just calm down.
+
+そして早く、臭いだから！
 And fast cause you stink!
 
 すみません、洗う機会がなかったんよ。
@@ -124,7 +132,7 @@ You think I'm afraid of you?
 Don't touch me
 
 そうでなければ、多くの-
-Otherwise, there will be many-
+Else, there will be many-
 
 待って、それがどうしたの？
 Wait, what about it ?
@@ -138,6 +146,10 @@ That's where you're both wrong.
 全部同じなんだけどね。
 It's all the same.
 
+
+#########################
+#########################
+#########################
 
 27
 ここなのか？
