@@ -39,12 +39,17 @@ If you have nothing to offer, go away.
 あの鳥が助かるなら、私の体をどう使ってもいいが、スーツは外せないけどね。
 You can use my body any way you like if it saves that bird, although I can't take the suit off.
 
+# Note from the author about this speech bubble : 
+# It's meant to be left to the reader's interpretation.
+# The general meaning is that she is "ready to offer her body to save a caged animal"
+# Wishing for literally everyone to be saved is part of her personality.
+
 まだ歯が全部残っている。
 I still have all my teeth.
 
 止めて！ 
 Stop
- 
+=
 人間の子を使う？
 Using a human child ?
 
@@ -66,6 +71,11 @@ What about these ?
 
 上の階で手に入れたの。
 I got them in the upper levels
+
+
+# Notes from the author about hte meaning of upper levels
+# It refers to the flying city itself. The upper levels are both structurally higher and also socially. 
+# That's where well-standing humans live. The lower (physically) you live in Parascythe, the worse the conditions.
 
 私が売っているのは野菜や果物であって、物語じゃない。
 I sell fruits and vegetables, not stories.
@@ -161,15 +171,14 @@ There is no one here.
 今度は何？
 What now?
 
-え、これって？
-Oh, what's this?
+何、これ？
+What, this thing？
 
-何かお困りですか？
+何かご用でしょうか？
 Can I help you?
 
 あなたね！
 You!
-
 
 客室は1泊500です。
 Rooms cost 500 yen per night.
@@ -192,12 +201,13 @@ Let me show you.
 ベルさん、私たちのために例外をつくってくれませんか？
 Mr Bell, can you make an exception for us?
 
-一泊だけ。
+一泊だけ？
 One night only.
 
 おねがいします
 Please
 
+###
 倉庫をきれいにすれば、そこにいてもいい...。 ### I prefer this one. Not sure if it's correct.
 倉庫の片付けさえすれば、そこにいてもいい...。
 You can stay there as long as you clean up the warehouse...
@@ -217,6 +227,9 @@ o?
 
 もっと高くても良いから、部屋を選べるようにしてほしい。
 I would like to be able to choose my room, even if it costs more.
+
+y-yes?
+はーい
 
 ん、お客様？
 Hum sir? 
@@ -295,6 +308,9 @@ Could you do something about it? ゾクゾク (onomatopeia for It's chilling)
 Made? Thank you.
 
 31 
+ahhh
+あーん
+
 このスーツでも、お湯は気持ちいい。
 Even in this suit, the hot water feels good.
 
@@ -302,7 +318,7 @@ Even in this suit, the hot water feels good.
 You really should join you know.......
 
 早くこのメカニックを見つけて、最終的にこれらのものを外してくれるようにしたい。
-I hope to find this mechanic soon so that he can finally remove these things.
+I hope to find this mechanic soon so that he can finally remove these things for us.
 
 本当に彼しかいないと思っているのか？
 Do you really think he is the only one?
@@ -323,7 +339,7 @@ It must be awful for you with the CAGE on.
 ####
 
 もし、彼らが上の階入れば、俺の賞金は無効になる。
-If they come out on top, my bounty will be void.
+If they get to the upper levels, my bounty will be void.
 
 トラッカーをつけたほうがいい。
 Better put a tracker.
@@ -368,22 +384,14 @@ I'll send you the tracking number.
 何人必要なんだ？
 How many people do you need ?
 
+Cannon fodder ?
+> I cut this line
+
 教えてくれるね。
 You tell me.
 
-Cannon fodder 
-> I cut this line
-
-
-#### check by JK
-どんなモンスターを逃がしたんだ？
-What monster did you let go?
-
-(is it really what happend)
 どんなモンスターを逃がしてしまったのか？
 What monsters have you let escape?
-##
-
 
 今本当にここでやめたくなるから、機密事項なんて言わないでね。
 Don't tell me it's confidential because I really want to stop here now.
@@ -396,7 +404,6 @@ We don't know.
 
 あなたは知らない！？
 You don't know !
-
 
 せめてAAは何枚使えるか教えてほしい。
 At least tell me how many AAs he can use.
@@ -414,7 +421,11 @@ I saw him using the art of mind, body, element and matter.
 ### Check with JK
 彼は単なる遊牧民ではありません。
 He is not a mere nomad.
-(Is Nomad a key word ?)
+
+# A comment from the author about the meaning of Nomad 
+# It's a word from my own world. It refers to humans with Ainolonian powers. Imagine a 'Muggle' or a Hobbit that can do some magic.
+# You're probably asking to know what to do with it. Well, I think common practice is to put the word in katakana in english, but if the Japanese word for it 
+# sounds cool enough, I'd go with that.
 
 
 プリズム！賞金を2倍にする。
