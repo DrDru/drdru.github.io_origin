@@ -2,10 +2,10 @@
   "settings": {
     "autosave": true,
     "grid": true,
-    "pixelSize": 2,
+    "pixelSize": 3,
     "background": "#222222",
     "activeLayer": 0,
-    "activeSprite": null
+    "activeSprite": 37
   },
   "sprites": [
     [
@@ -235,18 +235,6 @@
       16,
       20,
       "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKs4OP+rODj/qzg4/6s4OP+rODj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKs4OP/0fxT/9H8U//R/FP/nRir/50Yq/6s4OP+rODj/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKs4OP/0fxT/9H8U//R/FP/0fxT/9H8U//R/FP/0fxT/9H8U/6s4OP+rODj/qzg4/wAAAAAAAAAAAAAAAKs4OP/0fxT/9H8U//R/FP/0fxT/50Yq//R/FP/0fxT/9H8U//R/FP/0fxT/9H8U/6s4OP8AAAAAAAAAAKs4OP/0fxT/76Ng/+dGKv82RXn/50Yq/zZ5qf/nRir/76Ng/++jYP/0fxT/9H8U/wAAAP8AAAAAAAAAAAAAAAAAAAD/9H8U//R/FP/nRir/Nnmp/zZ5qf82ean/Nnmp/+dGKv/0fxT/9H8U/+dGKv82RXn/NkV5/wAAAAAAAAAAAAAA//R/FP/nRir/50Yq/wAAAP8AAAD/76Ng//TNov8AAAD/AAAA//R/FP/0fxT/Nnmp/zZ5qf82RXn/AAAAAAAAAAAAAAD/e0JJ/+dGKv/Qx7n/AAAA//TNov/0zaL/AAAA/9DHuf/0fxT/e0JJ/wAAAP82ean/NkV5/wAAAAAAAAAAAAAA/3tCSf/vo2D//////zZ5qf/0zaL/9M2i/zZ5qf//////76Ng/3tCSf8AAAD/NkV5/zZFef8AAAAAAAAAAAAAAAAAAAD/wHpX//TNov/0zaL/9M2i//TNov/0zaL/9M2i/8B6V/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/Aelf/76Ng//TNov/0zaL/76Ng/8B6V/8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF4zQf9eM0H/e0JJ/14zQf9eM0H/XjNB/3tCSf9eM0H/XjNB/14zQf8AAAAAAAAAAAAAAAAAAAAAAAAAAF4zQf/vo2D/e0JJ/6FbUv+hW1L/e0JJ/6FbUv+hW1L/e0JJ/14zQf/vo2D/XjNB/wAAAAAAAAAAAAAAAF4zQf/0zaL/9M2i/14zQf+rODj/qzg4/6s4OP+rODj/qzg4/6s4OP9eM0H/9M2i//TNov9eM0H/AAAAAAAAAAAAAAD/9M2i//TNov/0fxT/9LYU//S2FP+hW1L/9LYU//S2FP/0fxT/9H8U//TNov/0zaL/AAAA/wAAAAAAAAAAAAAAAAAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
-    ],
-    [
-      38,
-      8,
-      16,
-      "oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/0M9Pv+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//Qz0+/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/9DPT7/oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/0M9Pv+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//Qz0+/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/9DPT7/0Me5/9DHuf/Qx7n/0Me5/9DHuf/Qx7n/0Me5/0M9Pv9DPT7/Qz0+/0M9Pv9DPT7/Qz0+/0M9Pv9DPT7/LCgq/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9DPT7/WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/0M9Pv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/Qz0+/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9DPT7/WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/0M9Pv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/Qz0+/35xcv9+cXL/fnFy/35xcv9+cXL/fnFy/35xcv9DPT7/Qz0+/0M9Pv9DPT7/Qz0+/0M9Pv9DPT7/Qz0+/ywoKv8="
-    ],
-    [
-      39,
-      8,
-      16,
-      "WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/0M9Pv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/Qz0+/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9DPT7/WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/0M9Pv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9aUlL/Qz0+/1pSUv9aUlL/WlJS/1pSUv9aUlL/WlJS/1pSUv9DPT7/fnFy/35xcv9+cXL/fnFy/35xcv9+cXL/fnFy/0M9Pv9DPT7/Qz0+/0M9Pv9DPT7/Qz0+/0M9Pv9DPT7/LCgq/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/9DPT7/oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/0M9Pv+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//Qz0+/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/9DPT7/oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//oZSP/0M9Pv+hlI//oZSP/6GUj/+hlI//oZSP/6GUj/+hlI//Qz0+/9DHuf/Qx7n/0Me5/9DHuf/Qx7n/0Me5/9DHuf9DPT7/Qz0+/0M9Pv9DPT7/Qz0+/0M9Pv9DPT7/Qz0+/ywoKv8="
     ]
   ],
   "layers": [
@@ -473,8 +461,8 @@
         [
           36,
           3,
-          100,
-          45
+          -1,
+          91
         ],
         [
           37,
@@ -545,38 +533,38 @@
         [
           48,
           3,
-          104,
-          44
+          15,
+          91
         ],
         [
           49,
           3,
-          102,
-          43
+          31,
+          91
         ],
         [
           50,
           3,
-          103,
-          43
+          47,
+          91
         ],
         [
           51,
           3,
-          103,
-          46
+          63,
+          91
         ],
         [
           52,
           3,
-          103,
-          41
+          79,
+          91
         ],
         [
           53,
           3,
-          103,
-          45
+          95,
+          91
         ],
         [
           54,
@@ -599,8 +587,8 @@
         [
           57,
           3,
-          95,
-          43
+          103,
+          83
         ],
         [
           58,
@@ -612,7 +600,7 @@
           59,
           4,
           111,
-          75
+          91
         ],
         [
           60,
@@ -689,26 +677,26 @@
         [
           72,
           15,
-          28,
-          83
+          33,
+          78
         ],
         [
           73,
           16,
-          43,
-          82
+          45,
+          78
         ],
         [
           74,
           15,
-          58,
-          83
+          60,
+          78
         ],
         [
           75,
           16,
-          72,
-          83
+          73,
+          78
         ],
         [
           76,
@@ -756,13 +744,13 @@
           83,
           24,
           105,
-          71
+          86
         ],
         [
           84,
           26,
           105,
-          55
+          70
         ],
         [
           85,
@@ -773,14 +761,14 @@
         [
           86,
           27,
-          17,
-          82
+          -1,
+          89
         ],
         [
           87,
           28,
-          30,
-          44
+          28,
+          50
         ],
         [
           88,
@@ -803,7 +791,7 @@
         [
           91,
           34,
-          61,
+          32,
           47
         ],
         [
@@ -821,110 +809,14 @@
         [
           94,
           36,
-          -1,
-          79
+          101,
+          43
         ],
         [
           95,
           37,
-          54,
+          53,
           31
-        ],
-        [
-          96,
-          3,
-          103,
-          83
-        ],
-        [
-          97,
-          3,
-          87,
-          83
-        ],
-        [
-          98,
-          3,
-          71,
-          83
-        ],
-        [
-          99,
-          3,
-          55,
-          83
-        ],
-        [
-          100,
-          3,
-          39,
-          83
-        ],
-        [
-          101,
-          3,
-          23,
-          83
-        ],
-        [
-          102,
-          3,
-          7,
-          83
-        ],
-        [
-          103,
-          3,
-          7,
-          67
-        ],
-        [
-          104,
-          38,
-          -1,
-          83
-        ],
-        [
-          105,
-          39,
-          -1,
-          83
-        ],
-        [
-          106,
-          39,
-          -1,
-          67
-        ],
-        [
-          107,
-          27,
-          0,
-          80
-        ],
-        [
-          108,
-          15,
-          31,
-          78
-        ],
-        [
-          109,
-          15,
-          60,
-          78
-        ],
-        [
-          110,
-          16,
-          43,
-          78
-        ],
-        [
-          111,
-          16,
-          72,
-          78
         ]
       ]
     }
