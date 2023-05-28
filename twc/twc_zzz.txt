@@ -83,6 +83,10 @@ Donne a mange a un loup qui dit de venir voir quelque chose, le squelette d un h
 
 
 
+まり絵子
+(groups are referred via word of mouth. You can join the group by being added by a member)
+Names are hashes.
+To join lists are stored locally and you can send a message to be added removed from list
 
 
 #### Markus ascent part 2
@@ -529,24 +533,5 @@ Un dinosaure qui all ait avec une dame et qui faisait des gros pas boum boum
 
 
 
-un jour iyavait un otiti bonhomme et il etait avec son papa et sa maman et il se deguisait parce que c etiat noel et apres ils ont entendu santa claus et apres ils sont alles vers la montagne chercher des cadeau partout et tils ont vu des cadeau. Et apres ils ont ecrit quelque chose sur leur liste que le pere noel il emmene plein de cadeau aux autres maisons.
 
-
-
-Il etait une fois un calendrier qui etait par terre tut seul et qui pouvait pas avoirt de personne qui mange tous les chocolats et apres ils ont vu plein de dechaets par terre et apres ils ont vu un mechat loup qui emvoyait les dechets partout.
-et apres il ya vait un lapin qui croisait le loup. et apres il adit arrete de mettere les dechets par terre et el eloup arretait pas de le faire. Et apres il y avait quelqu un qui avait pas de maison et c eati les trois petits ours 
-at leur papa et leur maman pouvait pas les retourver, les ptits ourss sont partis tout seul et apres il y a vait un mouton qui croisait les 3 petits ours qui etaient un peu enrhume et apres i ly a vait un dinosaure qui etiat malade te enrhume
-
-
-Et apres il y avait un tout petit bebe dinosaure qui trouvait pas sa maman dinosaure.
-et apres i la vu pleind e moutons qui le consolait et apres il est rentre a la msiaon. Fini
-
-
-https://www.youtube.com/watch?v=EIEJQRRZFko
-
-
-
-In many ways, the work of a critic is easy. We risk very little yet enjoy a position over those who offer up their work and their selves to our judgment. We thrive on negative criticism, which is fun to write and to read. But the bitter truth we critics must face, is that in the grand scheme of things, the average piece of junk is probably more meaningful than our criticism designating it so. But there are times when a critic truly risks something, and that is in the discovery and defense of the new. The world is often unkind to new talent, new creations. The new needs friends.
-
-
-Il etait une fois un castor et le castor il voualit voir son papa et sa maman mais le castor pouvait pas le voir parcequ'il etait perdu dans la foret et apres a maman l'avait retrouve. Et apres son papa est venu trop tard car maman etait deja rentre dans al maison et maintenant papa est perdu dans la foret. Il y a un loup qui a aide et qui etait gentil. Et apres ils sont tous rentres dans la maison pour fair eun apreo. Fin.
+Rune device interface using Rexpaint
