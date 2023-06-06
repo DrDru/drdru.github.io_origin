@@ -31,7 +31,7 @@ const rexpaint = require('rexpaintjs-fork');
 
 const fs = require("fs");
 
-let buffer = fs.readFileSync("C:\\Users\\Thomas\\Desktop\\aaa.xp");
+let buffer = fs.readFileSync("C:\\Users\\Desktop\\aaa.xp");
 
 data = await rexpaint(buffer);
 
@@ -41,12 +41,15 @@ async function myFunction() {
 }
 
 
-let buffer = fs.readFileSync("C:\\Users\\Thomas\\Desktop\\aaa.xp");
+let buffer = fs.readFileSync("C:\\Users\\Desktop\\aaa.xp");
 rexpaint(buffer, (err, data) => {
   if (err) {
     throw new Error(err);
   }
   // You can now use `data` here!
 });
+
+
+
 
 
