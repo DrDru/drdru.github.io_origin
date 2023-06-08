@@ -30,6 +30,14 @@
     height: 40px;
     width: 40px;
 }
+
+
+.spinned_here .emoji {
+
+  transform: rotateY(180deg);
+
+}
+
 </style>
 </head><body class="">
 
@@ -42,7 +50,7 @@
 
 
     <div class="top">
-    <span class="next"><p>昼ご飯 (4 / 22)</p></span>
+    <span class="next"><p>昼ご飯 (2 / 17)</p></span>
   </div>
   <div class="page left_page">
 
@@ -76,23 +84,26 @@
 
 </div>
 </div>
-
 <div class="dialogue">
 
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="markus" style="color: blue;">.</div></div>
+<div style="width: 20%; padding-left: 10px; padding-top: 20px" >
+<span class="icon_twittemoji spinned_here">🤔</span></div>
 <div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
 
 石が受け取るだけということはないのでしょうか。
 
 </div>
 </div>
-
+<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 100%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
+カー    
+  <br>
+<ruby><span class="icon_twittemoji">💡</span><rt></rt></ruby> 
+</div>
 
 <div class="dialogue">
 
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="markus" style="color: blue;">.</div></div>
+<div style="width: 20%; padding-left: 10px; padding-top: 20px" >
+<span class="icon_twittemoji "> 😀</span></div>
 <div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
 
 きっとそうなんだろう。ちょっと勉強して直さないといけないですね。
@@ -117,9 +128,12 @@
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>
