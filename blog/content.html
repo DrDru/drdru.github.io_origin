@@ -96,6 +96,7 @@ font-weight: bold;
 <div class="long_text_div "> 
 
 <ul>
+   <li><a href="./markus_ascent_finally_complete.html">Markus ascent is complete (2023-06-30)</a></li>
    <li><a href="./learning_path.html">DrDru's highly opininated learning path</a></li>
    <li><a href="./rant.html">Rant</a></li>
    <li><a href="./why_are_you_really_learning_japanese.html">Why are you really learning Japanese</a></li>
@@ -117,9 +118,13 @@ font-weight: bold;
 
 
 
- <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
+ 
+<script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
 <script>
-  twemoji.parse(document.body);
+  twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
 </script>
 
 </body>
