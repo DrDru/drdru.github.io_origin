@@ -5,45 +5,53 @@ Phew
 I'm beat ?
 
 
-ホテルでも一晩中ガードに立つんですか？
-Are you going to stand a guard the whole night even in a hotel?
+ホテルでも
+Even in a hotel
 
-寝なくてもいいとは思いますが、ただ待っているのは疲れませんか？
+一晩中見張りをするつもりなのか？
+are you going to stand a guard the whole night ?
+
+寝なくてもいいとは思うが、ただ待っているのは疲れないか？
 I know you don't have to sleep but isn't it tiring to just wait?
 
 
-今度、試してみてください。わからないものですよ。何かいい夢が見られるかもしれませんよ。
-You should try it sometime. You never know. You could dream up something nice. 
+今度、試してみて。何かいい夢が見られるかもよ。
+You should try it sometime. You could dream up something nice. 
+(removeed 'You never know.')
 
 
+36
+
+
+### Hard to translate. Change something
 発電所は廃墟と化しているが...。
 The power plant is abandoned but...
 
+I haven't met anyone yet
+
 このディープカットを見る限り、完全に空席ではない可能性があります。
 Possibly not entirely vacant, judging by these deep cuts.
+###
 
-
-馬場さんのアクセラレータを試す時が来た。
+ババのアクセラレータを試す時が来た。
 Time to ttest Baba's accelerator.
 
 
-まるで突然見分けがつくかのように。
-As if I could suddenly discern.
+突然、可能性のある結果を見ることができ
+I could suddenly see possible outcome 
 
-幾つかの可能性
-some of the possible outcomes
+最も可能性の高いものを見つける。
+and find the most probable one.
 
-を把握することができます。
-and figure out
 
-1番可能性のあるもの
-the most probable one
+5分先の未来を...
+5 minutes into the future...
 
-見えるんだ... 5分先の未来が。
-I can see... 5 minutes into the future.
+見ることができる
+I can see.
 
-なんてシュールなんでしょう。
-what a surreal feeling.
+不思議な気分だ。
+Such a strange feeling.
 
 全然面白くないんですけど。
 It's not funny at all.
