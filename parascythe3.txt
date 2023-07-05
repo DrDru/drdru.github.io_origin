@@ -53,15 +53,20 @@ I can see.
 不思議な気分だ。
 Such a strange feeling.
 
-全然面白くないんですけど。
-It's not funny at all.
+
+
+# sentence order is reversed here
+# 自分が歩いているのを見るのは、まったく面白くない。
+# Into that place  watching myself walking is not funny at all.
+
+あの巣に
+Into that nest
 
 何なんだ！
 What the!
 
-
-じぶんをみつめる
-to watch myself
+自分が歩いているのを見るのは、
+Watching myself walking
 
 くそったれ！
 Fuck
@@ -72,42 +77,45 @@ Die fucker
 もう一回！
 another
 
-その巣の中に入っていく。
-walk right into that nest.
-
+まったく面白くない。
+is not funny at all.
 
 クソ
 shit
 
-完全なバカのように。
-Like a complete idiot
-
-残りはミッションのために取っておかなければならないんだ。
-I've got to save the rest for the mission.
+バカのように。
+Like an idiot
 
 
-1分半の猶予があるので、他のルートを探してみる。
-I have a minute and a half to try and find an other route.
-
+## added 'of the energy'
+残りのエネルギーは作戦のために取っておく。
+I'll keep the rest of the energy for the mission.
+  
+別の道を探すのに1分半。
+A minute and a half to find another way.
+(grammar sounds strange in English but I believe is natrural in Japanese)
 
 37
 くっ...またロックされた
 Damn... another one locked.
 
+## I've rephrased to simplify the Japanese and I think it's a bit clearer as well.
+あの巣に入った理由がわかったよ。
+I know why I ended up in that nest.
 
-あの化け物だらけの地獄に行き着いたのは、自分のせいではありません。
-No ownder I ended up in that freaking infested hell.
+## I've rephrased to simplify the Japanese and I think it's a bit clearer as well.
+見ただけで寒気がする。
+Just seeing it gives me the chill.
 
-フリーキングの巣。寒気がするほどです
-Freaking nest. It's giving me the chill.
+仕方ないんだ...でも、どこにいるかは知っている。
+I've got no choice...but I know where they are.
 
-仕方ない......少なくとも、彼らの立場はわかっているのだから
-I got no choice... at least I know their positions
+バカなクモだ...
+Stupid spiders.
 
-Fuckers!
+嫌いだ。
+I hate them.
 
-クモの仕業に違いない
-it had to be fucking spiders.
 
 38
 私を殺せば、彼も殺されてしまう。
