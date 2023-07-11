@@ -179,10 +179,10 @@ No. He dodged it.
 
 楽しめそうだ。
 Looks like we'll have some fun.
-https://tapas.io/episode/2625092
+
 43
-生け捕り」の意味がわかっているのか？
-You realise what 'taking her alive' means ? 
+ミッションは「彼女を生け捕りにする」ことだ！
+The mission is to 'take her alive' ! 
 
 警告の一撃だった。
 It was a warning shot.
@@ -190,48 +190,53 @@ It was a warning shot.
 その場合は
 In that case
 
-私からも警鐘を鳴らさせてください。
-Let me fire a few warning shots of my own.
+彼らにも警告するつもりだ。
+I'm going to warn them as well.
 
 行け！ラムサス
 Go! Ramsus!
 
-話すということは、選択肢にないのでしょうね。
-I suppose talking to them is not an option.
+彼らと話しても無駄だ。
+No point talking to them right.
 
-え？動きが早いですね。
+え？動きが早いね。
 Huh? He moves fast.
 
-ラムサスです！あなたの後ろに！
+ラムサス！あなたの後ろに！
 Ramsus! Behind you!
 
 
-やめてくれこのバカ！かわいそうなラムちゃんに向けて発砲してるんだから。
-Stop it you moron! You're firing at poor Ram.
+やめてくれバカ！
+Stop it you moron! 
+
+ラムに向かって撃っているんだ。
+It's Ram you're shooting.
 
 ああ...幻想か。
 Ah... an illusion.
 
-後で保存すればいいのですが・・・。今は自分のやるべきことをやってください。
-We can save them later... For now do what you have to do.
+後で彼らを助けることができるが・・・今は彼らを倒せばいい。
+We can help them later... for now we have to defeat them.
 
 ngh
 
-ここのマスターはあなただけではありません。
+マターのマスターはあなただけじゃない。
 You're not the only master of the matter here.
 
-行ってください。アンチフィールドを解除する
+行って。アンチフィールドを作るよ。
 Go. I'll lift an anti-field.
 
-彼はもうあなたを追い詰めることはできないでしょう。
-He won't be able to push you around anymore.
+
+### big change here
+マターの支配を止めることができる。
+It will stop his control of the Matter.
 
 ugh
 
 nnnng
 
-なぜ、彼をつかまえなかったのですか？
-Why didn't you grab him ?
+なぜ捕まえなかった？
+Why didn't you catch him?
 
 アンチフィールドを入れました。覚えていますか？
 I've put the anti-field. Remember?
