@@ -264,30 +264,36 @@ That's why the damn ZOO agency wants her so badly.
 彼女はその場所を知っているはずだ。
 She must know where it is.
 
-私たちは彼を甘く見ていた。
-We underestimated him. 
 
+彼は私たちが考えていたよりも強い。
+He is stronger than we tought.
+(We underestimated him.) 
+
+### Remove this ?
 これ以上の負けは許されない。
-We can't afford more loses.
+We can't afford more losses.
 
-自分も行ってみます。
+私が彼と戦う
 I'll go myself.
 
-いや、お前らがヘマをして、そのツケを払ったのはラムだ。
-No. You guys screwed up and it was Ram who paid the price.
+いや、あなたは失敗し、ラムはもういない。
+No. You have failed and Ram is no more.
 
-彼の仇を取ることができるんだ。
-I get to avenge him.
+私は彼のために、このクソ野郎どもを倒してみせる。
+I will defeat these bastards for him.
 
 
 45
-命令に従え。
-Follow your orders.
+従ってくれ！
+Obey!
 
-あなたは私の上司ではありません。
+君は僕のボスじゃない。
 You're not my boss.
 
-これを持って！
+###
+Add onomatopeia
+
+食え
 Take this!
 
 Gah
@@ -306,8 +312,8 @@ It just... fazed him!
 Yannei! Are you ok ?
 
 
-あ！わかりました！下がっていよう。
-Ah! OK! I'll stay back.
+あ！わかった！ここに残る。
+Ah! OK! I'll stay here.
 
 やれやれ、お手上げか...。
 Oh boy, are you screwed...
@@ -319,22 +325,28 @@ Cause I'm now...
 スーパーチャージドです！
 Supercharged!
 
-嗚呼待てよ。
+ああ 待てよ。
 Aaha wait.
 
-見えない...見えない...。
+見られない...見られない...。
 I can't... see...
 
 46
-アノロイアンはこうやって戦うんだ。
+これがアノロイアンの戦い方だ。
 So this is how an Anoloian fights.
+
+### Note to JK : I've removed 
+while let loose by the girl...
 
 これは、少女に放たれながら...ということですね。
 So this is while let loose by the girl...
 
-彼は容赦なく、まるで機械のようです。
-He's merciless, almost like a machine.
-(tell mercyless vs merciless)
+
+### Note to JK : I've removed 
+He's merciless
+まるで機械のようだ。
+He's like a machine.
+
 
 
 アイノロニアンの神格を含む...。
@@ -346,22 +358,22 @@ The CAGE is doing little to restrict his power.
 それとも...彼の真のエリミネーションはもっと大きいのでしょうか？
 Or... are his true elimits heve greater ?!
 
-生け捕り？もう選択肢はありません。
-Capture them alive ? Not an option anymore.
+生きて捕らえることはできないだろう。
+They will not be captured alive.
 
 今すぐ死ね！
 Now die!
 
 eeeek
 
-戻ってくるんです。
+戻ってくる
 It's coming back.
 
-それを撃つ。
+撃つ。
 Shoot it
 
-せっかくのサプライズが台無しだ...。
-There goes my element of surprise...
+今さら驚かせることはできない。
+No way I can surprise them now.
 
 ちくしょう！
 Dammit!
@@ -384,10 +396,13 @@ Argh
 くそっ
 Fuck
 
-俺の
+運が
+Luck
 
-運
-luck
+悪かった
+Bad
+
+(運が悪かった is an expression that means bad luck)
 
 ugh
 
