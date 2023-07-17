@@ -424,17 +424,17 @@ Going all in is our only option.
 なぜか？
 Why?!
 
-やっぱり、そうなんですね！
+やっぱり、そうなんだね！
 I knew you would do that!
 
 だから
 so...
 
-彼女はあなたの弱点です！
+彼女はあなたの弱点！
 She is your weak spot!
 
-アハハ 邪魔にならないように移動する余裕がないんでしょう？
-You can't afford to move out of the way, can you?
+アハハ 通りから出ることはできないんだろう？
+You can't get of the way, can you?
 
 今すぐ燃やせ！
 Now burn!
@@ -445,23 +445,14 @@ Burn burn burn
 なんだ！
 What!
 
-あなたの髪は...
-Your hair...
-
-あれは...。
-That was...
-
-の摂理がある！
-Regeneration!
+あなたの髪が戻ってきたね。
+Your hair is back.
 
 あなたは何者ですか？
 What are you?
 
-リラップしないと...。
-We have to regroup.
-
-戦術を見直す。
-Revise our tactics.
+作戦を変えなければならない。
+We have to change startegy.
 
 彼はアイノロリアンです。
 He's an ainoloian.
@@ -473,8 +464,8 @@ We-
 近寄らない
 Stay away
 
-あれだけのことをやって、疲れたでしょう？
-You must be tired after all of that.
+もう疲れただろう。
+You must be tired now.
 
 今しかない。
 Now or never.
@@ -495,7 +486,7 @@ I got you.
 いや待てよ。
 No wait.
 
-やめてくださいよ！お願いします。
+やめて！お願いします。
 Stop it! Please.
 
 なぜ、そうしなければならないのか？
@@ -537,8 +528,12 @@ You
 
 ack
 
+### Is that possible ?
 人間小さいのに口がでかいな。
 You have a big mouth for such a small human.
+else
+しゃべりすぎだよ。
+You talk too much.
 
 ugh I
 
@@ -779,6 +774,87 @@ I don't know.
 Liar. You're L0 L1. You're the only one who knows.
 
 56
+時間切れだ。
+Your time is up
+
+何？
+What ?
+
+今、あなたは死ぬ。
+Now you will die.
+
+バーだ。バカなことを言うな。
+Bah. Don't be stupid.
+
+マインド・アクセルはまだ動く。
+The mind accelerator still works.
+
+私は知っている。
+I would know because.
+
+私は自分の死を見てきた。
+I have seen my own death.
+
+なぜそんなことを言ったのか？
+Why did I say that ?
+
+あなただったの！？
+It was you!!!
+
+あなたは私に質問するだろうが、なぜ私が？
+You will ask me the question but why do I?
+
+教えてプリズム。
+Tell me Prism. 
+
+未来を変える力がないのなら、未来を見る能力に何の意味があるのか？
+What good is the ability to see the future if you are powerless to change it?
+
+
+さあ、答えてください。何を見た？
+Now answer me. What did you see ?
+
+私は自分の死を見てきた。
+I have seen my own death.
+
+ヤンネイ．生きていたんだね！
+Yannei . You're alive!
+
+助けてくれ。私はここにいる。
+Help. I'm down here.
+
+私は思った。
+I thought.
+
+OKだ。言わないよ。
+OK. I won't say it.
+
+行こう
+Let's go.
+
+まだ長い道のりだ。
+It's still a long way.
+
+分かった。私が持つよ。
+All right. I'll take it.
+
+でも、私は致命傷を与えない設定にしている。
+But I'm using the non lethal setting.
+
+いや、君がすべきことをしたのは理解している
+No, I understand you did what you had to do
+
+全パワーにアクセスできるようになったら、残りと一緒に保存しておこう。
+We'll save them with the rest once you have access to all your power.
+
+私が殺人についてどう思っているか知っているだろう。
+You know how I feel about killing.
+
+思い出させる必要はない。
+You don't have to remind me. 
+
+すべてが終わったら、私は契約を守る
+Once it's all over, I'll honor the deal
 
 ハンターさん？
 Mr Hunter ?
