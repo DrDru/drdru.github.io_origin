@@ -34,7 +34,7 @@ Possibly not entirely vacant, judging by these deep cuts.
 ###
 
 ババのアクセラレータを試す時が来た。
-Time to ttest Baba's accelerator.
+Time to test Baba's accelerator.
 
 
 突然、可能性のある結果を見ることができ
@@ -655,14 +655,11 @@ Yannei
 L0 L1、走っても無駄だ。
 L0 L1, it's no use running.
 
-あなたはもう十分長い間、私から逃げてきた。
-You've escaped me for long enough.
+あなたはこれまで俺から逃げてきた。
+You've escaped me so far.
 
-しかし、今、私はついに
-But now I finally.
-
-了解です。
-got you
+でも、やっと君を捕まえたよ。
+But I finally got you.
 
 
 54
@@ -679,12 +676,12 @@ I was trying to remain professional about this.
 But no...you just had to make it personal.
 
 
-痛みを覚悟してください。
-Prepare yourself for pain.
+痛いだろうね。
+It will hurt.
 
 ugh
 
-私たちに何を求めているのでしょうか？
+私たちに何を求めているのか？
 What do you want from us ?
 
 最初は... お金のために参加したのですが
