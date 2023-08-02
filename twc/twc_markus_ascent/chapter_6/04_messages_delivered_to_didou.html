@@ -4,7 +4,7 @@
 <html style=""><head><title>The Tile World Chronicles</title>
 <meta name="viewport" content="width=420">
 <link rel="stylesheet" type="text/css" href="./book_pages.css">
-<link rel="stylesheet" type="text/css" href="./04_place_the_hub.css">
+<link rel="stylesheet" type="text/css" href="./04_messages_delivered_to_didou.css">
 <link rel="stylesheet" type="text/css" href="./characters.css">
 <style>
 
@@ -42,7 +42,7 @@
 
 
     <div class="top">
-    <span class="next"><p>もう二度とないで (6 / 17)</p></span>
+    <span class="next"><p>ディドゥにメッセージが届いた (6 / 17)</p></span>
   </div>
   <div class="page left_page">
 
@@ -57,7 +57,7 @@
 <div style="padding-left: 20px; padding-right: 20px; font-size: 160%; overflow-wrap: break-word;">
 
 
-Very impatient to test his new hub, Markus has brought it with him all the way to the lake.
+<ruby>彫<rT>ほ</rT></ruby>り<ruby>終<rT>お</rT></ruby>えたばかりのルーンハブをテストするため、マーカスは<ruby>湖<rt>みずうみ</rt></ruby>までハブを<ruby>持<rt>も</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>みました。
 
 
 
@@ -70,50 +70,45 @@ Very impatient to test his new hub, Markus has brought it with him all the way t
 <div class="dialogue">
 
 <div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="celestina" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
- That was heavy ! 
-This is the perfect place. Halfway between Rocktown and Didou. My messages sohuld be able to reach Celestina from home. Let's get back and try.
-</div>
-</div>
-
-
-<div class="dialogue">
-
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
 <div class="markus" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 20px">
-...
-</div>
-</div>
+<div style="width: 80%; font-size: 150%; overflow-wrap: break-word; padding-right: 10px;padding-top: 10px">
+ここはディドゥーからもロックタウンからも遠い。
+<br>
+僕のメッセージは、家からセレスティーナに<ruby>届<rt>とど</rt></ruby>くはずだ。
+<br>
+家に帰ってやってみよう。
 
-<div class="dialogue">
-
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="celestina" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 20px">
-私はあなたを信じていた
 </div>
 </div>
 
 
 <div class="dialogue">
 
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="markus" style="color: blue;">.</div></div>
-<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 20px">
- でも...
-</div>
-</div>
-
-<div class="dialogue">
-
-<div style="width: 20%; padding-left: 5px; padding-top: 10px" >
-<div class="celestina" style="color: blue;">.</div></div>
+<div style="width: 20%; padding-left: 10px; padding-top: 20px" >
+<span class="icon_twittemoji spinned_here">😮 </span></div>
 <div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 5px">
-もう二度と<ruby>来<rt>こ</rt></ruby>ないで
+でも、誰かに<ruby>盗<rT>ぬす</rT></ruby>まれたらどうする？
+
+
 </div>
 </div>
+
+<div style="font-style: italic; padding-top: 400px; padding-left: 20px; padding-right: 20px; font-size: 150%; overflow-wrap: break-word; text-align: center; margin-bottom: 15px;">
+<span class="icon_twittemoji">🤔</span>
+
+
+</div>
+
+<div class="dialogue">
+<div style="width: 20%; padding-left: 10px; padding-top: 20px" >
+<span class="icon_twittemoji spinned_here">🙂 </span></div>
+<div style="width: 80%; font-size: 160%; overflow-wrap: break-word; padding-right: 10px;padding-top: 5px">
+まあ、この木では誰にも見えないだろう
+
+
+</div>
+</div>
+
 
 
 
@@ -126,16 +121,19 @@ This is the perfect place. Halfway between Rocktown and Didou. My messages sohul
   <span class="next">
     <p><a href="./03_basement.html" class="a2">前</a>
        | 
-       <a href="./04_message_to_celestina.html" class="a2">次</a>
+       <a href="./05_message_to_celestina.html" class="a2">次</a>
      </p>
      </span>
 </div>
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>
