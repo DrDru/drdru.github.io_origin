@@ -2,17 +2,23 @@
 <html lang="ja">
 
 <html style=""><head><title>The Tile World Chronicles</title>
+<meta charset="utf-8"/>
 <meta name="viewport" content="width=420">
 <link rel="stylesheet" type="text/css" href="./book_pages.css">
-<link rel="stylesheet" type="text/css" href="./17_end.css">
-<link rel="stylesheet" type="text/css" href="./characters.css">
-<link rel="stylesheet" type="text/css" href="./characters_walking.css">
+<link rel="stylesheet" type="text/css" href="./09_rune_stone_potential.css">
+
 <style>
 
 .black {
 
   color: black;
 
+}
+
+
+.icon_twittemoji .emoji {
+    height: 30px;
+    width: 30px;
 }
 
 .layer {
@@ -34,6 +40,38 @@
 }
 
 
+.dark_grey_key {
+
+  display: inline-block;
+   background-color: rgba(96, 125, 139, 1); 
+   width: 15px; height: 15px;transform: translate(0px, 0px);
+   border-right: solid black 1px;
+
+}
+
+.light_grey_key {
+
+  display: inline-block;
+   background-color: rgba(158, 158, 158, 1); 
+   width: 15px; height: 15px;transform: translate(0px, 0px);
+border-right: solid black 1px;
+
+}  
+
+.message_tmp {
+
+  margin-top: 25px;
+
+
+}
+
+.message_tmp2 {
+
+  margin-top: 15px;
+
+
+}
+
 .rune_stone {
 
   box-shadow: 3px 3px 0 0 rgba(0,0,0,0), 6px 3px 0 0 rgba(0,0,0,0), 9px 3px 0 0 rgba(0,0,0,0), 12px 3px 0 0 rgba(0,0,0,0), 15px 3px 0 0 rgba(0,0,0,0), 18px 3px 0 0 rgba(0,0,0,0), 21px 3px 0 0 rgba(0,0,0,0), 24px 3px 0 0 rgba(0,0,0,0), 27px 3px 0 0 rgba(0,0,0,0), 30px 3px 0 0 rgba(0,0,0,0), 33px 3px 0 0 rgba(0,0,0,0), 36px 3px 0 0 rgba(0,0,0,0), 39px 3px 0 0 rgba(0,0,0,0), 42px 3px 0 0 rgba(0,0,0,0), 45px 3px 0 0 rgba(0,0,0,0), 48px 3px 0 0 rgba(0,0,0,0), 3px 6px 0 0 rgba(0,0,0,0), 6px 6px 0 0 rgba(0,0,0,0), 9px 6px 0 0 rgba(0,0,0,0), 12px 6px 0 0 rgba(0,0,0,0), 15px 6px 0 0 rgba(0,0,0,0), 18px 6px 0 0 rgba(0,0,0,0), 21px 6px 0 0 rgba(0,0,0,255), 24px 6px 0 0 rgba(0,0,0,255), 27px 6px 0 0 rgba(0,0,0,255), 30px 6px 0 0 rgba(0,0,0,255), 33px 6px 0 0 rgba(0,0,0,0), 36px 6px 0 0 rgba(0,0,0,0), 39px 6px 0 0 rgba(0,0,0,0), 42px 6px 0 0 rgba(0,0,0,0), 45px 6px 0 0 rgba(0,0,0,0), 48px 6px 0 0 rgba(0,0,0,0), 3px 9px 0 0 rgba(0,0,0,0), 6px 9px 0 0 rgba(0,0,0,0), 9px 9px 0 0 rgba(0,0,0,0), 12px 9px 0 0 rgba(0,0,0,0), 15px 9px 0 0 rgba(0,0,0,255), 18px 9px 0 0 rgba(0,0,0,255), 21px 9px 0 0 rgba(102,102,102,255), 24px 9px 0 0 rgba(102,102,102,255), 27px 9px 0 0 rgba(102,102,102,255), 30px 9px 0 0 rgba(102,102,102,255), 33px 9px 0 0 rgba(0,0,0,255), 36px 9px 0 0 rgba(0,0,0,255), 39px 9px 0 0 rgba(0,0,0,0), 42px 9px 0 0 rgba(0,0,0,0), 45px 9px 0 0 rgba(0,0,0,0), 48px 9px 0 0 rgba(0,0,0,0), 3px 12px 0 0 rgba(0,0,0,0), 6px 12px 0 0 rgba(0,0,0,0), 9px 12px 0 0 rgba(0,0,0,0), 12px 12px 0 0 rgba(0,0,0,255), 15px 12px 0 0 rgba(102,102,102,255), 18px 12px 0 0 rgba(102,102,102,255), 21px 12px 0 0 rgba(132,132,132,255), 24px 12px 0 0 rgba(132,132,132,255), 27px 12px 0 0 rgba(132,132,132,255), 30px 12px 0 0 rgba(102,102,102,255), 33px 12px 0 0 rgba(102,102,102,255), 36px 12px 0 0 rgba(74,74,74,255), 39px 12px 0 0 rgba(0,0,0,255), 42px 12px 0 0 rgba(0,0,0,0), 45px 12px 0 0 rgba(0,0,0,0), 48px 12px 0 0 rgba(0,0,0,0), 3px 15px 0 0 rgba(0,0,0,0), 6px 15px 0 0 rgba(0,0,0,0), 9px 15px 0 0 rgba(0,0,0,255), 12px 15px 0 0 rgba(102,102,102,255), 15px 15px 0 0 rgba(132,132,132,255), 18px 15px 0 0 rgba(217,217,217,255), 21px 15px 0 0 rgba(179,179,179,255), 24px 15px 0 0 rgba(179,179,179,255), 27px 15px 0 0 rgba(132,132,132,255), 30px 15px 0 0 rgba(132,132,132,255), 33px 15px 0 0 rgba(102,102,102,255), 36px 15px 0 0 rgba(102,102,102,255), 39px 15px 0 0 rgba(74,74,74,255), 42px 15px 0 0 rgba(0,0,0,255), 45px 15px 0 0 rgba(0,0,0,0), 48px 15px 0 0 rgba(0,0,0,0), 3px 18px 0 0 rgba(0,0,0,0), 6px 18px 0 0 rgba(0,0,0,0), 9px 18px 0 0 rgba(0,0,0,255), 12px 18px 0 0 rgba(102,102,102,255), 15px 18px 0 0 rgba(217,217,217,255), 18px 18px 0 0 rgba(255,255,255,255), 21px 18px 0 0 rgba(217,217,217,255), 24px 18px 0 0 rgba(179,179,179,255), 27px 18px 0 0 rgba(132,132,132,255), 30px 18px 0 0 rgba(132,132,132,255), 33px 18px 0 0 rgba(102,102,102,255), 36px 18px 0 0 rgba(102,102,102,255), 39px 18px 0 0 rgba(74,74,74,255), 42px 18px 0 0 rgba(0,0,0,255), 45px 18px 0 0 rgba(0,0,0,0), 48px 18px 0 0 rgba(0,0,0,0), 3px 21px 0 0 rgba(0,0,0,0), 6px 21px 0 0 rgba(0,0,0,255), 9px 21px 0 0 rgba(102,102,102,255), 12px 21px 0 0 rgba(132,132,132,255), 15px 21px 0 0 rgba(179,179,179,255), 18px 21px 0 0 rgba(217,217,217,255), 21px 21px 0 0 rgba(179,179,179,255), 24px 21px 0 0 rgba(179,179,179,255), 27px 21px 0 0 rgba(132,132,132,255), 30px 21px 0 0 rgba(132,132,132,255), 33px 21px 0 0 rgba(102,102,102,255), 36px 21px 0 0 rgba(102,102,102,255), 39px 21px 0 0 rgba(74,74,74,255), 42px 21px 0 0 rgba(37,37,37,255), 45px 21px 0 0 rgba(0,0,0,255), 48px 21px 0 0 rgba(0,0,0,0), 3px 24px 0 0 rgba(0,0,0,0), 6px 24px 0 0 rgba(0,0,0,255), 9px 24px 0 0 rgba(102,102,102,255), 12px 24px 0 0 rgba(132,132,132,255), 15px 24px 0 0 rgba(179,179,179,255), 18px 24px 0 0 rgba(179,179,179,255), 21px 24px 0 0 rgba(179,179,179,255), 24px 24px 0 0 rgba(132,132,132,255), 27px 24px 0 0 rgba(132,132,132,255), 30px 24px 0 0 rgba(132,132,132,255), 33px 24px 0 0 rgba(102,102,102,255), 36px 24px 0 0 rgba(102,102,102,255), 39px 24px 0 0 rgba(74,74,74,255), 42px 24px 0 0 rgba(37,37,37,255), 45px 24px 0 0 rgba(0,0,0,255), 48px 24px 0 0 rgba(0,0,0,0), 3px 27px 0 0 rgba(0,0,0,0), 6px 27px 0 0 rgba(0,0,0,255), 9px 27px 0 0 rgba(102,102,102,255), 12px 27px 0 0 rgba(132,132,132,255), 15px 27px 0 0 rgba(132,132,132,255), 18px 27px 0 0 rgba(132,132,132,255), 21px 27px 0 0 rgba(132,132,132,255), 24px 27px 0 0 rgba(132,132,132,255), 27px 27px 0 0 rgba(132,132,132,255), 30px 27px 0 0 rgba(102,102,102,255), 33px 27px 0 0 rgba(102,102,102,255), 36px 27px 0 0 rgba(102,102,102,255), 39px 27px 0 0 rgba(74,74,74,255), 42px 27px 0 0 rgba(37,37,37,255), 45px 27px 0 0 rgba(0,0,0,255), 48px 27px 0 0 rgba(0,0,0,0), 3px 30px 0 0 rgba(0,0,0,0), 6px 30px 0 0 rgba(0,0,0,255), 9px 30px 0 0 rgba(102,102,102,255), 12px 30px 0 0 rgba(102,102,102,255), 15px 30px 0 0 rgba(132,132,132,255), 18px 30px 0 0 rgba(132,132,132,255), 21px 30px 0 0 rgba(132,132,132,255), 24px 30px 0 0 rgba(132,132,132,255), 27px 30px 0 0 rgba(102,102,102,255), 30px 30px 0 0 rgba(102,102,102,255), 33px 30px 0 0 rgba(102,102,102,255), 36px 30px 0 0 rgba(74,74,74,255), 39px 30px 0 0 rgba(74,74,74,255), 42px 30px 0 0 rgba(37,37,37,255), 45px 30px 0 0 rgba(0,0,0,255), 48px 30px 0 0 rgba(0,0,0,0), 3px 33px 0 0 rgba(0,0,0,0), 6px 33px 0 0 rgba(0,0,0,0), 9px 33px 0 0 rgba(0,0,0,255), 12px 33px 0 0 rgba(102,102,102,255), 15px 33px 0 0 rgba(102,102,102,255), 18px 33px 0 0 rgba(102,102,102,255), 21px 33px 0 0 rgba(102,102,102,255), 24px 33px 0 0 rgba(102,102,102,255), 27px 33px 0 0 rgba(102,102,102,255), 30px 33px 0 0 rgba(102,102,102,255), 33px 33px 0 0 rgba(74,74,74,255), 36px 33px 0 0 rgba(74,74,74,255), 39px 33px 0 0 rgba(37,37,37,255), 42px 33px 0 0 rgba(0,0,0,255), 45px 33px 0 0 rgba(0,0,0,0), 48px 33px 0 0 rgba(0,0,0,0), 3px 36px 0 0 rgba(0,0,0,0), 6px 36px 0 0 rgba(0,0,0,0), 9px 36px 0 0 rgba(0,0,0,255), 12px 36px 0 0 rgba(74,74,74,255), 15px 36px 0 0 rgba(102,102,102,255), 18px 36px 0 0 rgba(102,102,102,255), 21px 36px 0 0 rgba(102,102,102,255), 24px 36px 0 0 rgba(102,102,102,255), 27px 36px 0 0 rgba(102,102,102,255), 30px 36px 0 0 rgba(74,74,74,255), 33px 36px 0 0 rgba(74,74,74,255), 36px 36px 0 0 rgba(74,74,74,255), 39px 36px 0 0 rgba(37,37,37,255), 42px 36px 0 0 rgba(0,0,0,255), 45px 36px 0 0 rgba(0,0,0,0), 48px 36px 0 0 rgba(0,0,0,0), 3px 39px 0 0 rgba(0,0,0,0), 6px 39px 0 0 rgba(0,0,0,0), 9px 39px 0 0 rgba(0,0,0,0), 12px 39px 0 0 rgba(0,0,0,255), 15px 39px 0 0 rgba(74,74,74,255), 18px 39px 0 0 rgba(74,74,74,255), 21px 39px 0 0 rgba(74,74,74,255), 24px 39px 0 0 rgba(74,74,74,255), 27px 39px 0 0 rgba(74,74,74,255), 30px 39px 0 0 rgba(74,74,74,255), 33px 39px 0 0 rgba(37,37,37,255), 36px 39px 0 0 rgba(37,37,37,255), 39px 39px 0 0 rgba(0,0,0,255), 42px 39px 0 0 rgba(0,0,0,0), 45px 39px 0 0 rgba(0,0,0,0), 48px 39px 0 0 rgba(0,0,0,0), 3px 42px 0 0 rgba(0,0,0,0), 6px 42px 0 0 rgba(0,0,0,0), 9px 42px 0 0 rgba(0,0,0,0), 12px 42px 0 0 rgba(0,0,0,0), 15px 42px 0 0 rgba(0,0,0,255), 18px 42px 0 0 rgba(0,0,0,255), 21px 42px 0 0 rgba(37,37,37,255), 24px 42px 0 0 rgba(37,37,37,255), 27px 42px 0 0 rgba(37,37,37,255), 30px 42px 0 0 rgba(37,37,37,255), 33px 42px 0 0 rgba(0,0,0,255), 36px 42px 0 0 rgba(0,0,0,255), 39px 42px 0 0 rgba(0,0,0,0), 42px 42px 0 0 rgba(0,0,0,0), 45px 42px 0 0 rgba(0,0,0,0), 48px 42px 0 0 rgba(0,0,0,0), 3px 45px 0 0 rgba(0,0,0,0), 6px 45px 0 0 rgba(0,0,0,0), 9px 45px 0 0 rgba(0,0,0,0), 12px 45px 0 0 rgba(0,0,0,0), 15px 45px 0 0 rgba(0,0,0,0), 18px 45px 0 0 rgba(0,0,0,0), 21px 45px 0 0 rgba(0,0,0,255), 24px 45px 0 0 rgba(0,0,0,255), 27px 45px 0 0 rgba(0,0,0,255), 30px 45px 0 0 rgba(0,0,0,255), 33px 45px 0 0 rgba(0,0,0,0), 36px 45px 0 0 rgba(0,0,0,0), 39px 45px 0 0 rgba(0,0,0,0), 42px 45px 0 0 rgba(0,0,0,0), 45px 45px 0 0 rgba(0,0,0,0), 48px 45px 0 0 rgba(0,0,0,0), 3px 48px 0 0 rgba(0,0,0,0), 6px 48px 0 0 rgba(0,0,0,0), 9px 48px 0 0 rgba(0,0,0,0), 12px 48px 0 0 rgba(0,0,0,0), 15px 48px 0 0 rgba(0,0,0,0), 18px 48px 0 0 rgba(0,0,0,0), 21px 48px 0 0 rgba(0,0,0,0), 24px 48px 0 0 rgba(0,0,0,0), 27px 48px 0 0 rgba(0,0,0,0), 30px 48px 0 0 rgba(0,0,0,0), 33px 48px 0 0 rgba(0,0,0,0), 36px 48px 0 0 rgba(0,0,0,0), 39px 48px 0 0 rgba(0,0,0,0), 42px 48px 0 0 rgba(0,0,0,0), 45px 48px 0 0 rgba(0,0,0,0), 48px 48px 0 0 rgba(0,0,0,0);
@@ -53,7 +91,20 @@ Before being Grand Engineer, Markus was a passionate boy from Rocktown.
 </head><body class="">
 
 
+<!--
+Yes. Markus ?
 
+Where are you ?
+
+
+I am on the way. about 2 miles from you !
+
+I have played with the runestones we gathered in the cavern on the way home. (they sell some to Nikolo in part 5)
+
+Their range is a bit wider than normal. I am happy :-)
+
+Nice I am glad for you
+-->
 <br>
 
 <div class="main">
@@ -61,123 +112,127 @@ Before being Grand Engineer, Markus was a passionate boy from Rocktown.
 
 
     <div class="top">
-    <span class="next"><p> アウトロ (17 / 17)</p></span>
+    <span class="next"><p> ニコロのメッセージ (8 / 17)</p></span>
   </div>
-  <div class="page left_page" style="background-color:black;">
+  <div class="page left_page" style="background-color:black; font-size: 145%; text-align: center; line-height: 29px;">
+
+<div style="padding-top:  0px; padding-left:   160px; height:  60px; text-align:left;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
 
 
-<div style="height: 80px; padding-top: 30px;">
+<div class="message_tmp">
+
+<span class="icon_twittemoji">💎</span> ニコロだ。 <span class="icon_twittemoji">💎</span>
+
+
+</div>
+
+
+
+<div class="message_tmp2">
+<span class="icon_twittemoji">💎</span> セレスティーナとの <span class="icon_twittemoji">💎</span>
+</div>
+
+<div class="message_tmp2">
+<span class="icon_twittemoji">💎</span> <ruby>会話<rt>かいわ</rt></ruby>を受け取ったよ。 <span class="icon_twittemoji">💎</span>
+</div>
+<br>
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> もちろん、できるさ...  <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+
+<br>
+
+<div class="message_tmp2">
+<span class="icon_twittemoji">💎</span> 持ち帰ったルーンストーン <span class="icon_twittemoji">💎</span>
+</div>
+
+<div class="message_tmp2">
+<span class="icon_twittemoji">💎</span> の<ruby>可能性<rt>かのうせい</rt></ruby>は信じられない <span class="icon_twittemoji">💎</span>
+</div>
+
+<br>
+
+<div class="message_tmp2">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> もちろん！  <div class="light_grey_key" > </div><div class="dark_grey_key" > </div>
+</div>
+
+
+
+<div style="padding-top:  5px; padding-left:   160px; height:  60px; text-align:left;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
+
+
+</div>
+
+
+
+ <div class="page"  style="background-color:black;font-size: 160%; text-align: center; line-height: 25px;">
+<div style="padding-top:  0px; padding-left:   160px; height:  60px; text-align:left;">
+ <div class="rune_stone" style="display:  inline-block  ;"></div>
+</div>
+<br>
   
 
 
-
-
-<div style="width: 40px;display:inline-block;"></div>
-<div class="nicolo_walking" style="display:inline-block; "></div>
-<div style="width: 60px;display:inline-block;"></div>
-<div class="butters_walking" style="display:inline-block; "></div>
-<div style="width: 60px;display:inline-block;"></div>
-<div class="sofia_walking" style="display:inline-block; "></div>
-<div style="width: 60px;display:inline-block;"></div>
-<div class="markus_walking" style="display:inline-block; "></div>
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span> 僕の妹のソフィアは <span class="icon_twittemoji">💎</span>
 </div>
-  
-<div style="padding-top:  5px; padding-left:   160px; height:  60px;">
+
+
+
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span> あなたに本当に <span class="icon_twittemoji">💎</span>
+</div>
+
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span> 会いたがっているんだが  <span class="icon_twittemoji">💎</span>
+</div>
+
+
+<div class="message_tmp">
+<span class="icon_twittemoji">💎</span> 僕の家で来ないか？ <span class="icon_twittemoji">💎</span>
+</div>
+<br>
+
+
+<div class="message_tmp">
+<div class="dark_grey_key" > </div><div class="light_grey_key" > </div> もちろん <div class="dark_grey_key" > </div><div class="light_grey_key" > </div>
+</div>
+
+<br>
+
+<div style="padding-top:  5px; padding-left:   160px; height:  60px; text-align:left;">
  <div class="rune_stone" style="display:  inline-block  ;"></div>
 </div>
 
-<div style="padding-top: 5px; padding-left: 20px; padding-right: 20px; font-size: 170%; overflow-wrap: break-word; text-align: center;">
-<ruby>旅<rt>たび<rt></ruby>は長かったが、
-<br>
-<ruby>無事<rt> ぶじ <rt></ruby>にアコティスに
-<br>
-<ruby>到着<rt>とうちゃく<rt></ruby>しまた
-<br>
 
-</div>
-<div style="padding-top:  5px; padding-left:   170px; height:  60px;">
- <div class="rune_stone" style="display:  inline-block  ;"></div>
-</div>
-
-<!--
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 170%; overflow-wrap: break-word; text-align: center;">
-それぞれがたくさんのプロジェクトを持っていて、Runecraftingにとても熱心でした。</div>
-
-
-
-<div style="padding-top:  5px; padding-left:   170px; height:  60px;">
- <div class="rune_stone" style="display:  inline-block  ;"></div>
-</div>
--->
-
-
-
-</div>  
-
- <div class="page"  style="background-color:black;">
-
-
-  <div style="height: 80px; padding-top: 30px;">
-<div style="width: 40px;display:inline-block;"></div>
-<div class="nikolo_standing" style="display:inline-block; "></div>
-<div style="width: 60px;display:inline-block;"></div>
-<div class="butters_standing" style="display:inline-block; "></div>
-<div style="width: 60px;display:inline-block;"></div>
-<div class="sofia_standing" style="display:inline-block; "></div>
-<div style="width: 60px;display:inline-block;"></div>
-<div class="markus_standing" style="display:inline-block; "></div>
-</div>
-
-
-<div style="padding-top:  5px; padding-left:   160px; height:  60px;">
- <div class="rune_stone" style="display:  inline-block  ;"></div>
-</div>
-<!--
-<div style="padding-top: 0px; padding-left: 20px; padding-right: 20px; font-size: 170%; overflow-wrap: break-word; text-align: center;">
-彼らは、大学のスタッフから温かく迎えられました。
-</div>
-<div style="padding-top:  5px; padding-left:   160px; height:  60px;">
- <div class="rune_stone" style="display:  inline-block  ;"></div>
-</div>
--->
-
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 160%; overflow-wrap: break-word; text-align: center;">
-この4人の<ruby>素敵<rt>すてき</rt></ruby>な人たちが、
-<br>
-<ruby>数年後<rt>すうねんご</rt></ruby>にアコティスを
-<br>
-<ruby>支配<rt>しはい</rt></ruby>することになるとは、
-<br>
-まだ誰も知らなかった
-</div>
-
-<div style="padding-top:  5px; padding-left:   160px; height:  60px;">
- <div class="rune_stone" style="display:  inline-block  ;"></div>
-</div>
-  <br>
-<div style="padding-top: 20px; padding-left: 20px; padding-right: 20px; font-size: 160%; overflow-wrap: break-word; text-align: center;">
-To Be Continued
-</div>
 
 
 </div>
+
 
 
 
 <div class="bottom"> 
   <span class="next">
-    <p><a href="./17_i_am_batz.html" class="a2">前</a>
+    <p><a href="./08_sad_markus.html" class="a2">前</a>
        | 
-       <a href="./19_credits.html" class="a2">次</a>
+       <a href="./10_tending_flower_girl.html" class="a2">次</a>
      </p>
      </span>
 </div>
 
 
 </div>
-  <script src="https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.0"></script>
-    <script>
-      twemoji.parse(document.body);
+    <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+      twemoji.parse(
+  document.body,
+  { base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/' }
+)
     </script>
 
 </body></html>
